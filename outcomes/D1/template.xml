@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Consider the function <m>f(x,y)= {{f}} </m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the first derivative <m>\frac{\partial}{\partial x}f(x,y)=f_x(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_x(x,y)={{fx}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the first derivative <m>\frac{\partial}{\partial y}f(x,y)=f_y(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_y(x,y)={{fy}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the second derivative <m>\frac{\partial^2}{\partial x^2}f(x,y)=f_{xx}(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_{xx}(x,y)={{fxx}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the second derivative <m>\frac{\partial^2}{\partial x\partial y}f(x,y)=f_{xy}(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_{xy}(x,y)={{fxy}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the second derivative <m>\frac{\partial^2}{\partial y\partial x}f(x,y)=f_{yx}(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_{yx}(x,y)={{fyx}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the second derivative <m>\frac{\partial^2}{\partial y^2}f(x,y)=f_{yy}(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f_{yy}(x,y)={{fyy}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        
+    </knowl>
+    
+    
+    
+    
+    
+    
+        
+                    
+                    
+             
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

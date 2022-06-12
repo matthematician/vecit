@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Consider the three points <m>A={{A}}, B={{B}}</m> and <m>C={{C}}</m>.
+        </p>
+    </intro>    
+            
+                <!-- <knowl>
+                    <content>
+                        <p>
+                            Letting <m>P_0=A={{A}}</m>, find <m>\vec{P_0B}, \vec{P_0C}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\vec{P_0B}={{AB}}, \vec{P_0C}={{AC}}</m>. 
+                        </p>
+                    </outtro>
+                </knowl> -->
+    
+                <knowl>
+                    <content>
+                        <p>
+                            Find an equation for the plane containing the points <m>{{A}}, {{B}}</m> and <m>{{C}}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            Since <m>\overline{AB}\times\overline{AC}={{AB}}\times{{AC}}={{cross}}</m>, we have that the plane can be defined by <m>{{plane1}}</m>, or <m>\boxed{ {{plane1s}} }.</m> 
+                        </p>
+                    </outtro>
+                </knowl>
+    
+                <knowl>
+                    <content>
+                        <p>
+                            Find an equation for the plane parallel to the one found above, but which contains the point <m>{{D}}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            This plane can be defined by <m>{{plane2}}</m>, or <m>\boxed{ {{plane2s}} }.</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+                
+                
+   
+    
+</knowl>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Let <m>{\bf v} = \bigl\langle {{v_1}},{{v_2}},{{v_3}} \bigr\rangle</m> and <m>{\bf w} = \bigl\langle {{w_1}}, {{w_2}}, {{w_3}} \bigr\rangle.</m>
+        </p>
+    </intro>    
+            
+                <knowl>
+                    <content>
+                        <p>
+                            Compute the {{op_text}} product <m>\mathbf{v} {{op}} \mathbf{w}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\mathbf{v} {{op}} \mathbf{w} = {{u}}</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
+                            Is the vector projection <m>\mathbf{w}_\| = {\rm proj}_\mathbf{v} \mathbf{w}</m> parallel to <m>\mathbf{v}</m>, anti-parallel to <m>\mathbf{v}</m>, or is it the zero vector? Justify your answer.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            The vector <m>\mathbf{w}_\|</m> is {{orient}} to <m>\mathbf{v}</m>, since <m>\mathbf{v}\cdot\mathbf{w} = {{vdotw}}</m> is {{vdotw_sign}}. 
+                        </p>
+                        <p>
+                            In particular, <m>\mathbf{w}_\| = \left\langle {{wp_1}}, {{wp_2}}, {{wp_3}} \right\rangle,</m> though computing this is not necessary for the above answer.
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
+                            If <m>\mathbf{x}</m> is a vector in <m>\mathbb{R}^3</m> that has magnitude <m>{{mx}}</m> and makes an angle of <m>{{theta}}</m> {{unit}} with <m>\mathbf{v}</m>, find the {{op_text_2}} product <m>{{op2}}</m>.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>{{op2}} = \|\mathbf{v}\| \|\mathbf{x}\| {{op_trig}}({{theta}}) = {{prod2}}.</m>
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>Suppose <m>\mathbf{z}= \langle {{z_1}}, {{z_2}}, {{z_3}} \rangle</m>. Find a value of <m>{{var}}</m> for which the {{geom}} is equal to <m>{{geomval}}</m>, or explain why such a value does not exist.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>The required value of <m>{{var}}</m> is <m>{{varval}}</m>.</p>
+                    </outtro>
+                </knowl>
+   
+        <!--<p>
+            <image
+                source="assets/N1/{{__seed__}}.png"
+                description="Line with intercept {{intercept}} and slope {{slope}}."/>
+        </p>-->
+    
+</knowl>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Let <m>\mathcal{L}</m> denote the line in <m>\mathbb{R}^3</m> that {{first_condition}} and {{second_condition}}.
+        </p>
+    </intro>    
+            
+                <knowl>
+                    <content>
+                        <p>
+                            Find parametric equations <m>\begin{cases}x(t)&amp; =\\ y(t)&amp; =\\ z(t)&amp; = \qquad\end{cases}</m> for this line that satisfy <m>\bigl( x(0),y(0),z(0) \bigr) = {{p}}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\bigl( x(t),y(t),z(t) \bigr) = {{r1}}</m>. (Answers may vary.)
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
+                            Find a parametric vector equation <m>\mathbf{r}(t) = \bigl( x(t) , y(t), z(t)\bigr)</m> for this line that satisfies <m>\mathbf{r}({{t}}) = {{p}}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\mathbf{r}(t) = {{r2}}</m>. (Answers may vary.)
+                        </p>
+                    </outtro>
+                </knowl>
+                
+   
+    
+</knowl>

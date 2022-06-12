@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>
+            Let <m>\mathbf{v}=\langle {{v0}}, {{v1}}, {{v2}}\rangle</m> and <m>\mathbf{w}=\langle {{w0}}, {{w1}}, {{w2}}\rangle</m>.
+            <image
+                source="assets/N2/generated/{{__seed__}}/plot.png"
+                description="Line with intercept {{intercept}} and slope {{slope}}."/>
+        </p>
+    </intro>    
+            
+                <knowl>
+                    <content>
+                        <p>
+                            Compute <m>\mathbf{u}=({{a}})\mathbf{v} {{op}} ({{b}})\mathbf{w}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\mathbf{u}=\langle {{u0}}, {{u1}}, {{u2}}\rangle</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
+                            What is the magnitude of <m>\mathbf{u}</m>?
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>|\mathbf{u}|={{mag}}</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+                <knowl>
+                    <content>
+                        <p>
+                            Find a vector of magnitude 1 in the same direction as <m>\mathbf{u}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\frac{1}{|u|}\mathbf{u}=\langle {{unitu0}}, {{unitu1}}, {{unitu2}}\rangle</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+    <knowl>
+            <content>
+                <p>
+                    Plot  <m>\mathbf{u}</m> in terms of <m>({{a}})\mathbf{v}, ({{b}})\mathbf{w}</m> using the head to tail method.
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <image
+                        source="assets/N2/generated/{{__seed__}}/{{filename}}.png"
+                        description="something"/>
+                </p>
+            </outtro>
+        </knowl>
+        <!--<p>
+            <image
+                source="assets/N1/{{__seed__}}.png"
+                description="Line with intercept {{intercept}} and slope {{slope}}."/>
+        </p>-->
+    
+</knowl>

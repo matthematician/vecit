@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Consider the curve parameterized by <m>\langle {{f0}}, {{g0}}, {{h0}}\rangle</m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the point on this curve corresponding to <m>t={{t0}}</m>
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>({{x0}}, {{y0}}, {{z0}}).</m>
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Plot the portion of this curve where <m>-2 \leq t\leq 2</m>. 
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <image
+                source="assets/NA/generated/{{__seed__}}/param.png"
+                description="Parameterized plot."/>
+                </p>
+             </outtro>
+         </knowl>
+    </knowl>  
+    
+    
+    <knowl>
+        <intro>
+            <p>Consider the surface determined by <m>z=f(x,y)={{surface}}</m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Parameterize the trace corresponding to <m>{{tracev}}={{k1}}</m>
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>({{f1}}, {{g1}}, {{h1}}).</m>
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Parameterize the trace corresponding to <m>z={{k2}}</m>
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>({{f2}}, {{g2}}, {{h2}}).</m>
+                </p>
+             </outtro>
+         </knowl>
+    </knowl>  
+        
+                    
+                    
+             
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>New CheckIt Bank</title>
+    <slug>new-checkit-bank</slug>
+    <url>https://checkit.clontz.org</url>
+    <outcomes>
+        <outcome>
+            <title>Surfaces and Graphs</title>
+            <slug>N1</slug>
+            <path>outcomes/N1</path>
+            <description>
+                Use traces and contours to describe surfaces in three-space that are graphs of two-variable functions and level sets of three-variable functions, including quadric surfaces.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Vector Arithmetic</title>
+            <slug>N2</slug>
+            <path>outcomes/N2</path>
+            <description>
+                Perform and geometrically interpret sums, differences, scalar multiples, and magnitudes of vectors in n-dimensional space.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Vector Geometry</title>
+            <slug>N3</slug>
+            <path>outcomes/N3</path>
+            <description>
+                Choose among, and use, dot products and cross products of vectors to compute quantities of geometric interest, including angles and areas.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Parametrized Lines</title>
+            <slug>N4</slug>
+            <path>outcomes/N4</path>
+            <description>
+                Determine parametric equations for a line in three-space, given sufficient information to determine a point and a direction vector.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Planes</title>
+            <slug>N5</slug>
+            <path>outcomes/N5</path>
+            <description>
+                Determine a level set equation for a plane in three-space defined either by a point and a normal vector, or by three given non-collinear points.
+            </description>
+        </outcome>
+    
+        <!--
+        <outcome>
+            <title>Parameterized Curve</title>
+            <slug>NA</slug>
+            <path>outcomes/NA</path>
+            <description>
+                Sketch and parameterize portions of oriented curves, including those defined by intersections of surfaces and those which involve circular motions.
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Derivatives and Curvature</title>
+            <slug>NB</slug>
+            <path>outcomes/NB</path>
+            <description>
+                Use derivatives to determine, and distinguish among, a parameterized curve’s tangent, speed, velocity, and acceleration.
+            </description>
+        </outcome>
+-->
+        
+  <!--      <outcome>
+            <title>Multivariable Limits</title>
+            <slug>DA</slug>
+            <path>outcomes/DA</path>
+            <description>
+                Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
+
+            </description>
+        </outcome>
+-->        
+        <outcome>
+            <title>Partial Derivative Computations</title>
+            <slug>D1</slug>
+            <path>outcomes/D1</path>
+            <description>
+                Compute the partial derivatives of a given multivariable function, up to second order.
+
+
+            </description>
+        </outcome>
+        <outcome>
+            <title>Tangent Planes</title>
+            <slug>D2</slug>
+            <path>outcomes/D2</path>
+            <description>
+                Find equations for tangent planes to surfaces expressed as graphs of two-variable functions and as level sets of three-variable functions.
+            </description>
+        </outcome>        
+        
+        <outcome>
+            <title>The Gradient of f(x,y)</title>
+            <slug>D3</slug>
+            <path>outcomes/D3</path>
+            <description>Compute the gradient vector of a two-variable function, give its geometric interpretation with respect both to the contours of the function and to its graph, and use it to calculate directional derivatives in a given direction.</description>
+        </outcome>
+        
+        <outcome>
+            <title>Critical Points of Multivariable Functions</title>
+            <slug>D4</slug>
+            <path>outcomes/D4</path>
+            <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
+        </outcome>
+
+        <!--
+        <outcome>
+            <title>Partial Derivative Interpretations</title>
+            <slug>DB</slug>
+            <path>outcomes/DB</path>
+            <description>
+                Carefully interpret the first- and second-order partial derivatives of a multivariable function as slopes and concavities of its graph’s traces.
+
+
+
+            </description>
+        </outcome>
+-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </outcomes>
+</bank>

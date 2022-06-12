@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Find all critical point(s) of the function <m>f(x,y) = {{f}}</m>, and use the second derivative test to classify each as a local maximum, local minimum, or saddle point.</p>
+        </intro>
+        <outtro>
+            <p>The unique critical point is <m>(x,y) = {{c2}}</m>, which is a {{c2type}}. (<m>f_{xx} = {{fxx1}}</m> and <m>\Delta = {{d1}}</m>.)</p>
+            <p>A contour plot of <m>f</m> is shown below.</p>
+            <p><image
+                source="assets/D4/generated/{{__seed__}}/contour.png"
+                description="Contour plot of f(x,y)."/></p>
+        </outtro>
+        
+        
+        
+        
+    </knowl>
+    
+    
+    
+    
+    
+    
+        
+                    
+                    
+             
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

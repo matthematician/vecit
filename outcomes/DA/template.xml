@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Consider the function <m>f(x,y)=\frac{ {{connum}} }{ {{conden}} }</m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the limit <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{connum}} }{ {{conden}} }</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{connum}} }{ {{conden}} }={{conlim}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        
+    </knowl>
+    
+    
+    <knowl>
+        <intro>
+            <p>Consider the function <m>g(x,y)=\frac{ {{divnum}} }{ {{divden}} }</m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the limit <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m>  along the <m>x</m>-axis.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m> along the <m>x</m>-axis is <m>{{limx}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the limit <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m>  along the <m>y</m>-axis.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m> along the <m>y</m>-axis is <m>{{limy}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the limit <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m>  along the <m>y=x</m> line.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m> along the <m>y=x</m> line is <m>{{limt}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain why the limit <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}})} \frac{ {{divnum}} }{ {{divden}} }</m>  is undefined.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   There are at least two trajectories to <m>(0,0)</m> for which the resulting limits do not agree.</p>
+                
+                <p>    
+                    For example: <m>\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}}), y=0} \frac{ {{divnum}} }{ {{divden}} }
+                    ={{limx}}\neq{{limy}}=\displaystyle\lim_{(x,y)\to ({{x0}},{{y0}}), x=0}\frac{ {{divnum}} }{ {{divden}} }.</m>
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        
+    </knowl>
+    
+    
+    
+        
+                    
+                    
+             
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->
