@@ -10,26 +10,49 @@ class Generator(BaseGenerator):
         
         x0=round(randint(1,500)*0.01*choice([-1,1]),2)
         y0=round(randint(1,500)*0.01*choice([-1,1]),2)
-        fx0=round(randint(1,500)*0.01*choice([-1,1]),2)
-        fy0=round(randint(1,500)*0.01*choice([-1,1]),2)
-        fxx0=round(randint(1,500)*0.01*choice([-1,1]),2)
-        fxy0=round(randint(1,500)*0.01*choice([-1,1]),2)
-        fyy0=round(randint(1,500)*0.01*choice([-1,1]),2)
         
-        intxx="increasing"
-        if fxx0<0:
-            intxx="decreasing"
+        fz=round(randint(1,500)*0.01*choice([-1,1]),2)
+        fzz=round(randint(1,500)*0.01*choice([-1,1]),2)
+        fxy=round(randint(1,500)*0.01*choice([-1,1]),2)
+        
+        intzz="increses"
+        if fzz<0:
+            intxx="decreases"
             
-        intxy="increasing"
-        if fxy0<0:
-            intxy="decreasing"    
-        
-        intyy="increases"
-        if fyy0<0:
-            intyy="decreases"
+        intxy="increases"
+        if fxy<0:
+            intxy="decreases"    
         
         
+        z1=choice(['x', 'y'])
+        z2=choice(['x', 'y'])
+        z3=choice(['x', 'y'])
         
+        
+        z1c='x'
+        z1c0=x0
+        z10=y0
+        if z1=='x':
+            z1c='y'
+            z1c0
+            z10=x0
+        
+        z2c='x'
+        z2c0=x0
+        z20=y0
+        if z2=='x':
+            z2c='y'
+            z2c0
+            z20=x0
+            
+        
+        z3c='x'
+        z3c0=x0
+        z30=y0
+        if z3=='x':
+            z3c='y'
+            z3c0
+            z30=x0
         
         
         
@@ -38,14 +61,23 @@ class Generator(BaseGenerator):
         return {
             "x0": x0,
             "y0": y0,
-            "fx0": fx0,
-            "fy0": fy0,
-            "fxx0": fxx0,
-            "fxy0": fxy0,
-            "fyy0": fyy0,
-            "intxx": intxx,
+            "fz": fz,
+            "fzz": fzz,
+            "fxy": fxy,
+            "z1": z1,
+            "z2": z2,
+            "z3": z3,
+            "z10": z10,
+            "z20": z20,
+            "z30": z30,
+            "z1c": z1c,
+            "z2c": z2c,
+            "z3c": z3c,
+            "z1c0": z1c0,
+            "z2c0": z2c0,
+            "z3c0": z3c0,
+            "intzz": intzz,
             "intxy": intxy,
-            "intyy": intyy,
             
         }
 

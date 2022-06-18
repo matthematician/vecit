@@ -3,21 +3,22 @@
     
     <knowl>
         <intro>
-            <p>Consider a function <m>f(x,y)</m> defined and differentiable at <m>({{x0}}, {{y0}})</m>.  Suppose the units of <m>f</m> were <m>u_z</m> and the units of <m>x, y</m> were <m>u_x, u_y</m> respectively.</p>
+            <p>Consider a function <m>f(x,y)</m> defined and differentiable at <m>({{x0}}, {{y0}})</m>.</p>
         </intro>
         
         
+        
         <knowl>
             <content>
                 <p>
-                    Interpret the statement <m>f_x({{x0}},{{y0}})={{fx0}}</m>.
+                    Interpret the statement <m>f_{ {{z1}} }({{x0}},{{y0}})={{fz}}</m>.
                     
                     
                 </p>
             </content>
             <outtro>
                 <p>
-                   Along the trace <m>y={{y0}}</m>, the tangent slope when <m>x={{x0}}</m> is <m>{{fx0}}\ u_z/u_x</m>.
+                   Along the trace <m>{{z1c}}={{z1c0}}</m>, the tangent slope when <m>{{z1}}={{z10}}</m> is <m>{{fz}}</m>.
                 </p>
              </outtro>
          </knowl>
@@ -25,44 +26,14 @@
         <knowl>
             <content>
                 <p>
-                    Interpret the statement <m>f_y({{x0}},{{y0}})={{fy0}}</m>.
+                    Interpret the statement <m>f_{ {{z2}}{{z2}} }({{x0}},{{y0}})={{fzz}}</m>.
                     
                     
                 </p>
             </content>
             <outtro>
                 <p>
-                   Along the trace <m>x={{x0}}</m>, the tangent slope when <m>y={{y0}}</m> is <m>{{fy0}}\ u_z/u_x</m>.
-                </p>
-             </outtro>
-         </knowl>
-        
-        <knowl>
-            <content>
-                <p>
-                    Interpret the statement <m>f_{xx}({{x0}},{{y0}})={{fxx0}}</m>.
-                    
-                    
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   Along the trace <m>y={{y0}}</m>, at <m>x={{x0}}</m>, when <m>x</m> increases, the tangent slope along <m>y</m> cross section is {{intxx}} at a rate of  <m>{{fxx0}}\ u_z/u_x^2</m>.
-                </p>
-             </outtro>
-         </knowl>
-        
-        <knowl>
-            <content>
-                <p>
-                    Interpret the statement <m>f_{xy}({{x0}},{{y0}})={{fxy0}}</m>.
-                    
-                    
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   Along the trace <m>y={{y0}}</m>, at <m>x={{x0}}</m>, when <m>x</m> increases, the tangent slope along <m>y</m> cross section is {{intxy}} at a rate of  <m>{{fxy0}}\ (u_z/u_x)/u_y</m>.
+                   Along the trace <m>{{z2c}}={{z2c0}}</m>,  when <m>{{z2}}={{z20}}</m>, the tangent slope {{intzz}} by <m>{{fzz}}</m>.
                 </p>
              </outtro>
          </knowl>
@@ -71,33 +42,19 @@
         <knowl>
             <content>
                 <p>
-                    Interpret the statement <m>f_{yx}({{x0}},{{y0}})={{fxy0}}</m>.
+                    Interpret the statement <m>f_{ {{z3}}{{z3c}} }({{x0}},{{y0}})={{fxy}}</m>.
                     
                     
                 </p>
             </content>
             <outtro>
                 <p>
-                   Along the trace <m>x={{x0}}</m>, at <m>y={{y0}}</m>, when <m>y</m> increases, the tangent slope along <m>x</m> cross section is {{intxy}} at a rate of  <m>{{fxy0}}\ (u_z/u_y)/u_x</m>.
+                   At <m>({{x0}}, {{y0}})</m> tangent slopes  along the trace <m>{{z3c}}={{z3c}}_0</m>,   {{intxy}} by <m>{{fxy}}</m> as <m>{{z3c}}_0</m> increases.
                 </p>
              </outtro>
          </knowl>
         
         
-        <knowl>
-            <content>
-                <p>
-                    Interpret the statement <m>f_{yy}({{x0}},{{y0}})={{fyy0}}</m>.
-                    
-                    
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   Along the trace <m>x={{x0}}</m>, at <m>y={{y0}}</m>, when <m>y</m> increases, the tangent slope along <m>x</m> cross section is {{intyy}} at a rate of  <m>{{fyy0}}\ u_z/u_y^2</m>.
-                </p>
-             </outtro>
-         </knowl>
         
     </knowl>
     

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>The region <m>D</m> in the xy-plane, shown below, is bounded by {{linetext}} the graphs <m>{{graph1}}</m> and <m>{{graph2}}</m>.</p>
+        <p><image
+                source="assets/S1/generated/{{__seed__}}/region.png"
+                description="Region D"/></p>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+                Sketch a representative vertical cross-section of <m>D</m>.
+            </p>
+            <p>
+                Then, give a description of <m>D</m> as a "Type-1" region, that is, by finding functions <m>f(x), g(x)</m> and constants <m>a,b</m> so that the points <m>(x,y)\in D</m> exactly consist of those for which
+            </p>
+            <p><m>f(x) \leq y \leq g(x)</m> and <m>a\leq x \leq b</m>.</p>
+            <p>
+                (If your description requires splitting the region into more than one piece, give bounds for each piece.)
+            </p>
+        </content>
+        <outtro>
+            <p>
+                {{type1}} <m>{{yshademin}} \leq y \leq {{yshademax}}</m> and <m>{{xmin}} \leq x \leq {{xmax}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+        <knowl>
+        <content>
+            <p>
+                Sketch a representative horizontal cross-section of <m>D</m>.
+            </p>
+            <p>
+                Then, give a description of <m>D</m> as a "Type-2" region, that is, by finding functions <m>F(y), G(y)</m> and constants <m>c,d</m> so that the points <m>(x,y)\in D</m> exactly consist of those for which
+            </p>
+            <p><m>F(y) \leq x \leq G(y)</m> and <m>c\leq y \leq d</m>.</p>
+            <p>
+                (If your description requires splitting the region into more than one piece, give bounds for each piece.)
+            </p>
+        </content>
+        <outtro>
+            <p>
+                {{type2}} <m>{{xshademin}} \leq x \leq {{xshademax}}</m> and <m>{{ymin}} \leq y \leq {{ymax}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+</knowl>

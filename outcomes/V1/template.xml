@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y)</m> whose plot is shown below. Use the plot to answer the questions that follow.</p>
+        <p><image
+                source="assets/V1/generated/{{__seed__}}/field.png"
+                description="The vector field F(x,y)."/></p>
+    </intro>
+    <knowl>
+        <content>
+            <p>
+                Which of the following vector fields best matches the plot shown? Explain your choice.
+            </p>
+            {{#fieldchoices}}
+            <p><m>\mathbf{F}(x,y) =\left \langle {{fx}}, {{fy}}\right  \rangle</m></p>
+            {{/fieldchoices}}
+        </content>
+        <outtro>
+            <p>
+                The best match is <m>\mathbf{F}(x,y)= \left\langle {{fx}}, {{fy}} \right\rangle .</m>
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                Suppose we know there exists a scalar function <m>h(x,y)</m> such that the plotted vector field <m>\mathbf{F}(x,y) = \nabla h(x,y)</m> is the gradient vector field of <m>h</m>.
+            </p>  
+            <p>
+                Based on the plot of <m>\mathbf{F}</m> (and not on your answer to the previous problem), which of the following is the best match for the contour plot of <m>h(x,y)</m> ? Explain your choice.
+            </p>
+            {{#cplots}}
+            <p><em>{{cplotno}}:</em><image source="assets/V1/generated/{{__seed__}}/cplot{{cplotno}}.png" description="Contour plot choice {{cplotno}}."/>
+            </p>
+            {{/cplots}}
+        </content>
+        <outtro>
+            <p>
+                The best match is plot ({{rightplot}}), shown below.
+            </p>
+            <p><image source="assets/V1/generated/{{__seed__}}/cplot5.png" description="Contour plot solution."/></p>
+        </outtro>
+    
+    </knowl>
+</knowl>

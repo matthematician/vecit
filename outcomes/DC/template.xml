@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Consider the function <m>f(x,y,z)= {{F}}</m>.</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Describe the level <m>f(x,y,z)={{k}}</m>.
+         
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>f(x,y,z)={{k}}</m> is the {{surfacename}} <m>{{F}}={{k}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the gradient vector <m>\nabla f(x,y,z)</m>.
+         
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\nabla f(x,y,z) = \bigl\langle {{dx}}, {{dy}}, {{dz}} \bigr\rangle</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute <m>\nabla f({{x0}},{{y0}}, {{z0}})</m>.
+         
+                </p>
+                <!--<p align='center'><image
+                source="assets/D3/generated/{{__seed__}}/contour.png"
+                description="Contour plot of f(x,y)."/></p>-->
+            </content>
+            <outtro>
+                <p>
+                    The gradient at the indicated point is <m>\nabla f( {{x0}},{{y0}}, {{z0}} ) = \bigl\langle {{dx0}},{{dy0}}, {{dz0}} \bigr\rangle.</m>
+                </p>
+             </outtro>
+         </knowl>        
+         
+        <knowl>
+            <content>
+                <p>
+                    Find the plane tangent to <m>{{F}}={{k}}</m> at <m>( {{x0}},{{y0}}, {{z0}} )</m>.
+         
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>{{plane}}=0</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        
+    </knowl>
+         
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

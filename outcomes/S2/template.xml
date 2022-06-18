@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Set up, and evaluate, the double integral</p>
+        <p><m>\iint_D\, {{f}}\, dA</m></p>
+        <p>where <m>D</m> is the triangle in the <m>xy</m>-plane with vertices <m>(0,0), (0,{{a}}), </m> and <m>({{b}},0).</m></p>
+    </content>
+    <outtro>
+        <p>As a Type-1 region this integral can be set up as</p>
+        <p><m>\int_{ x={{xmin}} }^{ x={{xmax}} }\; \int_{y={{ymin}}}^{y={{ymax}}}\; {{f}}\, dy\, dx</m></p>
+        <p>and its value is <m>{{integral}}.</m></p>
+    </outtro>
+</knowl>
