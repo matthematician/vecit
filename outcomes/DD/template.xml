@@ -9,7 +9,7 @@
         <knowl>
             <content>
                 <p>
-                    Describe the level <m>f(x,y,z)={{k}}</m>.
+                    Describe the level surface <m>f(x,y,z)={{k}}</m>.
          
                 </p>
             </content>
@@ -19,7 +19,7 @@
                 </p>
                 <p align='center'><image
                 source="assets/DD/generated/{{__seed__}}/surface.png"
-                description="Plot  {{surfacename}}."/></p>
+                description="Plot of the given {{surfacename}}."/></p>
              </outtro>
          </knowl>
         
@@ -65,6 +65,9 @@
                 <p>
                    <m>{{plane}}=0</m>.
                 </p>
+                <p align='center'><image
+                source="assets/DD/generated/{{__seed__}}/planeplot.png"
+                description="Plot of the given {{surfacename}} and the tangentplane."/></p>
              </outtro>
          </knowl>
         
