@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
-        <p>Simplify <m>{{sum}}</m>.</p>
+        <p>Directly compute the line integral <m>\int_C \left\langle {{fx}}, {{fy}} \right\rangle \cdot d\mathbf{r}</m>,</p>
+        <p>where <m>C</m> is the {{ctype}} originating at <m>P{{p}}</m> and ending at <m>Q{{q}}</m>.</p>
+        <p><image source="assets/V2/generated/{{__seed__}}/plot.png" description="Vector field with curve."/></p>
     </content>
     <outtro>
-        <p><m>{{result}}</m></p>
+        <p>This line integral becomes <m>\int_{t={{ta}}}^{t={{tb}}} {{integrand}}\, dt = {{result}}.</m></p>
     </outtro>
 </knowl>

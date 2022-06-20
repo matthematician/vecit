@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank xmlns="https://checkit.clontz.org" version="0.2">
-    <title>New CheckIt Bank</title>
-    <slug>new-checkit-bank</slug>
-    <url>https://checkit.clontz.org</url>
+    <title>VecIt! Vector and Multivariable Calculus</title>
+    <slug>vecit-calculus</slug>
+    <url>http://matthematician.github.io/vecit</url>
     <outcomes>
         <outcome>
             <title>Surfaces and Graphs</title>
@@ -45,7 +45,7 @@
             </description>
         </outcome>
     
-        
+   <!--     
         <outcome>
             <title>Parameterized Curve</title>
             <slug>NA</slug>
@@ -74,7 +74,7 @@
 
             </description>
         </outcome>
-        
+        -->
         <outcome>
             <title>Partial Derivative Computations</title>
             <slug>D1</slug>
@@ -108,7 +108,7 @@
             <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
         </outcome>
 
-        
+        <!--
         <outcome>
             <title>Partial Derivative Interpretations</title>
             <slug>DB</slug>
@@ -127,28 +127,40 @@
             <path>outcomes/DC</path>
             <description>
                 Identify all routes of composition when two or more multivariable functions are composed, and use the multivariable chain rule to compute such a function’s partial derivatives.
-
-
-
-
             </description>
         </outcome>
         
         <outcome>
-            <title>The gradient of <m>f(x,y,z)</m>.</title>
+            <title>The Gradient of f(x,y,z)</title>
             <slug>DD</slug>
             <path>outcomes/DD</path>
             <description>
                 Compute the gradient vector of a three-variable function, give its geometric interpretation with respect to its level
 surfaces, and use it to calculate directional derivatives in a given direction.
-
-
-
-
             </description>
         </outcome>
         
-        
+        <outcome>
+            <title>Optimization and Extreme Values of Multivariable Functions</title>
+            <slug>DE</slug>
+            <path>outcomes/DE</path>
+            <description>
+                Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
+            </description>
+        </outcome>
+        -->
+        <outcome>
+            <title>The "Tape-Measure" Method</title>
+            <slug>S1</slug>
+            <path>outcomes/S1</path>
+            <description>Describe a given region in the xy-plane using coordinate inequalities, in at least two distinct ways.</description>
+        </outcome>
+        <outcome>
+            <title>Double Integrals</title>
+            <slug>S2</slug>
+            <path>outcomes/S2</path>
+            <description>Set up and evaluate double integrals over general regions, using iterated integrals with "tape-measured" bounds.</description>
+        </outcome>
 
 
         <outcome>

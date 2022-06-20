@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    
+    <intro>
+        <p>Consider the function <m>f(x,y) = {{f}}</m>, restricted to the domain <m>D</m>, the closed triangle with vertices <m>({{x1}}, {{y1}}), ({{x2}}, {{y2}})</m> and <m>({{x3}}, {{y3}})</m>.</p>
+    </intro>
+    
+    <knowl>
+        <content>
+            <p>Find all the critical points of <m>f(x,y)</m> on this domain.</p>
+        </content>
+        <outtro>
+            <p>{{cp}}.</p>
+            
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>Find all the minimum value of <m>f(x,y)</m> on this domain, and the points which attain that value.</p>
+        </content>
+        <outtro>
+            <p>The minimum value is <m>{{minvalue}}</m> which occurs at {{minsolns}}.</p>
+            
+        </outtro>
+    </knowl>
+    
+    
+    <knowl>
+        <content>
+            <p>Find all the maximum value of <m>f(x,y)</m> on this domain, and the points which attain that value.</p>
+        </content>
+        <outtro>
+            <p>The maximum value is <m>{{maxvalue}}</m> which occurs at {{maxsolns}}.</p>
+            
+        </outtro>
+    </knowl>
+    
+    
+    
+    
+    
+    
+        
+                    
+                    
+             
+</knowl>
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

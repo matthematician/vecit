@@ -23,7 +23,7 @@
         <knowl>
             <content>
                 <p>
-                    Compute <m>\nabla f({{x0}},{{y0}})</m> and sketch this vector, with its initial point at <m>({{x0}},{{y0}})</m>, on the contour plot of <m>f</m> shown below.
+                    Compute <m>\nabla f({{x0}},{{y0}})</m> and sketch this vector, with its initial point at <m>P({{x0}},{{y0}})</m>, on the contour plot of <m>f</m> shown below.
          
                 </p>
                 <p align='center'><image

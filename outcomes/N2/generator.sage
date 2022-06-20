@@ -13,15 +13,19 @@ class Generator(BaseGenerator):
             w=[randint(-5,5), randint(-5,5), randint(-5,5)]
             
             a=randint(1,3)*choice([-1,1])
-            b=randint(1,3)*choice([-1,1])
+            b=randint(1,3)
         
             case = choice([-1,1])
         
             if case == 1:
-                op = '+'
+                op = '+',
+                initp = "the origin"
+                termp = "the resultant of placing the tail of "+str(b)+"w at the head of "+str(a)+"v"
         
             if case == -1:
                 op = '-'
+                initp = "the head of "+str(b)+"w"
+                termp = "the tail of "+str(a)+"v"
             
             u= [0,0,0]
             for i in range(3):
@@ -58,14 +62,16 @@ class Generator(BaseGenerator):
             "vecwx": a*v[0]+case*b*w[0]*t,
             "vecwy": a*v[1]+case*b*w[1]*t,
             "vecwz": a*v[2]+case*b*w[2]*t,
+            "initp": initp,
+            "termp": termp
             
             #"slope": m,
             #"intercept": b,
         }
 
-    @provide_data
-    def graphics(data):
-        return {
-            "plot": (parametric_plot3d([data['vecvx'], data['vecvy'], data['vecvz']], (t, 0, 1), color='blue')+parametric_plot3d([data['vecwx'], data['vecwy'], data['vecwz']], (t, 0, 1), color='red'))+parametric_plot3d([data['vecux'], data['vecuy'], data['vecuz']], (t, 0, 1), color='purple')
-        }
+ #   @provide_data
+ #   def graphics(data):
+ #       return {
+ #           "plot": (parametric_plot3d([data['vecvx'], data['vecvy'], data['vecvz']], (t, 0, 1), color='blue')+parametric_plot3d([data['vecwx'], data['vecwy'], data['vecwz']], (t, 0, 1), color='red'))+parametric_plot3d([data['vecux'], data['vecuy'], data['vecuz']], (t, 0, 1), color='purple')
+ #       }
 

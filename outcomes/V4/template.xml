@@ -1,9 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <content>
-        <p>Simplify <m>{{sum}}</m>.</p>
-    </content>
-    <outtro>
-        <p><m>{{result}}</m></p>
-    </outtro>
+    <knowl>
+        <content>
+            <p>
+                The circulation of the vector field <m>\mathbf{F}(x,y) = \left\langle {{fx}}, {{fy}} \right\rangle</m> along which of the curves illustrated below is equal to <m>{{circ}}</m>? Explain your answer.
+            </p>
+            <p>
+                <image source="assets/V4/generated/{{__seed__}}/plot.png" description="Vector field with three closed polygonal curves."/>
+            </p>
+        </content>
+        <outtro>
+            <p>
+                Since <m>\dfrac{\partial F_2}{\partial x} - \dfrac{\partial F_1}{\partial y} = {{scurl}}</m>, the appropriate curve is <m>C_{ {{which}} }</m> since <m>\iint_{C_{ {{which}} }} {{scurl}}\, dA = {{circ}}.</m>
+            </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>
+                Use Green's theorem to find the counterclockwise circulation of <m>\mathbf{G}(x,y) = \left\langle {{gx}}, {{gy}} \right\rangle</m> around the circle <m>x^2+y^2 = {{r}}</m>.
+            </p>
+        </content>
+        <outtro>
+            <p>
+                By Green's theorem this is equal to <m>\iint_{x^2+y^2 \leq {{r}} } {{integrand}} \,dA = {{ans}}.</m>
+            </p>
+        </outtro>
+    </knowl>
 </knowl>

@@ -1,9 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <content>
-        <p>Simplify <m>{{sum}}</m>.</p>
-    </content>
-    <outtro>
-        <p><m>{{result}}</m></p>
-    </outtro>
+    <intro>
+        <p>In this problem, we'll consider line integrals of gradient vector fields.</p>
+    </intro>
+
+    <knowl>
+        <content>
+            <p>
+                Shown below is a gradient vector field <m>\mathbf{F}(x,y) = \nabla h(x,y)</m> and a contour plot of its scalar potential function <m>h(x,y).</m>
+            </p>
+            <p><image source="assets/V3/generated/{{__seed__}}/plot.png" description="Gradient vector field with contour plot and curve from P to Q." /></p>
+            <p>
+                Use the plot to determine the value of <m>\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}</m>, where <m>C</m> is the oriented curve from <m>P{{p}}</m> to <m>Q{{q}}</m> shown.
+            </p>
+        </content>
+        <outtro>
+            <p>
+                This line integral evaluates to <m>{{deltah}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+            <p>
+                One of the two vector fields listed below is a gradient vector field.
+            </p>
+            <p>
+                <m>\mathbf{F}(x,y) = \bigl\langle {{fx}}, {{fy}} \bigr\rangle</m>
+            </p>
+            <p>
+                <m>\mathbf{G}(x,y) = \bigl\langle {{gx}}, {{gy}} \bigr\rangle</m>
+            </p>
+            <p>
+                Determine which of <m>\mathbf{F}</m> or <m>\mathbf{G}</m> is a gradient vector field.
+            </p>
+            <p>
+                <em>For the one that is NOT a gradient vector field:</em> Explain how you can tell that no scalar potential function exists.
+            </p>
+            <p>
+                <em>For the one that IS a gradient vector field:</em> Compute its line integral along the oriented line segment from <m>A{{a}}</m> to <m>B{{b}}</m>.
+            </p>
+        </content>
+        <outtro>
+            <p>
+                The gradient field is <m>\mathbf{ {{grad}} }</m>, since <m>\mathbf{ {{ngrad}} }</m> does not satisfy the screening test, i.e., <m>\dfrac{\partial {{ngrad}}_2}{\partial x} - \dfrac{\partial {{ngrad}}_1}{\partial y} = {{scurl}} \neq 0.</m>
+            </p>
+            <p>
+                The line integral <m>\displaystyle\int_C \mathbf{ {{grad}} }\cdot d\mathbf{r}</m> has the value <m>{{deltaf}}</m>.
+            </p>
+        </outtro>
+    </knowl>
 </knowl>

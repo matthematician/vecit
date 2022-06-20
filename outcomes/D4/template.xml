@@ -6,7 +6,13 @@
             <p>Find all critical point(s) of the function <m>f(x,y) = {{f}}</m>, and use the second derivative test to classify each as a local maximum, local minimum, or saddle point.</p>
         </intro>
         <outtro>
-            <p>The unique critical point is <m>(x,y) = {{c2}}</m>, which is a {{c2type}}. (<m>f_{xx} = {{fxx1}}</m> and <m>\Delta = {{d1}}</m>.)</p>
+            <p>The four critical points are:</p>
+            <p><m>(x,y) = (0,0)</m>, which is a {{c1type}}. (<m>f_{xx} = {{fxx1}}</m> and <m>\Delta = {{d1}}</m>.)</p>
+            <p><m>(x,y) = {{c2}}</m>, which is a {{c2type}}. (<m>f_{xx} = {{fxx2}}</m> and <m>\Delta = {{d2}}</m>.)</p>
+            <p><m>(x,y) = {{c3}}</m>, which is a {{c3type}}. (<m>f_{xx} = {{fxx3}}</m> and <m>\Delta = {{d3}}</m>.)</p>
+            <p><m>(x,y) = {{c4}}</m>, which is a {{c4type}}. (<m>f_{xx} = {{fxx4}}</m> and <m>\Delta = {{d4}}</m>.)</p>
+
+            
             <p>A contour plot of <m>f</m> is shown below.</p>
             <p><image
                 source="assets/D4/generated/{{__seed__}}/contour.png"

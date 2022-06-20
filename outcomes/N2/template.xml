@@ -3,9 +3,9 @@
     <intro>
         <p>
             Let <m>\mathbf{v}=\langle {{v0}}, {{v1}}, {{v2}}\rangle</m> and <m>\mathbf{w}=\langle {{w0}}, {{w1}}, {{w2}}\rangle</m>.
-            <image
+            <!--<image
                 source="assets/N2/generated/{{__seed__}}/plot.png"
-                description="Line with intercept {{intercept}} and slope {{slope}}."/>
+                description="Line with intercept {{intercept}} and slope {{slope}}."/>-->
         </p>
     </intro>    
             
@@ -48,15 +48,15 @@
     <knowl>
             <content>
                 <p>
-                    Plot  <m>\mathbf{u}</m> in terms of <m>({{a}})\mathbf{v}, ({{b}})\mathbf{w}</m> using the head to tail method.
+                    Plot  <m>\mathbf{u}</m> in terms of <m>({{a}})\mathbf{v}</m> and <m>({{b}})\mathbf{w}</m>, using the head-to-tail method.
                     
                 </p>
             </content>
             <outtro>
-                <p>
-                    <image
+                <p>The vector <m>\mathbf{u}</m> will have its tail at {{initp}} and its head at {{termp}}.
+                   <!-- <image
                         source="assets/N2/generated/{{__seed__}}/{{filename}}.png"
-                        description="something"/>
+                        description="something"/> -->
                 </p>
             </outtro>
         </knowl>

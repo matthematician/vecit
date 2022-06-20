@@ -127,6 +127,6 @@ class Generator(BaseGenerator):
     def graphics(data):
         # updated by clontz
         return {#"param": parametric_plot3d([data['f0'], data['g0'], data['h0']], (t, -2, 2))
-                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,rgbcolor=(0,0.5,0))
+                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,color='red')+text('$P$',(data['x0'],data['y0']),color='red',horizontal_alignment='left',vertical_alignment="top",fontsize=14)
                }
 

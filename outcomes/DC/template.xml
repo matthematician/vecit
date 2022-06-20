@@ -3,19 +3,22 @@
     
     <knowl>
         <intro>
-            <p>Consider the function <m>f(x,y,z)= {{F}}</m>.</p>
+            <p>Consider a function <m>f(x,y)={{fxy}}</m> where <m>x(t)={{fx}}, y(t)={{fy}}</m>.</p>
         </intro>
         
+        
+        
         <knowl>
             <content>
                 <p>
-                    Describe the level <m>f(x,y,z)={{k}}</m>.
-         
+                    Find <m>\frac{\partial}{\partial x} f(x,y)</m>.
+                    
+                    
                 </p>
             </content>
             <outtro>
                 <p>
-                   <m>f(x,y,z)={{k}}</m> is the {{surfacename}} <m>{{F}}={{k}}</m>.
+                   <m>\frac{\partial}{\partial x} f(x,y)={{DFx}}</m>.
                 </p>
              </outtro>
          </knowl>
@@ -23,53 +26,90 @@
         <knowl>
             <content>
                 <p>
-                    Compute the gradient vector <m>\nabla f(x,y,z)</m>.
-         
+                    Find <m>\frac{\partial}{\partial y} f(x,y)</m>.
+                    
+                    
                 </p>
             </content>
             <outtro>
                 <p>
-                   <m>\nabla f(x,y,z) = \bigl\langle {{dx}}, {{dy}}, {{dz}} \bigr\rangle</m>.
+                   <m>\frac{\partial}{\partial y} f(x,y)={{DFy}}</m>.
                 </p>
              </outtro>
          </knowl>
         
-        
-        
         <knowl>
             <content>
                 <p>
-                    Compute <m>\nabla f({{x0}},{{y0}}, {{z0}})</m>.
-         
+                    Find <m>\frac{\partial}{\partial t} x(t)</m>.
+                    
+                    
                 </p>
-                <!--<p align='center'><image
-                source="assets/D3/generated/{{__seed__}}/contour.png"
-                description="Contour plot of f(x,y)."/></p>-->
             </content>
             <outtro>
                 <p>
-                    The gradient at the indicated point is <m>\nabla f( {{x0}},{{y0}}, {{z0}} ) = \bigl\langle {{dx0}},{{dy0}}, {{dz0}} \bigr\rangle.</m>
+                   <m>\frac{\partial}{\partial t} x(t)={{Dxt}}</m>.
                 </p>
              </outtro>
-         </knowl>        
-         
+         </knowl>
+        
         <knowl>
             <content>
                 <p>
-                    Find the plane tangent to <m>{{F}}={{k}}</m> at <m>( {{x0}},{{y0}}, {{z0}} )</m>.
-         
+                    Find <m>\frac{\partial}{\partial t} y(t)</m>.
+                    
+                    
                 </p>
             </content>
             <outtro>
                 <p>
-                   <m>{{plane}}=0</m>.
+                   <m>\frac{\partial}{\partial t} y(t)={{Dyt}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Use the chain rule to compute <m>\frac{\partial}{\partial t} f(x,y)</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\frac{\partial}{\partial t} f(x,y)={{DFxyt}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the instantaneous rate of change for  <m>f(x,y)</m> when <m>t={{t0}}</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   When <m>t={{t0}}</m> we have <m>x={{x0}}, y={{y0}}</m> and <m>\frac{\partial}{\partial t} f(x,y)|_{t={{t_0}}}={{DFt0}}</m>.
                 </p>
              </outtro>
          </knowl>
         
         
     </knowl>
-         
+    
+    
+    
+    
+    
+    
+        
+                    
+                    
+             
 </knowl>
             <!--
             <list>
