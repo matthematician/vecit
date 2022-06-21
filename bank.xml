@@ -139,7 +139,7 @@
 surfaces, and use it to calculate directional derivatives in a given direction.
             </description>
         </outcome>
-        
+        -->
         <outcome>
             <title>Optimization and Extreme Values of Multivariable Functions</title>
             <slug>DE</slug>
@@ -148,7 +148,7 @@ surfaces, and use it to calculate directional derivatives in a given direction.
                 Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
             </description>
         </outcome>
-        -->
+        
         <outcome>
             <title>The "Tape-Measure" Method</title>
             <slug>S1</slug>
@@ -177,10 +177,10 @@ surfaces, and use it to calculate directional derivatives in a given direction.
         </outcome>
 
         <outcome>
-            <title>Path-Independent Vector Fields</title>
+            <title>Gradient Vector Fields</title>
             <slug>V3</slug>
             <path>outcomes/V3</path>
-            <description>Classify a given vector field as conservative and/or gradient; and use “partial integration” to determine a scalar potential function for a given gradient vector field.</description>
+            <description>Classify a given vector field as gradient (or not), find scalar potential functions for gradient fields, and apply the fundamental theorem of calculus for path-independent line integrals.</description>
         </outcome>
         <outcome>
             <title>Green's Theorem</title>

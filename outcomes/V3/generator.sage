@@ -42,6 +42,7 @@ class Generator(BaseGenerator):
                 s = zp
         #tours = [s+k^2*d for k in range(0,6)]+[s-d]
         tours = [zp,zq]
+        tours = [i for i in set(tours)]
         tours.sort()
         
         #Pick a potential function and make its gradient and its perp-gradient
@@ -112,5 +113,5 @@ class Generator(BaseGenerator):
     @provide_data
     def graphics(data):
     # updated by clontz
-        return {"plot": plot_vector_field((data['hx'],data['hy']),(x,-5,5),(y,-5,5), color="gray")+contour_plot(data['h'], (x,-5,5),(y,-5,5), labels=True, fill=False, linewidths=0.5, label_fmt=lambda x: "$%1.0f$"%x, contours=data['tours'], color='black',label_inline=True)+point(data['p'],size=32,color='red')+point(data['q'],size=32,color='red')+text("$P$",data['p'],color='red',horizontal_alignment="left",vertical_alignment="top")+text("$Q$",data['q'],color='red',horizontal_alignment="left",vertical_alignment="top")+parametric_plot(data['r'],(t,0,1),color='red')
+        return {"plot": plot_vector_field((data['hx'],data['hy']),(x,-5,5),(y,-5,5), color="gray")+contour_plot(data['h'], (x,-5,5),(y,-5,5), labels=True, fill=False, linewidths=0.5, label_fontsize=11, label_fmt=lambda x: "$%1.0f$"%x, contours=data['tours'], color='black',label_inline=True)+point(data['p'],size=32,color='red')+point(data['q'],size=32,color='red')+text("$P$",data['p'],color='red',horizontal_alignment="left",vertical_alignment="top")+text("$Q$",data['q'],color='red',horizontal_alignment="left",vertical_alignment="top")+parametric_plot(data['r'],(t,0,1),color='red')
             }

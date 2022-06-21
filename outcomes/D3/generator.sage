@@ -72,13 +72,16 @@ class Generator(BaseGenerator):
             for i in range(1,15):
                 tours.append(func(p[0],p[1])*i/3)
                 tours.append(-func(p[0],p[1])*i/3)
-            tours.sort()
+            
         else:
             for i in range(1,15):
                 tours.append(func(3,3)*i/3)
                 tours.append(-func(3,3)*i/3)
-            tours.sort()
             
+        
+        tours = [i for i in set(tours)]
+        tours.sort()
+        
         dw = (g[0]*w[0]+g[1]*w[1])/sqrt(w[0]^2+w[1]^2)
         dx = (g[0]*xx[0]+g[1]*xx[1])/sqrt(xx[0]^2+xx[1]^2)
         dy = (g[0]*yy[0]+g[1]*yy[1])/sqrt(yy[0]^2+yy[1]^2)
@@ -127,6 +130,6 @@ class Generator(BaseGenerator):
     def graphics(data):
         # updated by clontz
         return {#"param": parametric_plot3d([data['f0'], data['g0'], data['h0']], (t, -2, 2))
-                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,color='red')+text('$P$',(data['x0'],data['y0']),color='red',horizontal_alignment='left',vertical_alignment="top",fontsize=14)
+                "contour": contour_plot(data['surface'], (x,-3,3), (y,-3,3), fill=False, label_fmt="%1.0f", label_fontsize=11, label_inline=True, plot_points=400, labels=True, contours=data['tours'])+point2d((data['x0'],data['y0']),size=30,color='red')+text('$P$',(data['x0'],data['y0']),color='red',horizontal_alignment='left',vertical_alignment="top",fontsize=14)
                }
 
