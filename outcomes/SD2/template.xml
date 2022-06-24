@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    
+    {{#cylindrical}}
+
+    <knowl>
+        <intro>
+            <p>Consider the integral <m>\displaystyle \iiint_W {{f}} dV</m> where <m>W</m> is the region bounded by the plane <m>{{w3}}={{plane}}</m> and the parabaloid <m>{{w3}}={{parabaloid}}</m>.</p>
+            
+            
+            
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                Rewrite an integral in cylindrical coordinates to evaluate this integral.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    <me>\displaystyle \iiint_W {{f}} dV = \int_{ \theta={{theta1}} }^{ \theta={{theta2}} } \int_{r= {{r1}} }^{r= {{r2}} } \int _{ {{w3}}={{h1}} }^{ {{w3}}={{h2}} } {{g}}\ d {{w3}}\ dr\ d\theta={{integ}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        
+        
+        
+    </knowl>
+
+    {{/cylindrical}}
+    
+    
+    {{#spherical}}
+
+    <knowl>
+        <intro>
+            <p>Consider the integral <m>\displaystyle \iiint_W {{f}} dV</m> where <m>W</m> is the region bounded by the spheres <m>x^2+y^2+z^2={{rho1}}^2</m> and the sphere <m>x^2+y^2+z^2={{rho2}}^2</m>.</p>
+            
+            
+            
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                Rewrite an integral in cylindrical coordinates to evaluate this integral.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    <me>\displaystyle \iiint_W {{f}} dV = \int_{ \theta={{theta1}} }^{ \theta={{theta2}} } \int_{\varphi= {{phi1}} }^{\varphi= {{phi2}} } \int _{ \rho={{rho1}} }^{ \rho={{rho2}} } {{g}}\ d \rho\ d\varphi\ d\theta={{integ}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        
+        
+        
+    </knowl>
+
+    {{/spherical}}
+    
+    
+    
+</knowl>

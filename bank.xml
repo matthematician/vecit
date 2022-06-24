@@ -139,7 +139,7 @@
 surfaces, and use it to calculate directional derivatives in a given direction.
             </description>
         </outcome>
-        -->
+        
         <outcome>
             <title>Optimization and Extreme Values of Multivariable Functions</title>
             <slug>DE</slug>
@@ -148,6 +148,18 @@ surfaces, and use it to calculate directional derivatives in a given direction.
                 Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
             </description>
         </outcome>
+        
+        
+        <outcome>
+            <title>Constrained Optimization</title>
+            <slug>DF</slug>
+            <path>outcomes/DF</path>
+            <description>
+                Use Lagrange multipliers to determine absolute maximum and minimum values of a multivariable function subject to one or more constant constraints.
+
+            </description>
+        </outcome>
+-->
         
         <outcome>
             <title>The "Tape-Measure" Method</title>
@@ -163,6 +175,78 @@ surfaces, and use it to calculate directional derivatives in a given direction.
         </outcome>
 
 
+        
+        <!--
+        <outcome>
+            <title>Double Integrals in Polar Coordinates</title>
+            <slug>SA</slug>
+            <path>outcomes/SA</path>
+            <description>
+                Use polar coordinates to transform the integrand, the bounds, and the area element of a given double integral.
+
+            </description>
+        </outcome>
+        
+        
+         <outcome>
+            <title>Surface Area</title>
+            <slug>SB</slug>
+            <path>outcomes/SB</path>
+            <description>
+                Set up double integrals to compute surface areas of portions of parametrized surfaces.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Triple Integrals</title>
+            <slug>SC</slug>
+            <path>outcomes/SC</path>
+            <description>
+                Set up and evaluate triple integrals over general regions, using iterated integrals and “tape-measured” bounds.
+
+            </description>
+        </outcome>
+        
+        
+        
+         <outcome>
+            <title>Change of Variables</title>
+            <slug>SD1</slug>
+            <path>outcomes/SD1</path>
+            <description>
+                Use change of variables and come up with a better description.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Triple Integrals in Cylindrical and Spherical Coordinates</title>
+            <slug>SD2</slug>
+            <path>outcomes/SD2</path>
+            <description>
+                Use cylindrical and spherical coordinates to transform the integrand, the bounds, and the volume element of a given triple integral.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Applications of Multiple Integrals</title>
+            <slug>SE</slug>
+            <path>outcomes/SE</path>
+            <description>
+                Use double and triple integrals to solve applied problems involving mass, density, and probability.
+
+
+            </description>
+        </outcome>
+        
+-->
+        
+        
         <outcome>
             <title>Vector Fields</title>
             <slug>V1</slug>
@@ -189,8 +273,14 @@ surfaces, and use it to calculate directional derivatives in a given direction.
             <description>Identify when Green’s Theorem may be applied to find the total circulation of a vector field along a closed path, and use the Theorem to carry out this computation using a double integral.</description>
         </outcome> 
         
-        
-        
+        <!--
+        <outcome>
+            <title>Line Integral Heuristics</title>
+            <slug>VA</slug>
+            <path>outcomes/VA</path>
+            <description>Predict from a sketch whether a given line integral of a vector field along an oriented path is positive, negative, or zero.</description>
+        </outcome>
+-->
         
         
         

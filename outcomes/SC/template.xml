@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Write triple integral which computes the integral of <m>F(x,y,z)={{F}}</m> over the region bounded by planes <m>x=0, y=0, z=0, {{v0}}={{c}}, {{plane}}={{k}}</m> and <m>{{v1}}={{f}}</m>. </p>
+        <p>
+            <image
+                source="assets/SC/generated/{{__seed__}}/region.png"
+                description="The region of integration."/>
+        </p>
+    </content>
+    <outtro>
+        <p>
+            The integral is
+        </p>
+        <p>
+            <me>\displaystyle \int_{0}^{ {{c}} } \int_{ 0 }^{ {{f}} } \int_0^{ {{upperV2}} } \left({{F}}\right) \ d{{v2}}\ d{{v1}}\ d{{v0}}={{integ}}.
+            </me>
+        </p>
+    </outtro>
+</knowl>

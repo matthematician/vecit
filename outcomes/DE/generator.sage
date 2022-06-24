@@ -1,326 +1,140 @@
 class Generator(BaseGenerator):
     def data(self):
        
-        var('L')
+        var('x y t')
+        #pick 3 points
+        x1=randint(-3,3)
+        y1=randint(-3,3)
         
-        scenario='investment' #choice(['box', 'silo', 'sphere', 'investment'])
-    
+        k2=choice([-1,1])
+        k3=choice([-1,1])
         
-        if scenario=='box':
-            var('x y z')
-            constraint=randint(15, 40)*6
-            f(x,y,z)=x*y*z
-            g(x,y,z)=2*x+2*y+z
-            fx(x,y,z)=derivative(f(x,y,z),x)
-            fy(x,y,z)=derivative(f(x,y,z),y)
-            fz(x,y,z)=derivative(f(x,y,z),z)
-            gx(x,y,z)=derivative(g(x,y,z),x)
-            gy(x,y,z)=derivative(g(x,y,z),y)
-            gz(x,y,z)=derivative(g(x,y,z),z)
-            zeroes=solve([fx(x,y,z)==L*gx(x,y,z), fy(x,y,z)==L*gy(x,y,z), fz(x,y,z)==L*gz(x,y,z), g(x,y,z)==constraint],x,y,z,L)
-            
-            #initial critical points
-            cp=[]
+        d=randint(4,7)
+        x2=x1
+        y2=y1+d*k2
         
-            #find solutions
-            for i in range(len(zeroes)):
-                xi=zeroes[i][0].rhs()
-                yi=zeroes[i][1].rhs()
-                zi=zeroes[i][2].rhs()
-                Li=zeroes[i][3].rhs()
-                cp.append([xi, yi, zi, Li])
+        y3=y1
+        x3=x1+d*k3
+        
+        x0=randint(min(x1,x3)+1, max(x1,x3)-1)
+        y0=randint(min(y1,y2)+1, max(y1,y2)-1)
+        
+        f(x,y) = choice([
+                #(randint(1,5)*choice([-1,1])*(x-x0)^2+randint(1,5)*choice([-1,1])*(y-y0)^2+ randint(1,5)*choice([-1,1])*(x-x0)*(y-y0)).expand(),
+                #exp((randint(1,5)*choice([-1,1])*(x-x0)^2+randint(1,5)*choice([-1,1])*(y-y0)^2+ randint(1,5)*choice([-1,1])*(x-x0)*(y-y0)).expand()),
+                (x+y)*exp((x-x0)/randint(-5,-1)+(y-y0)/randint(-5,-1))
+            ])
+        
+        fx(x,y) = f(x,y).derivative(x)
+        fy(x,y) = f(x,y).derivative(y)
+        
+        
+        
+        #pick 3 points
+        #x1=randint(1,3)*choice([-1,1])+x0
+        #y1=randint(1,3)*choice([-1,1])+y0
+        
+        #k2=(x0-x1)/abs(x0-x1)
+        #k3=(y0-y1)/abs(y0-y1)
+        
+        #d=max(abs(y0-y1), abs(x0-x1))
+        
+        #x2=x1
+        #y2=y1+randint(d+1,d+5)*k2
+        
+        #x3=x1+abs(y2-y1)*k3 #x1+randint(1,4)*k3
+        #y3=y1
+        
+        #Find critical points
+        
+        #initial critical points
+        cp=[(x1,y1),(x2,y2),(x3,y3)]
+        
+        #find valid zeroes of gradient
+        
+        zeroes=solve([fx(x,y)==0,fy(x,y)==0],x,y)
+        
+        for i in range(len(zeroes)):
+            xi=zeroes[i][0].rhs()
+            yi=zeroes[i][1].rhs()
+            if ((xi-x1)*k3>=0 and (yi-y1)*k2>=0 and ((y2-y3)*(xi-x2)+(x3-x2)*(yi-y2))*k2*k3*(-1)>=0):
+                cp.append((xi, yi))
+        
+        #find zeroes vertical line
+        
+        f2(y)=f(x1,y)
+        zeroes=solve([f2(y).derivative(y)==0],y)
+        for i in range(len(zeroes)):
+            yi=zeroes[i].rhs()
+            if (yi<max(y2,y1) and yi>min(y2,y1)):
+                cp.append((x1, yi))
                 
-                
-            #compute min value
+        #find zeroes vertical line
         
-            minvalue=f(cp[0][0],cp[0][1], cp[0][2])
+        f3(x)=f(x,y1)
+        zeroes=solve([f3(x).derivative(x)==0],x)
+        for i in range(len(zeroes)):
+            xi=zeroes[i].rhs()
+            if (xi<max(x3,x1) and xi>min(x3,x1)):
+                cp.append((xi, y1))        
         
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])<minvalue:
-                    minvalue=f(cp[i][0], cp[i][1], cp[i][2])
+        
+        #find zeroes slant line
+        l(x)=(y3-y2)/(x3-x2)*(x-x2)+y2
+        f4(x)=f(x,l(x))
+        zeroes=solve([f4(x).derivative(x)==0],x)
+        for i in range(len(zeroes)):
+            xi=zeroes[i].rhs()
+            if (xi<max(x3,x1) and xi>min(x3,x1)):
+                cp.append((xi, y1)) 
+        
+        #compute min value
+        
+        minvalue=f(x1,y1)
+        
+        for i in range(len(cp)):
+            if f(cp[i][0], cp[i][1])<minvalue:
+                minvalue=f(cp[i][0], cp[i][1])
+        
+        #find solutions for min value
+        
+        minsolns=[]
+        for i in range(len(cp)):
+            if f(cp[i][0], cp[i][1])==minvalue:
+                minsolns.append((cp[i][0],cp[i][1]))
+        
+        #compute max value
+        
+        maxvalue=f(x1,y1)
+        
+        for i in range(len(cp)):
+            if f(cp[i][0], cp[i][1])>maxvalue:
+                maxvalue=f(cp[i][0], cp[i][1])
+        
+        #find solutions for max value
+        
+        maxsolns=[]
+        for i in range(len(cp)):
+            if f(cp[i][0], cp[i][1])==maxvalue:
+                maxsolns.append((cp[i][0],cp[i][1]))
+        
+        
+        
+        return {
+            "f": f(x,y),
+            "x1": x1,
+            "y1": y1,
+            "x2": x2,
+            "y2": y2,
+            "x3": x3,
+            "y3": y3,
+            "cp": cp,
+            "minvalue": minvalue,
+            "maxvalue": maxvalue,
+            "minsolns": minsolns,
+            "maxsolns": maxsolns,
             
-            #find solutions for min value
-        
-            minsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])==minvalue:
-                    minsolns.append(cp[i])
-        
-            #compute max value
-        
-            maxvalue=f(cp[0][0],cp[0][1], cp[0][2])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])>maxvalue:
-                    maxvalue=f(cp[i][0], cp[i][1], cp[i][2])
-        
-            #find solutions for max value
-        
-            maxsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])==maxvalue:
-                    maxsolns.append(cp[i])
-        
-           
-                
-            return {
-                scenario: True,
-                "constraint": constraint,
-                "f": f(x,y,z),
-                "g": g(x,y,z),
-                "minvalue": minvalue,
-                "maxvalue": maxvalue,
-                "minsolns": minsolns,
-                "maxsolns": maxsolns,
-            
-            }
-        
-        
-        if scenario=='silo':
-            var('r h')
-            
-            floor=1#
-            wall=randint(2,4)*floor#
-            dome=randint(5,7)*floor
-            #floor=randint(2,4)*wall#
-            constraint=9*(6*dome+3-4*wall)*wall^2#wall^2*((dome+floor)+dome)^2#randint(15, 40)*6
-            
-            f(r,h)=wall*2*r*h+dome*2*r^2+floor*r^2
-            g(r,h)=r^2*h+(2/3)*r^3
-            fr(r,h)=derivative(f(r,h),r)
-            fh(x,y,z)=derivative(f(r,h),h)
-            gr(r,h)=derivative(g(r,h),r)
-            gh(x,y,z)=derivative(g(r,h),h)
-            zeroes=solve([fr(r,h)==L*gr(r,h), fh(r,h)==L*gh(r,h), g(r,h)==constraint],r,h,L)
-            
-            #initial critical points
-            cp=[]
-        
-            #find solutions
-            for i in range(len(zeroes)):
-                ri=zeroes[i][0].rhs()
-                hi=zeroes[i][1].rhs()
-                Li=zeroes[i][2].rhs()
-                if ri in RR and hi in RR:
-                    cp.append([ri, hi, Li])
-                
-                
-            #compute min value
-        
-            minvalue=f(cp[0][0],cp[0][1])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])<minvalue:
-                    minvalue=f(cp[i][0], cp[i][1])
-            
-            #find solutions for min value
-        
-            minsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])==minvalue:
-                    minsolns.append(cp[i])
-        
-            #compute max value
-        
-            maxvalue=f(cp[0][0],cp[0][1])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])>maxvalue:
-                    maxvalue=f(cp[i][0], cp[i][1])
-        
-            #find solutions for max value
-        
-            maxsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])==maxvalue:
-                    maxsolns.append(cp[i])
-        
-           
-                
-            return {
-                scenario: True,
-                "constraint": constraint,
-                "f": f(r,h),
-                "g": g(r,h),
-                "dome": dome,
-                "floor": floor,
-                "wall": wall,
-                "minvalue": minvalue,
-                "maxvalue": maxvalue,
-                "minsolns": minsolns,
-                "maxsolns": maxsolns,
-            
-            }
-        
-        
-        
-        if scenario=='sphere':
-            var('x y z')
-            #constraint=randint(5, 20)
-            
-            vartemp=[x,y,z]
-            
-            shuffle(vartemp)
-            
-            a=randint(1,3)
-            b=randint(1,3)+a
-            c=randint(1,3)+b
-            
-            k=randint(1,4)*choice([-1,1])
-            
-            g(x,y,z)=a*(vartemp[0]-k)^2+b*vartemp[1]^2+c*vartemp[2]^2
-            
-            lower=a*k^2
-            
-            constraint=randint(lower+1, 2*lower)
-            
-            
-            f(x,y,z)=x^2+y^2+z^2
-            fx(x,y,z)=derivative(f(x,y,z),x)
-            fy(x,y,z)=derivative(f(x,y,z),y)
-            fz(x,y,z)=derivative(f(x,y,z),z)
-            gx(x,y,z)=derivative(g(x,y,z),x)
-            gy(x,y,z)=derivative(g(x,y,z),y)
-            gz(x,y,z)=derivative(g(x,y,z),z)
-            zeroes=solve([fx(x,y,z)==L*gx(x,y,z), fy(x,y,z)==L*gy(x,y,z), fz(x,y,z)==L*gz(x,y,z), g(x,y,z)==constraint],x,y,z,L)
-            
-            #initial critical points
-            cp=[]
-        
-            #find solutions
-            for i in range(len(zeroes)):
-                xi=zeroes[i][0].rhs()
-                yi=zeroes[i][1].rhs()
-                zi=zeroes[i][2].rhs()
-                Li=zeroes[i][3].rhs()
-                if(xi in RR and yi in RR and zi in RR):
-                    cp.append([xi, yi, zi, Li])
-                
-                
-            #compute min value
-        
-            minvalue=f(cp[0][0],cp[0][1], cp[0][2])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])<minvalue:
-                    minvalue=f(cp[i][0], cp[i][1], cp[i][2])
-            
-            #find solutions for min value
-        
-            minsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])==minvalue:
-                    minsolns.append(cp[i])
-        
-            #compute max value
-        
-            maxvalue=f(cp[0][0],cp[0][1], cp[0][2])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])>maxvalue:
-                    maxvalue=f(cp[i][0], cp[i][1], cp[i][2])
-        
-            #find solutions for max value
-        
-            maxsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1], cp[i][2])==maxvalue:
-                    maxsolns.append(cp[i])
-        
-           
-                
-            return {
-                scenario: True,
-                "constraint": constraint,
-                "f": f(x,y,z),
-                "g": g(x,y,z),
-                "minvalue": minvalue,
-                "maxvalue": maxvalue,
-                "minsolns": minsolns,
-                "maxsolns": maxsolns,
-            
-            }
-        
-        if scenario=='investment':
-            var('K R')
-            #constraint=randint(5, 20)
-            
-            denom=5 #randint(3,10)
-            num=randint(1,denom-1)
-            a=num/denom
-            b=(denom-num)/denom
-            
-            C=randint(5,20)*denom
-            
-            constraint=randint(10,50)*denom
-            
-            f(K,R)=C*K^a*R^b
-            g(K,R)=K+R
-            
-            
-            fK(K,R)=derivative(f(K,R),K)
-            fR(K,R)=derivative(f(K,R),R)
-            gK(K,R)=derivative(g(K,R),K)
-            gR(K,R)=derivative(g(K,R),R)
-            
-            
-            zeroes=solve([fK(K,R)==L*gK(K, R), fR(K,R)==L*gR(K, R), g(K, R)==constraint],K,R,L)
-            
-            #initial critical points
-            cp=[]
-        
-            #find solutions
-            for i in range(len(zeroes)):
-                Ki=zeroes[i][0].rhs()
-                Ri=zeroes[i][1].rhs()
-                Li=zeroes[i][1].rhs()
-                if(Ki in RR and Ri in RR):
-                    cp.append([Ki, Ri, Li])
-                
-                
-            #compute min value
-        
-            minvalue=f(cp[0][0],cp[0][1])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])<minvalue:
-                    minvalue=f(cp[i][0], cp[i][1])
-            
-            #find solutions for min value
-        
-            minsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])==minvalue:
-                    minsolns.append(cp[i])
-        
-            #compute max value
-        
-            maxvalue=f(cp[0][0],cp[0][1])
-        
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])>maxvalue:
-                    maxvalue=f(cp[i][0], cp[i][1])
-        
-            #find solutions for max value
-        
-            maxsolns=[]
-            for i in range(len(cp)):
-                if f(cp[i][0], cp[i][1])==maxvalue:
-                    maxsolns.append(cp[i])
-        
-           
-                
-            return {
-                scenario: True,
-                "constraint": constraint,
-                "f": f(K, R),
-                "g": g(K, R),
-                "minvalue": minvalue,
-                "maxvalue": maxvalue,
-                "minsolns": minsolns,
-                "maxsolns": maxsolns,
-            
-            }
+        }
 
     #@provide_data
     #def graphics(data):

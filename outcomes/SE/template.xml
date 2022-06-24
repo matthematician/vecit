@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    
+    {{#inertia}}
+
+    <knowl>
+        <intro>
+            <p>Consider the rectangular prism <m>W</m>, <m>[{{x1}}, {{x2}}]\times[{{y1}}, {{y2}}]\times[{{z1}}, {{z2}}]</m>, with density function <m>\delta(x,y,z)={{delt}}</m>.</p>
+            
+            
+            
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                Write an integral which computes the mass of this prism.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    The mass is found by:
+                    <me>\displaystyle \iiint_W {{delta}} dV = \int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} } {{delt}}\ d x\ dy\ dz={{mass}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                Write an integral which computes the moment of inertia of this prism about the <m>{{w3}}</m>-axis.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    
+                    <me>I_{ {{w3}} }=\displaystyle \iiint_W ( {{w1}}^2+{{w2}}^2 ){{delta}} dV = \int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} }  ( {{w1}}^2+{{w2}}^2 )({{delt}})\ d x\ dy\ dz={{I}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                Use the above to integrals to find an expression for the radius of gyration.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    <me>r_{ {{w3}} }=\sqrt{\frac{I_{ {{w3}} }}{M}} =\sqrt{
+                        \frac{\int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} }  ( {{w1}}^2+{{w2}}^2 )({{delt}})\ d x\ dy\ dz}
+                        {\int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} } {{delt}}\ d x\ dy\ dz} }
+                        ={{r}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        
+        
+        
+    </knowl>
+
+    {{/inertia}}
+    
+    
+    
+    {{#center}}
+
+    <knowl>
+        <intro>
+            <p>Consider the rectangular prism <m>W</m>, <m>[{{x1}}, {{x2}}]\times[{{y1}}, {{y2}}]\times[{{z1}}, {{z2}}]</m>, with density function <m>\delta(x,y,z)={{delt}}</m>.</p>
+            
+            
+            
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                Write an integral which computes the mass of this prism.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    The mass is found by:
+                    <me>\displaystyle \iiint_W {{delta}} dV = \int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} } {{delt}}\ d x\ dy\ dz={{mass}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                Write an integral which computes the total moment with respect to the the <m>{{w1}}{{w2}}</m>-plane.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    
+                    <me>T_{ {{w3}} }=\displaystyle \iiint_W ( {{w1}}^2+{{w2}}^2 ){{delta}} dV = \int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} }  ( {{w3}} )({{delt}})\ d x\ dy\ dz={{T}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                Use the above to integrals to find an expression for the <m>{{w3}}</m> coordinate of the center of mass.
+                </p>
+            </content>
+            <outtro>
+                
+                
+                <p>
+                    
+                    <me>\bar{ {{w3}} }=\frac{T_{ {{w3}} }}{M} =
+                        \frac{\int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} }  ( {{w3}} )({{delt}})\ d x\ dy\ dz}
+                        {\int_{ z={{z1}} }^{ z={{z2}} } \int_{y= {{y1}} }^{y= {{y2}} } \int _{ x={{x1}} }^{ x={{x2}} } {{delt}}\ d x\ dy\ dz} 
+                        ={{C}}.</me>
+                </p>
+                
+             </outtro>
+         </knowl>
+        
+        
+        
+        
+    </knowl>
+
+    {{/center}}
+    
+   
+    
+    
+    
+</knowl>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider the integral <m>\displaystyle\iint_D {{fxy}}\ \ dx \ dy</m> where <m>D</m> is the region bound by lines <m>y={{y1}}, y={{y2}}, y={{y3}}</m>.</p>
+        <p>Use the substitutions <me>x={{xuv}}, y={{yuv}}</me> to rewrite this integral in terms of <m>u, v</m>. </p>
+        <p>
+            <image
+                source="assets/SD1/generated/{{__seed__}}/regionxy.png"
+                description="The region of integration."/>
+        </p>
+    </content>
+    <outtro>
+        <p>
+            Using the substitutions <me>x={{xuv}}, y={{yuv}}, </me> we have that the line <m>y={{y1}}</m> becomes the line <m>v=0</m>, <m>y={{y2}}</m> becomes the line <m>u={{c}}</m>, and <m>y={{y3}}</m> becomes the line <m>v={{m}}u</m>.
+        </p>
+        <p>
+            <image
+                source="assets/SD1/generated/{{__seed__}}/regionuv.png"
+                description="The transformed region of integration."/>
+        </p>
+        <p>
+            Since <me>\frac{\partial(x,y)}{\partial(u,v)}=\left|\begin{bmatrix}{{xu}} &amp; {{xv}} \\ {{yu}} &amp; {{yv}} \end{bmatrix}\right|={{Jacob}}</me>
+            We have <me>\displaystyle \iint_D {{fxy}}\ \ dx \ dy = \int_0^{ {{c}} } \int_0^{ {{m}}u } {{Jacob}}\cdot {{fuv}}\ dv\ du={{integ}}.
+            </me>
+        </p>
+    </outtro>
+</knowl>

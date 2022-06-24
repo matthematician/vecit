@@ -2,145 +2,46 @@
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     
     
-    {{#box}}
-
+    <intro>
+        <p>Consider the function <m>f(x,y) = {{f}}</m>, restricted to the domain <m>D</m>, the closed triangle with vertices <m>({{x1}}, {{y1}}), ({{x2}}, {{y2}})</m> and <m>({{x3}}, {{y3}})</m>.</p>
+    </intro>
+    
     <knowl>
-        <intro>
-            <p>A parent wants to ship a rectangular package (with dimensions <m>x, y, z</m>) to their child.  The shipping company  requires that the sum of the girth and length of the box (<m>2x+2y+z</m>) is at most {{constraint}} inches.</p>
+        <content>
+            <p>Find all the critical points of <m>f(x,y)</m> on this domain.</p>
+        </content>
+        <outtro>
+            <p>
+                    {{#cp}} <m>{{.}}</m>{{/cp}}.
+            </p>
             
-            
-            
-        </intro>
-        
-        <knowl>
-            <content>
-                <p>
-                What is the  maximum volume of a box that can be shipped, and what could it's dimensions be?
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   We attempt to maximize <m>f(x,y,z)={{f}}</m> subject to <m>g(x,y,z)={{g}}={{constraint}}</m>.
-                </p>
-                
-                <p>The maximum volume is <m>{{maxvalue}}</m> cubic inches, which occurs at <m>(x,y,z, \lambda)={{maxsolns}}</m>.</p>
-                
-             </outtro>
-         </knowl>
-        
-        
-        
-        
+        </outtro>
     </knowl>
-
-    {{/box}}
     
-    
-    
-    {{#silo}}
-
     <knowl>
-        <intro>
-            <p>A farmer is building a grain silo intended to hold <m>{{constraint}}\pi</m> cubic meters of grain.  The silo has a cylindrical body with radius <m>r</m> meters and height <m>h</m> meters, with a hemispheric dome with radius <m>r</m> meters.  The cost of materials for the floor is $<m>{{floor}}</m> per square meter, but the cost of materials for the dome is $<m>{{dome}}</m> per square meter, and the cost of building the side is $<m>{{wall}}</m> per square meter.</p>
+        <content>
+            <p>Find all the minimum value of <m>f(x,y)</m> on this domain, and the points which attain that value.</p>
+        </content>
+        <outtro>
+            <p>The minimum value is <m>{{minvalue}}</m> which occurs at {{#minsolns}} <m>{{.}}</m>{{/minsolns}}.</p>
             
-            
-            
-        </intro>
-        
-        <knowl>
-            <content>
-                <p>
-                What is the  minimum cost of constructing this silo, and what could it's dimensions be?
-                </p>
-                
-                <p>(Note that the dome ceiling also contains grain.  Also recall that a sphere has volume <m>\frac{4}{3}\pi r^3</m> and surface area <m>4\pi r^2</m>.)</p>
-                
-            </content>
-            <outtro>
-                <p>
-                   We attempt to minimize <m>f(r,h)=\pi({{f}})</m> subject to <m>g(r,h)=\pi ({{g}})=\pi{{constraint}}</m>.
-                </p>
-                
-                <p>The minimum is $<m>{{maxvalue}}\pi</m>, which occurs at <m>(x,y,z, \lambda)={{maxsolns}}</m>.</p>
-                
-             </outtro>
-         </knowl>
-        
-        
-        
-        
+        </outtro>
     </knowl>
-
-    {{/silo}}
     
     
-    
-    {{#sphere}}
-
     <knowl>
-        <intro>
-            <p>Consider the ellipsoid <m>{{g}}={{constraint}}</m>.</p>
+        <content>
+            <p>Find all the maximum value of <m>f(x,y)</m> on this domain, and the points which attain that value.</p>
+        </content>
+        <outtro>
+            <p>The maximum value is <m>{{maxvalue}}</m> which occurs at {{#maxsolns}} <m>{{.}}</m>{{/maxsolns}}.</p>
             
-            
-            
-        </intro>
-        
-        <knowl>
-            <content>
-                <p>
-                What is the  largest sphere centered at the origin which can be inscribed completely within the ellipsoid?
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   We attempt to minimize <m>f(x,y,z)={{f}}</m> subject to <m>g(x,y,z)={{g}}={{constraint}}</m>.
-                </p>
-                
-                <p>The largest sphere is <m>{{f}}={{minvalue}}</m>.</p>
-                
-             </outtro>
-         </knowl>
-        
-        
-        
-        
+        </outtro>
     </knowl>
-
-    {{/sphere}}
     
     
-    {{#investment}}
-
-    <knowl>
-        <intro>
-            <p>Suppose that the output of a factory (in thousand of dollars) was <m>{{f}}</m> where <m>K</m> is investment in equipment (in thousand of dollars), and <m>R</m> is investment in labor (in thousand of dollars).</p>
-            
-            
-            
-        </intro>
-        
-        <knowl>
-            <content>
-                <p>
-                If there is <m>{{constrant}}</m> thousand of dollars to invest in capital and labor, how much should be invested in each to maximize the output of the factory?
-                </p>
-            </content>
-            <outtro>
-                <p>
-                   We attempt to maximize <m>f(K, R)={{f}}</m> subject to <m>g(K, R)={{g}}={{constraint}}</m>.
-                </p>
-                
-                <p>The maximum output is <m>{{f}}={{maxvalue}}</m> which occurs at <m>(K, R, \lambda)={{maxsolns}}</m>.</p>
-                
-             </outtro>
-         </knowl>
-        
-        
-        
-        
-    </knowl>
-
-    {{/investment}}
+    
+    
     
     
         
