@@ -70,3 +70,7 @@ DF Constrained Optimization
 : Use Lagrange multipliers to determine absolute maximum and minimum values of a multivariable function subject to one or more constraint equations.
 
 ### S: Set up and evaluate integrals of multivariable functions using a variety of strategies.
+
+S1 The "Tape-Measure Method"
+> Describe a given region in $\mathbb{R}^2$ or $\mathbb{R}^3$ using
+coordinate inequalities, in at least two distinct ways.
