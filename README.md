@@ -9,8 +9,10 @@ For more information about the CheckIt! platform see http://checkit.clontz.org .
 
 # VecIt! Learning Standards
 
-## N: Use vectors and vector operations to “navigate” two- and three-space.
-### (Active Calculus Chapter 9)
+## N: Use vectors and vector operations to “navigate” two- and three-space. (Ch. 9)
 
 N1 Surfaces and Graphs
 : Use traces and contours to describe surfaces in $\mathbb{R}^3$ that are graphs of two-variable functions and level sets of three-variable functions, including quadric surfaces.
+
+N2 Vector Arithmetic
+: Perform and geometrically interpret sums, differences, scalar multiples, and magnitudes of vectors in $\mathbb{R}^n$.
