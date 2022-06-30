@@ -30,3 +30,34 @@ N5 Planes
 
 NA Parametrized Curves
 : Sketch and parameterize portions of oriented curves, including those defined by intersections of surfaces and those which involve circular motions.
+
+NB Derivatives and Curves
+: Use derivatives to determine, and distinguish among, a parameterized curve’s tangent, speed, velocity, and acceleration.
+
+NC Parametrized Surfaces
+: Find a two-variable parametrization for portions of surfaces defined as graphs of two-variable functions and level sets of three-variable functions.
+
+### D: Use and understand derivatives of multivariable functions in a variety of forms.
+
+DA Multivariable Limits
+: Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
+
+D1 Partial Derivative Computation
+: Compute the partial derivatives of a given multivariable function, up to second order.
+
+DB Partial Derivative Interpretation
+: Carefully interpret the first- and second-order partial derivatives of a multivariable function as slopes and concavities of its graph’s traces.
+
+D2 Tangent Planes
+: Find equations for tangent planes to surfaces expressed as graphs of two-variable functions and as level sets of three-variable functions.
+
+DC Multivariable Chain Rule
+: Identify all “routes” of composition when two or more multivariable functions are composed, and use the multivariable chain rule to compute such a function’s partial derivatives.
+
+D3 The Gradient of $f(x,y)$
+: Compute the gradient vector of a two-variable function, give its geometric interpretation with respect both to the contours of the function and to its graph, and use it to calculate directional derivatives in a given direction.
+
+DD The Gradient of $$F(x,y,z)$$
+
+: Compute the gradient vector of a three-variable function, give its geometric interpretation with respect to its level
+surfaces, and use it to calculate directional derivatives in a given direction.
