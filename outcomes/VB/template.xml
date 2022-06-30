@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    <intro>
+        <p>Consider the vector fields <m>\mathbf{F}_1(x,y)=\langle {{f0x}}, {{f0y}} \rangle, \mathbf{F}_2(x,y)=\langle {{f1x}}, {{f1y}} \rangle</m>.</p>
+        
+    </intro>
+    <knowl>
+        <content>
+           <p>
+               Identify which of these vector fields <m>\mathbf{F}_1, \mathbf{F}_2</m> is a gradient vector field.  For what <m>f(x,y)</m> is your choice  <m>\mathbf{F}_i=\nabla f(x,y)</m>?
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\mathbf{F} = \langle {{fx}}, {{fy}} \rangle</m> is a gradient vector field of <m>f(x,y)={{F}}</m>, since <m>{{fx}}=\frac{\partial}{\partial x} [ {{F}} ], </m> and <m>{{fy}}=\frac{\partial}{\partial y} [ {{F}} ]</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    <knowl>
+        <content>
+           <p>
+               For the function and vector field <m>f, \mathbf{F}=\nabla f</m> you chose above, use the Fundamental Theorem of Line Integrals to compute <m>\displaystyle \int_{ {{P}} }^{ {{Q}} } f(x,y)\ d\mathbf{r}</m>.
+            </p>
+        </content>
+        <outtro>
+            <p>
+                <m>\displaystyle \int_{ {{P}} }^{ {{Q}} } f(x,y)\ d\mathbf{r} = f( {{Q}} )-f( {{P}} )=({{FQ}})-({{FP}})={{integ}}</m>.
+            </p>
+        </outtro>
+    </knowl>
+    
+    
+</knowl>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)={{F1}}</m>, and the surface <m>S</m>: the portion of the {{surface1}}  <m>{{surface1eqn}}={{k}}</m> where <m>{{cutv}}\leq {{cutoff}}</m>, oriented <q>outwards</q>.</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Parameterize <m>\partial S</m>, the boundary of <m>S</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\partial S=C</m>, where <m>C</m> is parameterized by <m>\mathbf{r}={{R1}}</m>.
+                </p>
+                
+            </outtro>
+        </knowl>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Use Stokes theorem to find an integral which computes the flux of the curl of <m>\mathbf{F}</m> through <m>S</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    Note that <m>\mathbf{F}(t)={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
+                </p>
+                <p>
+                    <m> \displaystyle \iint\limits_{D} (\nabla\times \mathbf{F})\cdot
+(\mathbf{r}_s\times\mathbf{r}_t) =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand1}}\ dt={{integ1}}</m>.
+                </p>
+                
+            </outtro>
+        </knowl>
+        
+        
+        
+        
+        
+    </knowl>
+    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)={{F2}}</m>, and the closed contour <m>C</m>: traversing points {{#V}} <m>{{.}}</m>, {{/V}} then back to the beginning, oriented in a counter-clockwise orientation</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Describe the surface <m>S</m> bounded by <m>C</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>S</m> is a {{surface2}} defined by <m>{{surface2eqn}}={{k2}}, {{X1min}}\leq {{X1}}\leq {{X1max}}, {{X2min}}\leq {{X2}}\leq {{X2max}}</m>
+                </p>
+                
+            </outtro>
+        </knowl>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Use Stokes theorem to find an integral which computes the circulation of <m>\mathbf{F}</m> across <m>C</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    Note that the vector normal to <m>S</m> is <m>{{normvec}}</m>.  Also note that the surface <m>S</m> can be parameterized by <m>{{f}}</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}({{X1}}, {{X2}})={{curlF2flat}}</m>.  
+                </p>
+                <p>
+                    <m> \displaystyle \oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \iint\limits_{D} (\nabla\times \mathbf{F})\cdot
+(\mathbf{r}_s\times\mathbf{r}_t) \int_{ {{X1}} = {{X1min}} }^{ {{X1}} = {{X1max}} } \int_{ {{X2}} = {{X1min}} }^{ {{X2}} = {{X2max}} } {{integrand2}}\ d{{X2}}\ d{{X1}}={{integ2}}</m>.
+                </p>
+                
+            </outtro>
+        </knowl>
+        
+        
+        
+        
+        
+    </knowl>
+    
+   
+    
+    
+</knowl>

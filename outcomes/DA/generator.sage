@@ -42,16 +42,21 @@ class Generator(BaseGenerator):
         
         
         divnum=randint(1,5)*choice([-1,1])*x^2*y^2+a*x+c*y + randint(-5,5)*x^randint(2,4)*y^randint(2,4)
-            #
-        divden=randint(1,5)*choice([-1,1])*x^2*y^2+b*x+d*y + randint(-5,5)*x^randint(2,4)*y^randint(2,4)
-            #
+        
+        
+        divden = x*y
+        while( divden(x=x,y=0) == 0 or divden(x=17,y=17) == 0 ): # Avoid division-by-zero errors when computing div(x,0) and div(t,t)
+            divden=randint(1,5)*choice([-1,1])*x^2*y^2+b*x+d*y + randint(-5,5)*x^randint(2,4)*y^randint(2,4)
+            
         div(x,y)=divnum/divden
         divx=div(x,0)
         limx=divx.limit(x=0)
         divy=div(0,y)
         limy=limit(divy, y=0)
-        divt=div(t,t)
-        limt=limit(divt, t=0)
+        # kl
+        divt=div(t,t)  ## Is throwing a div by zero error (??)
+        # jk
+        limt=divt.limit(t=0)
             
         
         

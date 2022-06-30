@@ -62,6 +62,7 @@ class Generator(BaseGenerator):
         
         P=(rx(0), ry(0))
         Q=(rx(1), ry(1))
+        R=(rx(0.95), ry(0.95))
         
         return {
             "fx": fx,
@@ -71,6 +72,7 @@ class Generator(BaseGenerator):
             "intvalue": intvalue,
             "P": P,
             "Q": Q,
+            "R": R,
             
             
         }
@@ -79,7 +81,7 @@ class Generator(BaseGenerator):
     def graphics(data):
     # updated by clontz
         return {
-            "field":plot_vector_field((data['fx'], data['fy']), (x,-10,10),(y,-10,10), color=['blue'])+parametric_plot( (data['rx'], data['ry']), (t, 0, 1), color='red', thickness=2, )+point(data['P'],color='red', size=30)+point(data['Q'],color='red', size=30)+text("$P$", data['P'], horizontal_alignment='left', color='red')+text("$Q$", data['Q'], horizontal_alignment='right', color='red'),
+            "field":plot_vector_field((data['fx'], data['fy']), (x,-10,10),(y,-10,10), color=['blue'])+parametric_plot( (data['rx'], data['ry']), (t, 0, 1), color='red', thickness=2, )+point(data['P'],color='red', size=30)+point(data['Q'],color='red', size=30)+text("$P$", (data['P'][0]+0.2, data['P'][1]), horizontal_alignment='left', color='red')+text("$Q$", (data['Q'][0]-0.2, data['Q'][1]), horizontal_alignment='right', color='red')+arrow(data['R'], data['Q'], color='red')
             
             
             #"field": plot_vector_field((data['fx'], data['fy']), (x,-10,10),(y,-10,10)) , "cplota":contour_plot(data['plotfs'][0],(x,-10,10),(y,-10,10), fill=False, contours=data['tours'], labels=True, label_inline=True, label_fmt=lambda x: "$%1.0f$"%x), "cplotb":contour_plot(data['plotfs'][1],(x,-10,10),(y,-10,10), fill=False, contours=data['tours'], labels=True, label_inline=True, label_fmt=lambda x: "$%1.0f$"%x), "cplotc":contour_plot(data['plotfs'][2],(x,-10,10),(y,-10,10), fill=False, contours=data['tours'], labels=True, label_inline=True,  label_fmt=lambda x: "$%1.0f$"%x), "cplotd":contour_plot(data['plotfs'][3],(x,-10,10),(y,-10,10), fill=False, contours=data['tours'], labels=True, label_inline=True,  label_fmt=lambda x: "$%1.0f$"%x), "cplot5":contour_plot(data['potential'],(x,-10,10),(y,-10,10), fill=False, contours=data['tours'], labels=True, label_inline=True,  label_fmt=lambda x: "$%1.0f$"%x)+plot_vector_field((data['fx'], data['fy']), (x,-10,10),(y,-10,10))    

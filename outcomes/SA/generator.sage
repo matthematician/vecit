@@ -44,6 +44,7 @@ class Generator(BaseGenerator):
                 randint(1,5)*cos(randint(1,5)*z),
                 w*randint(1,5)*(randint(1,5)*z)^(1/2),
                 randint(1,5)*e^(randint(1,5)*z),
+                
             ])
         
         g(r, theta)=f(r*cos(theta), r*sin(theta), r^2)*r
