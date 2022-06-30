@@ -57,7 +57,16 @@ DC Multivariable Chain Rule
 D3 The Gradient of $f(x,y)$
 : Compute the gradient vector of a two-variable function, give its geometric interpretation with respect both to the contours of the function and to its graph, and use it to calculate directional derivatives in a given direction.
 
-DD The Gradient of $$F(x,y,z)$$
+DD The Gradient of $F(x,y,z)$
+: Compute the gradient vector of a three-variable function, give its geometric interpretation with respect to its level surfaces, and use it to calculate directional derivatives in a given direction.
 
-: Compute the gradient vector of a three-variable function, give its geometric interpretation with respect to its level
-surfaces, and use it to calculate directional derivatives in a given direction.
+D4 Critical Points of Multivariable Functions
+: Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.
+
+DE Optimization and Extreme Values of Multivariable Functions
+: Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
+
+DF Constrained Optimization
+: Use Lagrange multipliers to determine absolute maximum and minimum values of a multivariable function subject to one or more constraint equations.
+
+### S: Set up and evaluate integrals of multivariable functions using a variety of strategies.
