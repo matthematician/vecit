@@ -15,7 +15,7 @@ class Generator(BaseGenerator):
         fzz=round(randint(1,500)*0.01*choice([-1,1]),2)
         fxy=round(randint(1,500)*0.01*choice([-1,1]),2)
         
-        intzz="increses"
+        intzz="increases"
         if fzz<0:
             intxx="decreases"
             

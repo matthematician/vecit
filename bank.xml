@@ -65,15 +65,7 @@
         </outcome>
 
         
-            <outcome>
-            <title>Multivariable Limits</title>
-            <slug>DA</slug>
-            <path>outcomes/DA</path>
-            <description>
-                Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
-
-            </description>
-        </outcome>
+            
         -->
         <outcome>
             <title>Partial Derivative Computations</title>
@@ -108,6 +100,16 @@
             <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
         </outcome>
 
+        
+        <outcome>
+            <title>Multivariable Limits</title>
+            <slug>DA</slug>
+            <path>outcomes/DA</path>
+            <description>
+                Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
+
+            </description>
+        </outcome>
         
         <outcome>
             <title>Partial Derivative Interpretations</title>
