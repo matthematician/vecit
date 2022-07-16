@@ -4,7 +4,7 @@ CheckIt! problems bank aligned to a set of learning standards from Schlicker et 
 
 Public version of the bank is available here: http://matthematician.github.io/vecit/ .
 
-Development on branch `final`. Find a quirk or error, or have a suggestion? Open an `Issue` in this Github repo.
+Find a quirk or error, or have a suggestion? Open an `Issue` in this Github repo.
 
 > VecIt! is a project of @matthematician, @tienchih, and @StevenClontz .
 > For more information about the CheckIt! platform see http://checkit.clontz.org .
