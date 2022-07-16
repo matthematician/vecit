@@ -45,7 +45,7 @@
             </description>
         </outcome>
     
-   <!--     
+      
         <outcome>
             <title>Parameterized Curve</title>
             <slug>NA</slug>
@@ -65,15 +65,7 @@
         </outcome>
 
         
-            <outcome>
-            <title>Multivariable Limits</title>
-            <slug>DA</slug>
-            <path>outcomes/DA</path>
-            <description>
-                Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
-
-            </description>
-        </outcome>
+            
         -->
         <outcome>
             <title>Partial Derivative Computations</title>
@@ -108,7 +100,17 @@
             <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
         </outcome>
 
-        <!--
+        
+        <outcome>
+            <title>Multivariable Limits</title>
+            <slug>DA</slug>
+            <path>outcomes/DA</path>
+            <description>
+                Use continuity and polar-coordinate methods to calculate limits of multivariable functions, and use multiple-approach methods to demonstrate when such a limit does not exist.
+
+            </description>
+        </outcome>
+        
         <outcome>
             <title>Partial Derivative Interpretations</title>
             <slug>DB</slug>
@@ -148,7 +150,19 @@ surfaces, and use it to calculate directional derivatives in a given direction.
                 Use both critical points and a parametrization of its boundary to find absolute maximum and minimum values of a multivariable function on a closed and bounded domain.
             </description>
         </outcome>
-        -->
+        
+        
+        <outcome>
+            <title>Constrained Optimization</title>
+            <slug>DF</slug>
+            <path>outcomes/DF</path>
+            <description>
+                Use Lagrange multipliers to determine absolute maximum and minimum values of a multivariable function subject to one or more constant constraints.
+
+            </description>
+        </outcome>
+-->
+        
         <outcome>
             <title>The "Tape-Measure" Method</title>
             <slug>S1</slug>
@@ -163,6 +177,78 @@ surfaces, and use it to calculate directional derivatives in a given direction.
         </outcome>
 
 
+        
+        
+        <outcome>
+            <title>Double Integrals in Polar Coordinates</title>
+            <slug>SA</slug>
+            <path>outcomes/SA</path>
+            <description>
+                Use polar coordinates to transform the integrand, the bounds, and the area element of a given double integral.
+
+            </description>
+        </outcome>
+        
+        
+         <outcome>
+            <title>Surface Area</title>
+            <slug>SB</slug>
+            <path>outcomes/SB</path>
+            <description>
+                Set up double integrals to compute surface areas of portions of parametrized surfaces.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Triple Integrals</title>
+            <slug>SC</slug>
+            <path>outcomes/SC</path>
+            <description>
+                Set up and evaluate triple integrals over general regions, using iterated integrals and “tape-measured” bounds.
+
+            </description>
+        </outcome>
+        
+        
+        
+         <outcome>
+            <title>Change of Variables</title>
+            <slug>SD1</slug>
+            <path>outcomes/SD1</path>
+            <description>
+                Use change of variables and come up with a better description.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Triple Integrals in Cylindrical and Spherical Coordinates</title>
+            <slug>SD2</slug>
+            <path>outcomes/SD2</path>
+            <description>
+                Use cylindrical and spherical coordinates to transform the integrand, the bounds, and the volume element of a given triple integral.
+
+            </description>
+        </outcome>
+        
+        
+        <outcome>
+            <title>Applications of Multiple Integrals</title>
+            <slug>SE</slug>
+            <path>outcomes/SE</path>
+            <description>
+                Use double and triple integrals to solve applied problems involving mass, density, and probability.
+
+
+            </description>
+        </outcome>
+        
+-->
+        
+        
         <outcome>
             <title>Vector Fields</title>
             <slug>V1</slug>
@@ -177,10 +263,10 @@ surfaces, and use it to calculate directional derivatives in a given direction.
         </outcome>
 
         <outcome>
-            <title>Path-Independent Vector Fields</title>
+            <title>Gradient Vector Fields</title>
             <slug>V3</slug>
             <path>outcomes/V3</path>
-            <description>Classify a given vector field as conservative and/or gradient; and use “partial integration” to determine a scalar potential function for a given gradient vector field.</description>
+            <description>Classify a given vector field as gradient (or not), find scalar potential functions for gradient fields, and apply the fundamental theorem of calculus for path-independent line integrals.</description>
         </outcome>
         <outcome>
             <title>Green's Theorem</title>
@@ -190,18 +276,63 @@ surfaces, and use it to calculate directional derivatives in a given direction.
         </outcome> 
         
         
+        <outcome>
+            <title>Line Integral Heuristics</title>
+            <slug>VA</slug>
+            <path>outcomes/VA</path>
+            <description>Predict from a sketch whether a given line integral of a vector field along an oriented path is positive, negative, or zero.</description>
+        </outcome>
+
+        
+        <outcome>
+            <title>Path-Independent Integrals</title>
+            <slug>VB</slug>
+            <path>outcomes/VB</path>
+            <description>Identify when the Fundamental Theorem of Line Integrals may be applied, and use the Theorem to compute line integrals using a scalar potential function.
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Curl of a Vector Field</title>
+            <slug>VC</slug>
+            <path>outcomes/VC</path>
+            <description>Compute the scalar curl of a two-dimensional vector field and the vector curl of a three-dimensional vector field. Use notions of circulation to predict whether the scalar curl of a given two-dimensional vector field is positive, negative, or zero.
+.
+            </description>
+        </outcome>
         
         
+        <outcome>
+            <title>Divergence of a Vector Field</title>
+            <slug>VD</slug>
+            <path>outcomes/VD</path>
+            <description>Compute the divergence of a vector field, and use notions of flux to predict whether the divergence of a given vector field is
+positive, negative, or zero.
+.
+            </description>
+        </outcome>
         
         
+        <outcome>
+            <title>Flux Integrals</title>
+            <slug>VE</slug>
+            <path>outcomes/VE</path>
+            <description>Directly compute the flux integral of a vector field through a given oriented surface.
+.
+            </description>
+        </outcome>
         
         
-        
-        
-        
-        
-        
-        
+        <outcome>
+            <title>Stokes and Divergence Theorems</title>
+            <slug>VF</slug>
+            <path>outcomes/VF</path>
+            <description>dentify when a flux integral calculation
+may be made simpler through the application of Stokes’ Theorem (resp. Divergence Theorem), and use the appropriate Theorem to carry out this
+computation using a line integral (resp. triple integral).
+.
+            </description>
+        </outcome>
         
         
         

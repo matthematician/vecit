@@ -15,11 +15,27 @@ class Generator(BaseGenerator):
         hx(x,y) = hxe
         hy(x,y) = hye
             
-        P=vector([0,0])
-        Q=vector([0,0])
-        while(P==Q):
-            P = vector([randint(-4,4),randint(-4,4)])
-            Q = vector([randint(-4,4),randint(-4,4)])
+        P = vector([randint(-4,4),randint(-4,4)])
+        Q = vector([randint(-4,4),randint(-4,4)])
+        [zp,zq]=[hh(P[0],P[1]),hh(Q[0],Q[1])]     
+        
+        while(True):
+            if(P!=Q and zp==zq):
+                break
+            else:
+                P = vector([randint(-4,4),randint(-4,4)])
+                Q = vector([randint(-4,4),randint(-4,4)])
+                if(P==Q):
+                    continue
+                [zp,zq]=[hh(P[0],P[1]),hh(Q[0],Q[1])]
+                de = abs(zp-zq)/(1+abs(zp))
+                if( de==0 ):
+                    break
+                if( log( de ) < log(0.5) ): # Don't get contours too close together; z values at least a factor of 1.5 separate
+                    continue
+                else:
+                    break
+
         
         # Parametrize a fun curve from P to Q
         nor = (Q-P)/(Q-P).norm()
@@ -29,7 +45,7 @@ class Generator(BaseGenerator):
         
         # Decide on contour levels by including h(P) and h(Q) on the way from zmin to zmax.
         
-        [zp,zq]=[hh(P[0],P[1]),hh(Q[0],Q[1])]
+        # [zp,zq]=[hh(P[0],P[1]),hh(Q[0],Q[1])]
         [gp,gq]=[hx(P[0],P[1])^2+hy(P[0],P[1])^2,hx(Q[0],Q[1])^2+hy(Q[0],Q[1])^2]
         if(zp==zq):
             d = 16
@@ -42,6 +58,7 @@ class Generator(BaseGenerator):
                 s = zp
         #tours = [s+k^2*d for k in range(0,6)]+[s-d]
         tours = [zp,zq]
+        tours = [i for i in set(tours)] # Don't repeat any contour, Sage hates that
         tours.sort()
         
         #Pick a potential function and make its gradient and its perp-gradient
@@ -81,7 +98,7 @@ class Generator(BaseGenerator):
             fy(x,y) = b(x,y).derivative(x)
             [gradd,ngrad] = ["G","F"]
             scurl = fy(x,y).derivative(x) - fx(x,y).derivative(y)
-            deltaf = b(qq[0],qq[1]) - b(pp[0],pp[1])
+            deltaf = a(qq[0],qq[1]) - a(pp[0],pp[1])
 
             
             
@@ -112,5 +129,5 @@ class Generator(BaseGenerator):
     @provide_data
     def graphics(data):
     # updated by clontz
-        return {"plot": plot_vector_field((data['hx'],data['hy']),(x,-5,5),(y,-5,5), color="gray")+contour_plot(data['h'], (x,-5,5),(y,-5,5), labels=True, fill=False, linewidths=0.5, label_fmt=lambda x: "$%1.0f$"%x, contours=data['tours'], color='black',label_inline=True)+point(data['p'],size=32,color='red')+point(data['q'],size=32,color='red')+text("$P$",data['p'],color='red',horizontal_alignment="left",vertical_alignment="top")+text("$Q$",data['q'],color='red',horizontal_alignment="left",vertical_alignment="top")+parametric_plot(data['r'],(t,0,1),color='red')
+        return {"plot": plot_vector_field((data['hx'],data['hy']),(x,-5,5),(y,-5,5), color="gray")+contour_plot(data['h'], (x,-5,5),(y,-5,5), labels=True, fill=False, linewidths=0.5, label_fontsize=11, label_fmt=lambda x: "$%1.0f$"%x, contours=data['tours'], cmap=['black'],label_inline=True,label_inline_spacing=5)+point(data['p'],size=32,color='red')+point(data['q'],size=32,color='red')+text("$P$",data['p'],color='red',horizontal_alignment="left",vertical_alignment="top")+text("$Q$",data['q'],color='red',horizontal_alignment="left",vertical_alignment="top")+parametric_plot(data['r'],(t,0,1),color='red')
             }

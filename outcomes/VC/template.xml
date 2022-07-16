@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)=\langle {{Fx}}, {{Fy}}, {{Fz}} \rangle</m>.</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the <em>curl</em> of <m>\mathbf{F}</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\nabla \times \mathbf{F}={{curl}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the <em>curl</em> of <m>\mathbf{F}</m> at <m>{{P}}</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\nabla \times \mathbf{F}{{P}}={{normvec}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the axis of rotation of a point at <m>{{P}}</m> in the vector field  <m>\mathbf{F}</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>{{L}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+    </knowl>
+    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y)</m> and point <m>Q={{Q}}</m>.</p>
+        <p><image
+                source="assets/VC/generated/{{__seed__}}/field.png"
+                description="The vector field F(x,y) and point Q={{Q}}."/></p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain whether the circulation density at <m>Q={{Q}}</m> positive, negative or zero.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    The circulation density is {{circdens}}.
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        
+    </knowl>
+    
+   
+    
+    
+</knowl>

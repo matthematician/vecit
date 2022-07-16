@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider the definite double integral</p>
+        <p><m>\displaystyle \int_{ {{x1}} }^{ {{x2}} } \int_{ {{y1}} }^{ {{y2}} } {{f}} dxdy.</m></p>
+        <p>Convert this integral to polar coordinates and evaluate. </p>
+    </content>
+    <outtro>
+        <p><me>\displaystyle \int_{ {{x1}} }^{ {{x2}} } \int_{ {{y1}} }^{ {{y2}} } {{f}} dxdy
+            = \displaystyle \int_{ 0 }^{ {{radius}} } \int_{ {{theta1}} }^{ {{theta2}} } {{g}} d\theta dr= {{integ}}
+            .</me></p>
+    </outtro>
+</knowl>

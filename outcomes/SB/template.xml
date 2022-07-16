@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Consider the surface parameterized by <me>{{X}}</me> where <m>{{t1}}\leq t\leq {{t2}}, {{s1}}\leq s \leq {{s2}}</m>.</p>
+        <p>Write an integral which computes the area of this surface. </p>
+    </content>
+    <outtro>
+        <p>
+            The surface area of this {{shape}} is
+        </p>
+        <p>
+            <me>\displaystyle \int_{ {{s1}} }^{ {{s2}} } \int_{ {{t1}} }^{ {{t2}} } |{{Xt}}\times {{Xs}}| dtds
+            = \displaystyle \int_{ {{s1}} }^{ {{s2}} } \int_{ {{t1}} }^{ {{t2}} } {{Integrand}} dtds={{integ}}.
+            </me>
+        </p>
+    </outtro>
+</knowl>

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)=\langle {{Fx}}, {{Fy}}, {{Fz}} \rangle</m>.</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the <em>divergence</em> of <m>\mathbf{F}</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\nabla \cdot \mathbf{F}={{div}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute the <em>divergence</em> of <m>\mathbf{F}</m> at <m>{{P}}</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\nabla \cdot \mathbf{F}{{P}}={{divP}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        
+    </knowl>
+    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y)</m> and points <m>Q={{Q}}, R={{R}}</m>.</p>
+        <p><image
+                source="assets/VD/generated/{{__seed__}}/field.png"
+                description="The vector field F(x,y) and point Q={{Q}}, R={{R}}."/></p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain whether the divergence at <m>Q={{Q}}</m> positive, negative or zero.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    The divergence at <m>Q</m> is {{divQ}}.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain whether the divergence at <m>R={{R}}</m> positive, negative or zero.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    The divergence at <m>R</m> is {{divR}}.
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        
+    </knowl>
+    
+   
+    
+    
+</knowl>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y,z)={{F}}</m>, and the {{surface}} <m>S</m> parameterized by <m>\mathbf{r}(s,t)={{R}}, {{smin}}\leq s\leq {{smax}}, {{tmin}}\leq t\leq {{tmax}}</m>.</p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find an integral which computes the <em>flux</em> of <m>\mathbf{F}</m> on the surface <m>S</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\mathbf{r}_s(s,t)={{Rs}}, \mathbf{r}_t(s,t)={{Rt}}</m> and <m>\mathbf{F}(\mathbf{r}(s,t))={{Fst}}</m>.
+                </p>
+                <p>
+                    So the flux may be compued by <me>\displaystyle \iint_S \mathbf{F}(\mathbf{r}(s,t)) \cdot (\mathbf{r}_s(s,t) \times \mathbf{r}_t(s,t))
+                    =\int_{s= {{smin}} }^{s= {{smax}} } \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand}}\ dt\ ds={{integ}}.</me>
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        
+        
+        
+    </knowl>
+    
+    
+    <knowl>
+        <intro>
+        <p>Consider the vector field <m>\mathbf{F}(x,y)</m> and oriented <q>surfaces</q> <m>S_1, S_2</m>, with arrows indicating the orientation.</p>
+        <p><image
+                source="assets/VE/generated/{{__seed__}}/field.png"
+                description="The vector field F(x,y) and surfaces S1, S2."/></p>
+        </intro>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain whether the flux of these <q>surfaces</q> <m>S_1, S_2</m> are positive, negative or zero.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    The flux of <m>S_1, S_2</m> are {{flux}}.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Explain which <q>surface</q>, <m>S_1, S_2</m>, has greater flux.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>S_{ {{greaterflux}} }</m> has greater flux.
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        
+    </knowl>
+    
+   
+    
+    
+</knowl>
