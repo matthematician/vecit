@@ -1,0 +1,22 @@
+Jupyter console 6.4.2
+
+Python 3.8.10 (default, Mar 15 2022, 12:22:08) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.33.0 -- An enhanced Interactive Python. Type '?' for help.
+
+[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;38;5;46;1m1[0;38;5;28m]: [0m                                                                                                     [109C [8C[?7h[0m[?12l[?25h[?25l[?7l[0mp [?7h[0m[?12l[?25h[?25l[?7l[0mw [?7h[0m[?12l[?25h[10D[J[0m[?7h[?2004l[?1lWARNING: your terminal doesn't support cursor position requests (CPR).
+[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;38;5;46;1m1[0;38;5;28m]: [0mpw                                                                                                   [109C [10C[?7h[0m[?12l[?25h[?25l[?7l[0md [?7h[0m[?12l[?25h[?25l[?7l[11D[0m[J[0;38;5;28mIn [[0;38;5;46;1m1[0;38;5;28m]: [0mpwd                                                                                                  [109C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;38;5;196mOut[[0;38;5;196;1m2[0;38;5;196m]: [0m[0m'/home/user/tien-chih'
+
+[?1l[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;38;5;46;1m3[0;38;5;28m]: [0m                                                                                                     [109C [8C[?7h[0m[?12l[?25h[?25l[?7l[0ml [?7h[0m[?12l[?25h[?25l[?7l[0ms [?7h[0m[?12l[?25h[?25l[?7l[10D[0m[J[0;38;5;28mIn [[0;38;5;46;1m3[0;38;5;28m]: [0mls                                                                                                   [109C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[01;34massets[0m/  bank.xml  dashboard.ipynb  [01;34mdocs[0m/  [01;34moutcomes[0m/  requirements.txt
+
+[?1l[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;38;5;46;1m4[0;38;5;28m]: [0m                                                                                                     [109C [8C[?7h[0m[?12l[?25h[?25l[?7l[0mg [?7h[0m[?12l[?25h[?25l[?7l[0mi [?7h[0m[?12l[?25h[?25l[?7l[0mt [?7h[0m[?12l[?25h[?25l[?7l[11D[0m[J[0;38;5;28mIn [[0;38;5;46;1m4[0;38;5;28m]: [0mgit                                                                                                  [109C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0;31m---------------------------------------------------------------------------[0m
+[0;31mNameError[0m                                 Traceback (most recent call last)
+[0;32m/tmp/ipykernel_1049/2768940822.py[0m in [0;36m<cell line: 1>[0;34m()[0m
+[0;32m----> 1[0;31m [0mgit[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[0;31mNameError[0m: name 'git' is not defined
+
+[?1l[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;38;5;46;1m5[0;38;5;28m]: [0m                                                                                                     [109C [8C[?7h[0m[?12l[?25h
