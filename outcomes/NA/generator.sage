@@ -72,8 +72,8 @@ class Generator(BaseGenerator):
         
         h2=k2
         r=(k2)^(1/2)
-        f2=r*a*cos(t)
-        g2=r*b*sin(t)
+        f2=(k2/a)^(1/2)*cos(t)
+        g2=(k2/b)^(1/2)*sin(t)
         
         
         
