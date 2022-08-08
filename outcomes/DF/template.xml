@@ -122,7 +122,7 @@
         <knowl>
             <content>
                 <p>
-                If there is <m>{{constrant}}</m> thousand of dollars to invest in capital and labor, how much should be invested in each to maximize the output of the factory?
+                If there is <m>{{constraint}}</m> thousand of dollars to invest in capital and labor, how much should be invested in each to maximize the output of the factory?
                 </p>
             </content>
             <outtro>

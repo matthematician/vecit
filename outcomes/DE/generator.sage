@@ -16,13 +16,15 @@ class Generator(BaseGenerator):
         y3=y1
         x3=x1+d*k3
         
+        L(x)=(k3/k2)*(x-x2)+y2
+        
         x0=randint(min(x1,x3)+1, max(x1,x3)-1)
         y0=randint(min(y1,y2)+1, max(y1,y2)-1)
         
         f(x,y) = choice([
                 #(randint(1,5)*choice([-1,1])*(x-x0)^2+randint(1,5)*choice([-1,1])*(y-y0)^2+ randint(1,5)*choice([-1,1])*(x-x0)*(y-y0)).expand(),
                 #exp((randint(1,5)*choice([-1,1])*(x-x0)^2+randint(1,5)*choice([-1,1])*(y-y0)^2+ randint(1,5)*choice([-1,1])*(x-x0)*(y-y0)).expand()),
-                (x+y)*exp((x-x0)/randint(-5,-1)+(y-y0)/randint(-5,-1))
+                (randint(1,5)*x+randint(1,5)*y)*exp((x-x0)*randint(-5,-1)+(y-y0)*randint(-5,-1))
             ])
         
         fx(x,y) = f(x,y).derivative(x)
@@ -86,7 +88,7 @@ class Generator(BaseGenerator):
         for i in range(len(zeroes)):
             xi=zeroes[i].rhs()
             if (xi<max(x3,x1) and xi>min(x3,x1)):
-                cp.append((xi, y1)) 
+                cp.append((xi, L(xi))) 
         
         #compute min value
         
