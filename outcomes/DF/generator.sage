@@ -254,7 +254,7 @@ class Generator(BaseGenerator):
             
             constraint=randint(10,50)*denom
             
-            f(K,R)=C*K^a*R^b
+            f(K,R)=C*K^a*R^b*1
             g(K,R)=K+R
             
             
