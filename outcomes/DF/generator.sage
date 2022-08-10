@@ -273,7 +273,7 @@ class Generator(BaseGenerator):
             for i in range(len(zeroes)):
                 Ki=zeroes[i][0].rhs()
                 Ri=zeroes[i][1].rhs()
-                Li=zeroes[i][1].rhs()
+                Li=zeroes[i][2].rhs()
                 if(Ki in RR and Ri in RR):
                     cp.append((Ki, Ri, Li))
                 
