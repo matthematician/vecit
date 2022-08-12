@@ -3857,4 +3857,42 @@ remote: Resolving deltas:   0% (0/11)[Kremote: Resolving deltas:   9% (1/11)[
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 16, done.[K
 To https://github.com/matthematician/vecit
    4f618e81..4ca3b0f1  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "More Typos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kcommit -m "More Typos"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "More Typos"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"N"e"w" "P"r"o"b"l"e"m"
+[main d20e5082] New Problem
+ 7 files changed, 231 insertions(+), 7 deletions(-)
+ create mode 100644 assets/DG/generated/preview.json
+ create mode 100644 outcomes/DG/generator.sage
+ create mode 100644 outcomes/DG/template.xml
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "New Problem"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienChih
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 21, done.
+Counting objects:   4% (1/21)Counting objects:   9% (2/21)Counting objects:  14% (3/21)Counting objects:  19% (4/21)Counting objects:  23% (5/21)Counting objects:  28% (6/21)Counting objects:  33% (7/21)Counting objects:  38% (8/21)Counting objects:  42% (9/21)Counting objects:  47% (10/21)Counting objects:  52% (11/21)Counting objects:  57% (12/21)Counting objects:  61% (13/21)Counting objects:  66% (14/21)Counting objects:  71% (15/21)Counting objects:  76% (16/21)Counting objects:  80% (17/21)Counting objects:  85% (18/21)Counting objects:  90% (19/21)Counting objects:  95% (20/21)Counting objects: 100% (21/21)Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/14)Writing objects:  14% (2/14)Writing objects:  21% (3/14)Writing objects:  28% (4/14)Writing objects:  35% (5/14)Writing objects:  42% (6/14)Writing objects:  50% (7/14)Writing objects:  57% (8/14)Writing objects:  64% (9/14)Writing objects:  71% (10/14)Writing objects:  78% (11/14)Writing objects:  85% (12/14)Writing objects:  92% (13/14)Writing objects: 100% (14/14)Writing objects: 100% (14/14), 3.99 KiB | 1021.00 KiB/s, done.
+Total 14 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[Kremote: Resolving deltas:  28% (2/7)[Kremote: Resolving deltas:  42% (3/7)[Kremote: Resolving deltas:  57% (4/7)[Kremote: Resolving deltas:  71% (5/7)[Kremote: Resolving deltas:  85% (6/7)[Kremote: Resolving deltas: 100% (7/7)[Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 14, done.[K
+To https://github.com/matthematician/vecit
+   4ca3b0f1..d20e5082  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main
