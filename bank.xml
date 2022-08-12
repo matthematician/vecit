@@ -161,7 +161,18 @@ surfaces, and use it to calculate directional derivatives in a given direction.
 
             </description>
         </outcome>
--->
+        
+        
+        <outcome>
+            <title>Differentiability</title>
+            <slug>DG</slug>
+            <path>outcomes/DG</path>
+            <description>
+                Prove or disprove that a continuous function is differentiable.
+
+            </description>
+        </outcome>
+
         
         <outcome>
             <title>The "Tape-Measure" Method</title>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+    <intro>
+        <p>
+            Consider the functions <me>f(x,y)=\frac{ {{num1}} }{ {{denom1}} }, g(x,y)=\frac{ {{num2}} }{ {{denom2}} }.</me>
+            Determine whether each function is differentiable at the origin and prove it.
+        </p>
+    </intro>
+    
+    {{#firstdiff}}
+    <outtro>
+            
+                <p>
+                <m>f(x,y)=\frac{ {{num1}} }{ {{denom1}} }</m> is differentiable. </p>
+                
+                <p>
+                    <em>Hint</em>  show that <m>h_f(0,0)=f_x(0,0)x+f_y(0,0)y=0.</m>
+                </p>
+                
+                <p>
+                    Then  show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num1}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} + \frac{ {{t12}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ x^{ {{n1}} } \sqrt{x^2}} + \frac{ {{t12}} }{ y^{ {{n1}} } \sqrt{y^2}}.</me>
+                </p>
+              
+        
+        
+            
+                <p>
+                <m>g(x,y)=\frac{ {{num2}} }{ {{denom2}} }</m> is <em>not</em> differentiable. </p>
+                
+                <p>
+                    <em>Hint</em>  show that <m>h_g(0,0)=g_x(0,0)x+g_y(0,0)y=0.</m>
+                </p>
+                
+                <p>
+                    Then  consider <me> \lim_{(x,y)\to (0,0)} \frac{ {{num2}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}}</me> along the lines <m>x=0, y=0, y=x.</m>
+                </p>
+            
+    
+    
+    </outtro>    
+    {{/firstdiff}}
+        
+        
+    {{#seconddiff}}
+    <outtro>
+            
+                
+              
+        
+            
+                <p>
+                <m>f(x,y)=\frac{ {{num1}} }{ {{denom1}} }</m> is <em>not</em> differentiable. </p>
+                
+                <p>
+                    <em>Hint</em>  show that <m>h_f(0,0)=f_x(0,0)x+f_y(0,0)y=0.</m>
+                </p>
+                
+                <p>
+                    Then  consider <me> \lim_{(x,y)\to (0,0)} \frac{ {{num1}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}}</me> along the lines <m>x=0, y=0, y=x.</m>
+                </p>
+        
+        
+                <p>
+                <m>g(x,y)=\frac{ {{num2}} }{ {{denom2}} }</m> is differentiable. </p>
+                
+                <p>
+                    <em>Hint</em>  show that <m>g_f(0,0)=g_x(0,0)x+f_y(0,0)y=0.</m>
+                </p>
+                
+                <p>
+                    Then  show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num2}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} + \frac{ {{t22}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ x^{ {{n2}} } \sqrt{x^2}} + \frac{ {{t22}} }{ y^{ {{n2}} } \sqrt{y^2}}.</me>
+                </p>
+            
+    
+    
+    </outtro>    
+    {{/seconddiff}}    
+    
+    </knowl>    
+    
+    
+</knowl>    
