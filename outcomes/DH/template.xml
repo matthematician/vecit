@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+    <intro>
+        <p>
+            Consider the function <me>f(x,y)=\begin{cases} {{f}}, &amp; (x,y)\neq (x,0) \\ 0 &amp; (0,0)\end{cases}.</me>
+            
+        </p>
+    </intro>
+       
+        
+        <knowl>
+            <content>
+                <p>
+                    Use the limit definition of the derivative to show that <m>f_x(0,0), f_y(0,0)=0</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <em>Hint:</em> Note that <m>\displaystyle f_x(0,0)=\lim_{h\to 0} \frac{f(h,0)-f(0,0)}{h}</m> and <m>\displaystyle f_y(0,0)=\lim_{h\to 0} \frac{f(0,h)-f(0,0)}{h}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Compute <m>f_x(x,y), f_y(x,y)</m> for <m>(x,y)\neq (0,0)</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>f_x(x,y)={{fx}}</m>, <m>f_y(x,y)={{fy}}</m>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Use the limit definition of the derivative to compute <m>f_{xy}(0,0)</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <me>\displaystyle f_{xy}(0,0) = \lim_{h\to 0} \frac{f_x(0,h)-f_x(0,0)}{h}=\lim_{h\to 0} \frac{ {{fxh}}-0}{h}= {{a}}</me>.
+                </p>
+            </outtro>
+        </knowl>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Use the limit definition of the derivative to compute <m>f_{yx}(0,0)</m>.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <me>\displaystyle f_{yx}(0,0) = \lim_{h\to 0} \frac{f_y(h,0)-f_y(0,0)}{h}=\lim_{h\to 0} \frac{ {{fyh}}-0}{h}= {{b}}</me>.
+                </p>
+            </outtro>
+        </knowl>
+    
+      
+    
+      </knowl>  
+    
+    
+</knowl>    

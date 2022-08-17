@@ -3895,4 +3895,65 @@ remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[K
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 14, done.[K
 To https://github.com/matthematician/vecit
    4ca3b0f1..d20e5082  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problem"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problem"
+[main 663f1fbd] New Problem
+ 8 files changed, 55 insertions(+), 14 deletions(-)
+ create mode 100644 assets/DG/generated/seeds.json
+ create mode 100644 docs/assets/DG/generated/preview.json
+ create mode 100644 docs/assets/DG/generated/seeds.json
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "New Problem"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienChih
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/matthematician/vecit/'
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienXhih    Chih
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 22, done.
+Counting objects:   4% (1/22)Counting objects:   9% (2/22)Counting objects:  13% (3/22)Counting objects:  18% (4/22)Counting objects:  22% (5/22)Counting objects:  27% (6/22)Counting objects:  31% (7/22)Counting objects:  36% (8/22)Counting objects:  40% (9/22)Counting objects:  45% (10/22)Counting objects:  50% (11/22)Counting objects:  54% (12/22)Counting objects:  59% (13/22)Counting objects:  63% (14/22)Counting objects:  68% (15/22)Counting objects:  72% (16/22)Counting objects:  77% (17/22)Counting objects:  81% (18/22)Counting objects:  86% (19/22)Counting objects:  90% (20/22)Counting objects:  95% (21/22)Counting objects: 100% (22/22)Counting objects: 100% (22/22), done.
+Delta compression using up to 4 threads
+Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
+Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  33% (4/12)Writing objects:  50% (6/12)Writing objects:  58% (7/12)Writing objects:  66% (8/12)Writing objects:  75% (9/12)Writing objects:  83% (10/12)Writing objects:  91% (11/12)Writing objects: 100% (12/12)Writing objects: 100% (12/12), 85.00 KiB | 176.00 KiB/s, done.
+Total 12 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 7 local objects.[K
+To https://github.com/matthematician/vecit
+   d20e5082..663f1fbd  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ 

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+   <content>
+       <p>
+           A {{weight}} pound weight is suspended in equilibrium by two ropes.  The weight is at the point <m>P=({{u1}}, {{u2}}, {{u3}})</m>.  The ropes are anchored at points <m>Q=({{v1}}, {{v2}}, {{v3}})</m> and <m>R=({{w1}}, {{w2}}, {{w3}})</m>.  Give vectors <m>\mathbf{F}_1, \mathbf{F}_2</m> that describe the forces along the ropes.
+       </p>
+    </content>
+    <outtro>
+        <p>
+           We have displacement vectors <m>\vec{PQ}=\langle {{dis11}}, {{dis12}}, {{dis13}}\rangle</m> and <m>\vec{PR}=\langle {{dis21}}, {{dis22}}, {{dis23}}\rangle</m>.
+        </p>    
+            
+        <p>
+            To achieve equilibrium, we have force vectors <m>\mathbf{F}_1 = \langle {{vec11}}, {{vec12}}, {{vec13}}\rangle</m>, <m>\mathbf{F}_2 = \langle {{vec21}}, {{vec22}}, {{vec23}}\rangle</m>.
+        </p>
+    </outtro>
+    
+</knowl>

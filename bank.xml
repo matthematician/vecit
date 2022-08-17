@@ -63,6 +63,15 @@
                 Use derivatives to determine, and distinguish among, a parameterized curve’s tangent, speed, velocity, and acceleration.
             </description>
         </outcome>
+        
+        <outcome>
+            <title>Equilibrium</title>
+            <slug>NC</slug>
+            <path>outcomes/NC</path>
+            <description>
+                Solve vector equations to find the equilibrium state of a system.
+            </description>
+        </outcome>
 
         
             
@@ -169,6 +178,16 @@ surfaces, and use it to calculate directional derivatives in a given direction.
             <path>outcomes/DG</path>
             <description>
                 Prove or disprove that a continuous function is differentiable.
+
+            </description>
+        </outcome>
+        
+        <outcome>
+            <title>Mixed Partials</title>
+            <slug>DH</slug>
+            <path>outcomes/DH</path>
+            <description>
+                Identify when a function's mixed partial derivatives are not equal.
 
             </description>
         </outcome>
