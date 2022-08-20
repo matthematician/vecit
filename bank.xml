@@ -72,6 +72,15 @@
                 Solve vector equations to find the equilibrium state of a system.
             </description>
         </outcome>
+        
+        <outcome>
+            <title>Intersections</title>
+            <slug>ND</slug>
+            <path>outcomes/ND</path>
+            <description>
+                Find the intersection of lines and planes.
+            </description>
+        </outcome>
 
         
             

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <!--<intro>
+        <p>
+            Consider lines <m>\mathcal{L}_1={{Lu}}, \mathcal{L}_2 = {{Lv}}</m>.
+        </p>
+    </intro>    -->
+            
+                <!-- <knowl>
+                    <content>
+                        <p>
+                            Letting <m>P_0=A={{A}}</m>, find <m>\vec{P_0B}, \vec{P_0C}</m>. 
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\vec{P_0B}={{AB}}, \vec{P_0C}={{AC}}</m>. 
+                        </p>
+                    </outtro>
+                </knowl> -->
+    
+                <knowl>
+                    <content>
+                        <p>
+                            Consider lines <m>\mathcal{L}_1={{Lu}}, \mathcal{L}_2 = {{Lv}}</m>.  Find their point of intersection, if they don't intersect, state so.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            <m>\mathcal{L}_1</m> passes through <m>{{P}}</m> when <m>t={{tu}}</m>.  <m>\mathcal{L}_2</m> passes through <m>{{P}}</m> when <m>t={{tv}}</m>.  The point of intersection is <m>{{P}}</m>.
+                        </p>
+                    </outtro>
+                </knowl>
+    
+                <knowl>
+                    <content>
+                        <p>
+                            Find the plane orthogonal to <m>{{planeV}} = {{k0}} </m> containing <m>\mathcal{L}_1={{Lu}}, \mathcal{L}_2</m>.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            This plane is <m>{{planecross}} = {{k1}} </m>.
+                        </p>
+                    </outtro>
+                </knowl>
+    
+                <knowl>
+                    <content>
+                        <p>
+                            Parameterize the line that is the intersection of <m>{{planeU}} = {{ku}} </m> and <m>{{planeV}} = {{kv}} </m>.
+                        </p>
+                    </content>
+                    <outtro>
+                        <p>
+                            This line is <m>{{Lcross}} </m>.
+                        </p>
+                    </outtro>
+                </knowl>
+                
+                
+   
+    
+</knowl>
