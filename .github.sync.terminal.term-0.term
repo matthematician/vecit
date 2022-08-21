@@ -4060,4 +4060,118 @@ Total 3 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/matthematician/vecit
    8311704b..e2713e18  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ 
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problems"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problems"[1P"
+[main 28ce57ce] New Problem
+ 12 files changed, 251 insertions(+), 16 deletions(-)
+ create mode 100644 assets/ND/generated/preview.json
+ create mode 100644 assets/ND/generated/seeds.json
+ create mode 100644 docs/assets/ND/generated/preview.json
+ create mode 100644 docs/assets/ND/generated/seeds.json
+ create mode 100644 outcomes/ND/generator.sage
+ create mode 100644 outcomes/ND/template.xml
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "New Problem"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienChih
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 28, done.
+Counting objects:   3% (1/28)Counting objects:   7% (2/28)Counting objects:  10% (3/28)Counting objects:  14% (4/28)Counting objects:  17% (5/28)Counting objects:  21% (6/28)Counting objects:  25% (7/28)Counting objects:  28% (8/28)Counting objects:  32% (9/28)Counting objects:  35% (10/28)Counting objects:  39% (11/28)Counting objects:  42% (12/28)Counting objects:  46% (13/28)Counting objects:  50% (14/28)Counting objects:  53% (15/28)Counting objects:  57% (16/28)Counting objects:  60% (17/28)Counting objects:  64% (18/28)Counting objects:  67% (19/28)Counting objects:  71% (20/28)Counting objects:  75% (21/28)Counting objects:  78% (22/28)Counting objects:  82% (23/28)Counting objects:  85% (24/28)Counting objects:  89% (25/28)Counting objects:  92% (26/28)Counting objects:  96% (27/28)Counting objects: 100% (28/28)Counting objects: 100% (28/28), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/17)Compressing objects:  11% (2/17)Compressing objects:  17% (3/17)Compressing objects:  23% (4/17)Compressing objects:  29% (5/17)Compressing objects:  35% (6/17)Compressing objects:  41% (7/17)Compressing objects:  47% (8/17)Compressing objects:  52% (9/17)Compressing objects:  58% (10/17)Compressing objects:  64% (11/17)Compressing objects:  70% (12/17)Compressing objects:  76% (13/17)Compressing objects:  82% (14/17)Compressing objects:  88% (15/17)Compressing objects:  94% (16/17)Compressing objects: 100% (17/17)Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18)Writing objects:  66% (12/18)Writing objects:  72% (13/18)Writing objects:  77% (14/18)Writing objects:  83% (15/18)Writing objects:  88% (16/18)Writing objects:  94% (17/18)Writing objects: 100% (18/18)Writing objects: 100% (18/18), 172.37 KiB | 409.00 KiB/s, done.
+Total 18 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)[Kremote: Resolving deltas:  10% (1/10)[Kremote: Resolving deltas:  20% (2/10)[Kremote: Resolving deltas:  30% (3/10)[Kremote: Resolving deltas:  40% (4/10)[Kremote: Resolving deltas:  50% (5/10)[Kremote: Resolving deltas:  60% (6/10)[Kremote: Resolving deltas:  70% (7/10)[Kremote: Resolving deltas:  80% (8/10)[Kremote: Resolving deltas:  90% (9/10)[Kremote: Resolving deltas: 100% (10/10)[Kremote: Resolving deltas: 100% (10/10), completed with 9 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 18, done.[K
+To https://github.com/matthematician/vecit
+   e2713e18..28ce57ce  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: checkit-dashboard in /home/user/.local/lib/python3.8/site-packages (0.2.0)
+Collecting checkit-dashboard
+  Downloading checkit_dashboard-0.2.3-py3-none-any.whl (1.1 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;204m━━━━━━━━━━━━━━━[0m[38;5;204m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/1.1 MB[0m [31m13.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;107m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m22.7 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: ipywidgets in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (7.7.1)
+Requirement already satisfied: latex2mathml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (3.0.0)
+Requirement already satisfied: pystache in /usr/lib/python3/dist-packages (from checkit-dashboard) (0.5.4)
+Requirement already satisfied: click in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (8.1.3)
+Requirement already satisfied: lxml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (4.9.1)
+Requirement already satisfied: traitlets>=4.3.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (5.1.1)
+Requirement already satisfied: jupyterlab-widgets>=1.0.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (1.0.0)
+Requirement already satisfied: ipykernel>=4.5.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (6.15.1)
+Requirement already satisfied: ipython-genutils~=0.2.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (0.2.0)
+Requirement already satisfied: ipython>=4.0.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (7.34.0)
+Requirement already satisfied: widgetsnbextension~=3.6.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (3.6.0)
+Requirement already satisfied: tornado>=6.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (6.1)
+Requirement already satisfied: debugpy>=1.0 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.3.0)
+Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.5.5)
+Requirement already satisfied: jupyter-client>=6.1.12 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (7.3.4)
+Requirement already satisfied: psutil in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (5.8.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (21.3)
+Requirement already satisfied: pyzmq>=17 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (23.1.0)
+Requirement already satisfied: matplotlib-inline>=0.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.1.2)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.7.5)
+Requirement already satisfied: jedi>=0.16 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.17.2)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (3.0.5)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (63.4.2)
+Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (4.8.0)
+Requirement already satisfied: pygments in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (2.12.0)
+Requirement already satisfied: decorator in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (4.4.2)
+Requirement already satisfied: backcall in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.2.0)
+Requirement already satisfied: notebook>=4.4.1 in /usr/local/lib/python3.8/dist-packages (from widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (6.4.12)
+Requirement already satisfied: parso<0.8.0,>=0.7.0 in /usr/local/lib/python3.8/dist-packages (from jedi>=0.16->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.7.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.8.2)
+Requirement already satisfied: jupyter-core>=4.9.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (4.10.0)
+Requirement already satisfied: entrypoints in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.3)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.1.2)
+Requirement already satisfied: prometheus-client in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.8.0)
+Requirement already satisfied: nbconvert>=5 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (6.5.0)
+Requirement already satisfied: Send2Trash>=1.8.0 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.8.0)
+Requirement already satisfied: nbformat in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (5.4.0)
+Requirement already satisfied: argon2-cffi in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (20.1.0)
+Requirement already satisfied: terminado>=0.8.3 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.8.3)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.8/dist-packages (from pexpect>4.3->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.6.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.8/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.2.5)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.8/dist-packages (from packaging->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.4.7)
+Requirement already satisfied: tinycss2 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.0.2)
+Requirement already satisfied: mistune<2,>=0.8.1 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.8.4)
+Requirement already satisfied: defusedxml in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.6.0)
+Requirement already satisfied: bleach in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.1.5)
+Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (4.8.0)
+Requirement already satisfied: nbclient>=0.5.0 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.5.0)
+Requirement already satisfied: jupyterlab-pygments in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.1.1)
+Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.1.1)
+Requirement already satisfied: pandocfilters>=1.4.1 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.4.2)
+Requirement already satisfied: fastjsonschema in /usr/local/lib/python3.8/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.14.4)
+Requirement already satisfied: jsonschema>=2.6 in /usr/local/lib/python3.8/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.2.0)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.15.0)
+Requirement already satisfied: cffi>=1.0.0 in /usr/local/lib/python3.8/dist-packages (from argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.14.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.8/dist-packages (from cffi>=1.0.0->argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.20)
+Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.8/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (21.4.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in /usr/local/lib/python3.8/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.16.0)
+Requirement already satisfied: async-generator in /usr/local/lib/python3.8/dist-packages (from nbclient>=0.5.0->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.10)
+Requirement already satisfied: soupsieve>=1.2 in /usr/lib/python3/dist-packages (from beautifulsoup4->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.9.5)
+Requirement already satisfied: webencodings in /usr/local/lib/python3.8/dist-packages (from bleach->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.5.1)
+Installing collected packages: checkit-dashboard
+  Attempting uninstall: checkit-dashboard
+    Found existing installation: checkit-dashboard 0.2.0
+    Uninstalling checkit-dashboard-0.2.0:
+      Successfully uninstalled checkit-dashboard-0.2.0
+Successfully installed checkit-dashboard-0.2.3
+]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpip install --upgrade checkit-dashboard

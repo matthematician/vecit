@@ -35,7 +35,7 @@
                 <knowl>
                     <content>
                         <p>
-                            Find the plane orthogonal to <m>{{planeV}} = {{k0}} </m> containing <m>\mathcal{L}_1={{Lu}}, \mathcal{L}_2</m>.
+                            Find the plane orthogonal to <m>{{planeV}} = {{k0}} </m> containing <m>\mathcal{L}_1={{Lu}}</m>.
                         </p>
                     </content>
                     <outtro>
