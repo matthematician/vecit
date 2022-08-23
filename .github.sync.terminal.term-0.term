@@ -4174,4 +4174,45 @@ Installing collected packages: checkit-dashboard
     Uninstalling checkit-dashboard-0.2.0:
       Successfully uninstalled checkit-dashboard-0.2.0
 Successfully installed checkit-dashboard-0.2.3
-]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpip install --upgrade checkit-dashboard
+]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problem"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "New Problem"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"C"h"e"c"k"I"t" "U"p"d"a"t"e" "a"n"d" "n"e"w"[1P"[1P"[1P"T"y"p"o" "f"i"x"
+[main d3342c49] CheckIt Update and Typo fix
+ 14 files changed, 168 insertions(+), 237 deletions(-)
+ rename .dashboard.ipynb.sage-jupyter2 => .dashboard-1.ipynb.sage-jupyter2 (58%)
+ rewrite assets/ND/generated/preview.json (100%)
+ delete mode 100644 dashboard.ipynb
+ rewrite docs/assets/ND/generated/preview.json (100%)
+ rename docs/assets/{index.fa8d6099.js => index.12c421f5.js} (61%)
+ rename docs/assets/{index.186cb8e5.css => index.616cf5cd.css} (98%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "CheckIt Update and Typo fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pgit push origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienChih
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 1Enumerating objects: 35, done.
+Counting objects:   2% (1/35)Counting objects:   5% (2/35)Counting objects:   8% (3/35)Counting objects:  11% (4/35)Counting objects:  14% (5/35)Counting objects:  17% (6/35)Counting objects:  20% (7/35)Counting objects:  22% (8/35)Counting objects:  25% (9/35)Counting objects:  28% (10/35)Counting objects:  31% (11/35)Counting objects:  34% (12/35)Counting objects:  37% (13/35)Counting objects:  40% (14/35)Counting objects:  42% (15/35)Counting objects:  45% (16/35)Counting objects:  48% (17/35)Counting objects:  51% (18/35)Counting objects:  54% (19/35)Counting objects:  57% (20/35)Counting objects:  60% (21/35)Counting objects:  62% (22/35)Counting objects:  65% (23/35)Counting objects:  68% (24/35)Counting objects:  71% (25/35)Counting objects:  74% (26/35)Counting objects:  77% (27/35)Counting objects:  80% (28/35)Counting objects:  82% (29/35)Counting objects:  85% (30/35)Counting objects:  88% (31/35)Counting objects:  91% (32/35)Counting objects:  94% (33/35)Counting objects:  97% (34/35)Counting objects: 100% (35/35)Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/18)Compressing objects:  11% (2/18)Compressing objects:  16% (3/18)Compressing objects:  22% (4/18)Compressing objects:  27% (5/18)Compressing objects:  33% (6/18)Compressing objects:  38% (7/18)Compressing objects:  44% (8/18)Compressing objects:  50% (9/18)Compressing objects:  55% (10/18)Compressing objects:  61% (11/18)Compressing objects:  66% (12/18)Compressing objects:  72% (13/18)Compressing objects:  77% (14/18)Compressing objects:  83% (15/18)Compressing objects:  88% (16/18)Compressing objects:  94% (17/18)Compressing objects: 100% (18/18)Compressing objects: 100% (18/18), done.
+Writing objects:   5% (1/19)Writing objects:  10% (2/19)Writing objects:  15% (3/19)Writing objects:  21% (4/19)Writing objects:  31% (6/19)Writing objects:  36% (7/19)Writing objects:  42% (8/19)Writing objects:  47% (9/19)Writing objects:  52% (10/19)Writing objects:  57% (11/19)Writing objects:  63% (12/19)Writing objects:  68% (13/19)Writing objects:  73% (14/19)Writing objects:  78% (15/19)Writing objects:  84% (16/19)Writing objects:  89% (17/19)Writing objects:  94% (18/19)Writing objects: 100% (19/19)Writing objects: 100% (19/19), 200.13 KiB | 6.25 MiB/s, done.
+Total 19 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 19, done.[K
+To https://github.com/matthematician/vecit
+   28ce57ce..d3342c49  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ 

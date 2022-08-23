@@ -10,7 +10,7 @@ class Generator(BaseGenerator):
         
         #Not Differentiable
         
-        n = randint(2,10)
+        n = randint(1,6)*2
         denom = x^n + y^n
         
         coeff=[-5,-4,-3,-2,-1,0,1,2,3,4,5]
