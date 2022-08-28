@@ -45,7 +45,7 @@
                         </p>
                     </outtro>
                 </knowl>
-                <knowl>
+              <!--  <knowl>
                     <content>
                         <p>Suppose <m>\mathbf{z}= \langle {{z_1}}, {{z_2}}, {{z_3}} \rangle</m>. Find a value of <m>{{var}}</m> for which the {{geom}} is equal to <m>{{geomval}}</m>, or explain why such a value does not exist.
                         </p>
@@ -53,7 +53,7 @@
                     <outtro>
                         <p>The required value of <m>{{var}}</m> is <m>{{varval}}</m>.</p>
                     </outtro>
-                </knowl>
+                </knowl>-->
    
         <!--<p>
             <image
