@@ -74,49 +74,51 @@ class Generator(BaseGenerator):
         v1=vector([0,0,0])
         
         vshift=choice([x,y,z])
-        #vshift=x
         
         surface2=choice(['triangle', 'rectangle'])
-        #surface2='rectangle'
         
         if surface2=='triangle':
             if vshift==x:
                 v2=vector([a,0,0])
                 v3=vector([a,b,c])
-                r(s,t)=vector([s,t,Rational(c)/b*t])
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=Rational(b)/a*s
+                surface2eqn=c*y-b*z
+                X1=x
+                X1min=0
+                X1max=a
+                X2=y
+                X2min=0
+                X2max=Rational(b)/a*x
+                f(x,y)=(x,y,Rational(c)/b*y)
                 V=[v1, v2, v3]
+                normvec(X1, X2)=vector([0,c,-b])
                 k2=0
             if vshift==y:
                 v2=vector([0,a,0])
                 v3=vector([c,a,b])
-                r(s,t)=vector([Rational(c)/b*t,s,t,])
-                
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=Rational(b)/a*s
+                surface2eqn=b*x-c*z
+                X1=y
+                X1min=0
+                X1max=a
+                X2=z
+                X2min=0
+                X2max=Rational(b)/a*y
+                f(y,z)=(Rational(c)/b*z,y,z)
                 V=[v1, v2, v3]
+                normvec(X1, X2)=vector([b,0,-c])
                 k2=0
             if vshift==z:
                 v2=vector([0,0,a])
                 v3=vector([b,c,a])
-                r(s,t)=vector([t, Rational(c)/b*t,s,])
-                
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=Rational(b)/a*s
-                V=[v1, v2, v3]
+                surface2eqn=c*x-b*y
+                X1=z
+                X1min=0
+                X1max=a
+                X2=x
+                X2min=0
+                X2max=Rational(b)/a*z
+                f(z,x)=(x,Rational(c)/b*x,z)
+                V=[v1, v2, v3]   
+                normvec(X1, X2)=vector([c,-b,0])
                 k2=0
         
         if surface2=='rectangle':
@@ -124,48 +126,48 @@ class Generator(BaseGenerator):
                 v2=vector([a,0,0])
                 v3=vector([a,b,c])
                 v4=vector([0,b,c])
-   
-                r(s,t)=vector([s,t,Rational(c)/b*t])
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=b
+                surface2eqn=c*y-b*z
+                X1=x
+                X1min=0
+                X1max=a
+                X2=y
+                X2min=0
+                X2max=b
+                f(x,y)=(x,y,Rational(c)/b*y)
                 V=[v1, v2, v3, v4]
+                normvec(X1, X2)=vector([0,c,-b])
                 k2=0
             if vshift==y:
                 v2=vector([0,a,0])
                 v3=vector([c,a,b])
                 v4=vector([c,0,b])
-                r(s,t)=vector([Rational(c)/b*t, s, t])
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=b
+                surface2eqn=b*x-c*z
+                X1=y
+                X1min=0
+                X1max=a
+                X2=z
+                X2min=0
+                X2max=b
+                f(y,z)=(Rational(c)/b*z,y,z)
                 V=[v1, v2, v3, v4]
+                normvec(X1, X2)=vector([b,0,-c])
                 k2=0
             if vshift==z:
                 v2=vector([0,0,a])
                 v3=vector([b,c,a])
                 v4=vector([b,c,0])
-                r(s,t)=vector([t, Rational(c)/b*t, s])
-                
-                smin=0
-                smax=a
-                
-                tmin=0
-                tmax=b
-                V=[v1, v2, v3, v4]
+                surface2eqn=c*x-b*y
+                X1=z
+                X1min=0
+                X1max=a
+                X2=x
+                X2min=0
+                X2max=b
+                f(z,x)=(x,Rational(c)/b*x,z)
+                V=[v1, v2, v3, v4]   
+                normvec(X1, X2)=vector([c,-b,0])
                 k2=0
-                
-                
-        rs(s,t) = r(s,t).derivative(s)
-        rt(s,t) = r(s,t).derivative(t)                
-        normvec(s,t) = rs(s,t).cross_product(rt(s,t))
-                
+        
         F20(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
         F21(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
         F22(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
@@ -173,7 +175,7 @@ class Generator(BaseGenerator):
         F2(x,y,z)=vector([F20(x,y,z), F21(x,y,z), F22(x,y,z)])
         
         curlF2(x,y,z)=vector([F22(x,y,z).derivative(y)-F21(x,y,z).derivative(z) , -(F22(x,y,z).derivative(x)-F20(x,y,z).derivative(z)) , F21(x,y,z).derivative(x)-F20(x,y,z).derivative(y) ])
-        curlF2flat(s,t)=curlF2( r(s,t)[0] , r(s,t)[1] , r(s,t)[2])
+        curlF2flat(X1, X2)=curlF2( f(X1,X2)[0] , f(X1,X2)[1] , f(X1,X2)[2])
         
         #curlF20(x,y,z) = curlF2(x,y,z)[0]
         #curlF21(x,y,z) = curlF2(x,y,z)[1]
@@ -182,8 +184,8 @@ class Generator(BaseGenerator):
         #curlF2flat(X1, X2)=vector([ curlF20( f(X1, X2)[0] , f(X1, X2)[1] , f(X1, X2)[2] ), curlF21( f(X1, X2)[0] , f(X1, X2)[1] , f(X1, X2)[2] ) , curlF22( f(X1, X2)[0] , f(X1, X2)[1] , f(X1, X2)[2] ) ])
         
         
-        integrand2=normvec(s,t).dot_product( curlF2flat(s,t) )
-        integ2 = definite_integral( definite_integral( integrand2, t, tmin, tmax ), s, smin, smax )
+        integrand2=normvec(X1,X2).dot_product( curlF2flat(X1,X2) )
+        integ2 = definite_integral( definite_integral( integrand2, X2, X2min, X2max ), X1, X1min, X1max )
         
         
         
@@ -205,19 +207,21 @@ class Generator(BaseGenerator):
             #
             "F2": F2(x,y,z),
             "curlF2": curlF2(x,y,z),
-            "curlF2flat": curlF2flat(s, t),
-            "normvec": normvec(s,t),
+            "curlF2flat": curlF2flat(X1, X2),
+            "normvec": normvec(X1,X2),
             "V": V,
-            "rst": r(s,t),
+            "surface2eqn": surface2eqn,
             "surface2": surface2,
-            "smin": smin,
-            "smax": smax,
-            "tmin": tmin,
-            "tmax": tmax,
+            "X1": X1,
+            "X1min": X1min,
+            "X1max": X1max,
+            "X2": X2,
+            "X2min": X2min,
+            "X2max": X2max,
             "integrand2": integrand2,
             "integ2": integ2,
-            #"k2": k2,
-            #"f": f(X1, X2),
+            "k2": k2,
+            "f": f(X1, X2),
         }
     
 #    @provide_data

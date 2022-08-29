@@ -14,7 +14,7 @@
             </content>
             <outtro>
                 <p>
-                    <m>\partial S=C</m>, where <m>C</m> is parameterized by <m>\mathbf{r}(t)={{R1}}</m>.
+                    <m>\partial S=C</m>, where <m>C</m> is parameterized by <m>\mathbf{r}={{R1}}</m>.
                 </p>
                 
             </outtro>
@@ -32,8 +32,8 @@
                     Note that <m>\mathbf{F}(t)={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
                 </p>
                 <p>
-                    <m> \displaystyle \iint\limits_{S} (\nabla\times \mathbf{F})\cdot
-dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand1}}\ dt={{integ1}}</m>.
+                    <m> \displaystyle \iint\limits_{D} (\nabla\times \mathbf{F})\cdot
+(\mathbf{r}_s\times\mathbf{r}_t) =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand1}}\ dt={{integ1}}</m>.
                 </p>
                 
             </outtro>
@@ -54,12 +54,12 @@ dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}
         <knowl>
             <content>
                 <p>
-                    Describe and parameterize the surface <m>S</m> bounded by <m>C</m>.
+                    Describe the surface <m>S</m> bounded by <m>C</m>.
                 </p>
             </content>
             <outtro>
                 <p>
-                    <m>S</m> is a {{surface2}} parameterized by <m>\mathbf{r}={{rst}}, {{smin}}\leq s \leq {{smax}}, {{tmin}}\leq t\leq {{tmax}}</m>.
+                    <m>S</m> is a {{surface2}} defined by <m>{{surface2eqn}}={{k2}}, {{X1min}}\leq {{X1}}\leq {{X1max}}, {{X2min}}\leq {{X2}}\leq {{X2max}}</m>
                 </p>
                 
             </outtro>
@@ -74,11 +74,11 @@ dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}
             </content>
             <outtro>
                 <p>
-                    Note that the normal vector is given by <m>\mathbf{r}_s\times\mathbf{r}_t = {{normvec}}dsdt</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}(\mathbf{r}(s, t))={{curlF2flat}}</m>.  
+                    Note that the vector normal to <m>S</m> is <m>{{normvec}}</m>.  Also note that the surface <m>S</m> can be parameterized by <m>{{f}}</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}({{X1}}, {{X2}})={{curlF2flat}}</m>.  
                 </p>
                 <p>
-                    <m> \displaystyle \oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \iint\limits_{D} (\nabla\times \mathbf{F}(\mathbf{r}(s, t)))\cdot
-(\mathbf{r}_s\times\mathbf{r}_t) = \int_{ s = {{smin}} }^{ s = {{smax}} } \int_{ t = {{tmin}} }^{ t = {{tmax}} } {{integrand2}}\ dt\ ds={{integ2}}</m>.
+                    <m> \displaystyle \oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \iint\limits_{D} (\nabla\times \mathbf{F})\cdot
+(\mathbf{r}_s\times\mathbf{r}_t) \int_{ {{X1}} = {{X1min}} }^{ {{X1}} = {{X1max}} } \int_{ {{X2}} = {{X1min}} }^{ {{X2}} = {{X2max}} } {{integrand2}}\ d{{X2}}\ d{{X1}}={{integ2}}</m>.
                 </p>
                 
             </outtro>
