@@ -4291,4 +4291,94 @@ remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 16, done.[K
 To https://github.com/matthematician/vecit
    8d447d7d..58eec80b  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ 
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Remove Task"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Remove Task"
+[main ea2c171c] Remove Task
+ 8 files changed, 452 insertions(+), 86 deletions(-)
+ rewrite assets/VF/generated/preview.json (100%)
+ create mode 100644 outcomes/VF2/generator.sage
+ create mode 100644 outcomes/VF2/template.xml
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "Remove Task"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Username for 'https://github.com': TienChih'
+application-specific initialization failed: couldn't connect to display ":0"
+Error in startup script: couldn't connect to display ":0"
+    while executing
+"load /usr/lib/x86_64-linux-gnu/libtk8.6.so Tk"
+    ("package ifneeded Tk 8.6.10" script)
+    invoked from within
+"package require Tk"
+    (file "/usr/lib/git-core/git-gui--askpass" line 8)
+error: unable to read askpass response from 'git-gui--askpass'
+Password for 'https://TienChih'@github.com': 
+Enumerating objects: 25, done.
+Counting objects:   4% (1/25)Counting objects:   8% (2/25)Counting objects:  12% (3/25)Counting objects:  16% (4/25)Counting objects:  20% (5/25)Counting objects:  24% (6/25)Counting objects:  28% (7/25)Counting objects:  32% (8/25)Counting objects:  36% (9/25)Counting objects:  40% (10/25)Counting objects:  44% (11/25)Counting objects:  48% (12/25)Counting objects:  52% (13/25)Counting objects:  56% (14/25)Counting objects:  60% (15/25)Counting objects:  64% (16/25)Counting objects:  68% (17/25)Counting objects:  72% (18/25)Counting objects:  76% (19/25)Counting objects:  80% (20/25)Counting objects:  84% (21/25)Counting objects:  88% (22/25)Counting objects:  92% (23/25)Counting objects:  96% (24/25)Counting objects: 100% (25/25)Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  38% (5/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 3.94 KiB | 3.94 MiB/s, done.
+Total 13 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  66% (6/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 9 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 13, done.[K
+To https://github.com/matthematician/vecit
+   58eec80b..ea2c171c  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "Remove Task"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+error: file write error: Disk quota exceeded
+fatal: unable to write loose object file
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -A[K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: checkit-dashboard in /usr/local/lib/python3.8/dist-packages (0.2.3)
+[33mWARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fb0071beb50>, 'Connection to pypi.org timed out. (connect timeout=15)')': /simple/checkit-dashboard/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fb0071be670>, 'Connection to pypi.org timed out. (connect timeout=15)')': /simple/checkit-dashboard/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fb0071be6a0>, 'Connection to pypi.org timed out. (connect timeout=15)')': /simple/checkit-dashboard/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fb0071be520>, 'Connection to pypi.org timed out. (connect timeout=15)')': /simple/checkit-dashboard/[0m[33m
+[0m[33mWARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7fb0071be490>, 'Connection to pypi.org timed out. (connect timeout=15)')': /simple/checkit-dashboard/[0m[33m
+[0mRequirement already satisfied: click in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (8.1.3)
+Requirement already satisfied: pystache in /usr/lib/python3/dist-packages (from checkit-dashboard) (0.5.4)
+Requirement already satisfied: ipywidgets in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (8.0.2)
+Requirement already satisfied: lxml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (4.9.1)
+Requirement already satisfied: latex2mathml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (3.0.0)
+Requirement already satisfied: ipykernel>=4.5.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (6.15.2)
+Requirement already satisfied: ipython>=6.1.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (7.34.0)
+Requirement already satisfied: jupyterlab-widgets~=3.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (3.0.3)
+Requirement already satisfied: widgetsnbextension~=4.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (4.0.3)
+Requirement already satisfied: traitlets>=4.3.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (5.1.1)
+Requirement already satisfied: jupyter-client>=6.1.12 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (7.3.4)
+Requirement already satisfied: tornado>=6.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (6.1)
+Requirement already satisfied: matplotlib-inline>=0.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.1.2)
+Requirement already satisfied: pyzmq>=17 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (23.1.0)
+Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.5.5)
+Requirement already satisfied: psutil in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (5.8.0)
+Requirement already satisfied: debugpy>=1.0 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.3.0)
+Requirement already satisfied: packaging in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (21.3)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (3.0.5)
+Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (4.8.0)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.7.5)
+Requirement already satisfied: decorator in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (4.4.2)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (59.8.0)
+Requirement already satisfied: backcall in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.2.0)
+Requirement already satisfied: jedi>=0.16 in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.17.2)
+Requirement already satisfied: pygments in /usr/local/lib/python3.8/dist-packages (from ipython>=6.1.0->ipywidgets->checkit-dashboard) (2.12.0)
+Requirement already satisfied: parso<0.8.0,>=0.7.0 in /usr/local/lib/python3.8/dist-packages (from jedi>=0.16->ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.7.1)
+Requirement already satisfied: entrypoints in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.3)
+Requirement already satisfied: jupyter-core>=4.9.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (4.10.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.8.2)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.8/dist-packages (from pexpect>4.3->ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.6.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.8/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=6.1.0->ipywidgets->checkit-dashboard) (0.2.5)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.8/dist-packages (from packaging->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.4.7)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.15.0)
+[33mWARNING: There was an error checking the latest version of pip.[0m[33m
+[0m]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ from checkit.bank import Bank
+from: can't read /var/mail/checkit.bank
+]0;~/tien-chih[01;34m~/tien-chih[00m$ b = Bank()
+bash: syntax error near unexpected token `('
+]0;~/tien-chih[01;34m~/tien-chih[00m$ b.write_json()
+> b.build_viewer()[K> b.build_viewer()[K> b.build_viewer()]0;~/tien-chih[01;34m~/tien-chih[00m$ b = Bank()from checkit.bank import Bank[C[C[C[C[C[C[C[C[C[C[C[C[Cpip install --upgrade checkit-dashboard[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K

@@ -4,7 +4,7 @@
     <knowl>
     <intro>
         <p>
-            Consider the functions <me>f(x,y)=\frac{ {{num1}} }{ {{denom1}} }, g(x,y)=\frac{ {{num2}} }{ {{denom2}} }.</me>
+            Consider the functions <me>f(x,y)=\begin{cases} \frac{ {{num1}} }{ {{denom1}} } &amp; (x,y)\neq (0,0) \\ 0 &amp; (x,y)=(0,0) \end{cases}, g(x,y)= \begin{cases} \frac{ {{num2}} }{ {{denom2}} } &amp; (x,y)\neq (0,0) \\ 0 &amp; (x,y)=(0,0)\end{cases}.</me>
             Determine whether each function is differentiable at the origin and prove it.
         </p>
     </intro>
@@ -20,7 +20,10 @@
                 </p>
                 
                 <p>
-                    Then  show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num1}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} + \frac{ {{t12}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ x^{ {{n1}} } \sqrt{x^2}} + \frac{ {{t12}} }{ y^{ {{n1}} } \sqrt{y^2}}.</me>
+                    Then  either show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num1}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} + \frac{ {{t12}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t11}} }{ x^{ {{n1}} } \sqrt{x^2}} + \frac{ {{t12}} }{ y^{ {{n1}} } \sqrt{y^2}}.</me>
+                </p>
+                <p>
+                    Or substitute <m>x=r\cos(\theta), y=r\sin(\theta)</m> and take the limit as <m>r\to 0</m>.
                 </p>
               
         
@@ -32,10 +35,12 @@
                 <p>
                     <em>Hint</em>  show that <m>h_g(0,0)=g_x(0,0)x+g_y(0,0)y=0.</m>
                 </p>
-                
+        
                 <p>
-                    Then  consider <me> \lim_{(x,y)\to (0,0)} \frac{ {{num2}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}}</me> along the lines <m>x=0, y=0, y=x.</m>
+                    Then  consider <me> \lim_{(x,y)\to (0,0)} \frac{ {{num1}} }{ \left({{denom1}}\right) \sqrt{x^2+y^2}}</me> along the lines <m>x=0, y=0, y=x.</m>
                 </p>
+                
+                
             
     
     
@@ -70,8 +75,13 @@
                 </p>
                 
                 <p>
-                    Then  show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num2}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} + \frac{ {{t22}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ x^{ {{n2}} } \sqrt{x^2}} + \frac{ {{t22}} }{ y^{ {{n2}} } \sqrt{y^2}}.</me>
+                    Then  either show that: <me> \lim_{(x,y)\to (0,0)} \frac{ {{num2}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} = \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} + \frac{ {{t22}} }{ \left({{denom2}}\right) \sqrt{x^2+y^2}} \leq \lim_{(x,y)\to (0,0)} \frac{ {{t21}} }{ x^{ {{n2}} } \sqrt{x^2}} + \frac{ {{t22}} }{ y^{ {{n2}} } \sqrt{y^2}}.</me>  
                 </p>
+        
+                <p>
+                    Or substitute <m>x=r\cos(\theta), y=r\sin(\theta)</m> and take the limit as <m>r\to 0</m>.
+                </p>
+               
             
     
     

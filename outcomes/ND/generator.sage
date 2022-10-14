@@ -49,12 +49,12 @@ class Generator(BaseGenerator):
         
         #Find the intersection of two planes
         
-        Q = vector([randint(-3,3), randint(-3,3), randint(-3,3)])
-        ku = U[0]*Q[0]+U[1]*P[1]+U[2]*P[2]
-        kv = V[0]*Q[0]+V[1]*P[1]+V[2]*P[2]
+        #Q = vector([randint(-3,3), randint(-3,3), randint(-3,3)])
+        ku = U[0]*P[0]+U[1]*P[1]+U[2]*P[2]
+        kv = V[0]*P[0]+V[1]*P[1]+V[2]*P[2]
         
         
-        Lcross=vector([cross[0]*t+Q[0], cross[1]*t+Q[0], cross[2]*t+Q[0],])
+        Lcross=vector([cross[0]*t+P[0], cross[1]*t+P[1], cross[2]*t+P[2],])
         
         
         
