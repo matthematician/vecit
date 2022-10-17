@@ -4,7 +4,7 @@
     <knowl>
     <intro>
         <p>
-            Consider the function <me>f(x,y)=\begin{cases} {{f}}, &amp; (x,y)\neq (x,0) \\ 0 &amp; (0,0)\end{cases}.</me>
+            Consider the function <me>f(x,y)=\begin{cases} {{f}}, &amp; (x,y)\neq (0,0) \\ 0 &amp; (0,0)\end{cases}.</me>
             
         </p>
     </intro>
