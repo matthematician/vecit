@@ -4381,4 +4381,4 @@ from: can't read /var/mail/checkit.bank
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ b = Bank()
 bash: syntax error near unexpected token `('
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ b.write_json()
-> b.build_viewer()[K> b.build_viewer()[K> b.build_viewer()]0;~/tien-chih[01;34m~/tien-chih[00m$ b = Bank()from checkit.bank import Bank[C[C[C[C[C[C[C[C[C[C[C[C[Cpip install --upgrade checkit-dashboard[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+> b.build_viewer()[K> b.build_viewer()[K> b.build_viewer()]0;~/tien-chih[01;34m~/tien-chih[00m$ b = Bank()from checkit.bank import Bank[C[C[C[C[C[C[C[C[C[C[C[C[Cpip install --upgrade checkit-dashboard[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;~/tien-chih[01;34m~/tien-chih[00m$ 

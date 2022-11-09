@@ -166,13 +166,13 @@ class Generator(BaseGenerator):
         rt(s,t) = r(s,t).derivative(t)                
         normvec(s,t) = rs(s,t).cross_product(rt(s,t))
                 
-        F20(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
-        F21(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
-        F22(x,y,z)=randint(1,4)*choice([-1,1])*choice(functions)
+        #F20(x,y,z)=F10(x,y,z)#randint(1,4)*choice([-1,1])*choice(functions)
+        #F21(x,y,z)=F11(x,y,z)#randint(1,4)*choice([-1,1])*choice(functions)
+        #F22(x,y,z)=F12(x,y,z)#randint(1,4)*choice([-1,1])*choice(functions)
         
-        F2(x,y,z)=vector([F20(x,y,z), F21(x,y,z), F22(x,y,z)])
+        #F2(x,y,z)=F1(x,y,z)#=vector([F20(x,y,z), F21(x,y,z), F22(x,y,z)])
         
-        curlF2(x,y,z)=vector([F22(x,y,z).derivative(y)-F21(x,y,z).derivative(z) , -(F22(x,y,z).derivative(x)-F20(x,y,z).derivative(z)) , F21(x,y,z).derivative(x)-F20(x,y,z).derivative(y) ])
+        curlF2(x,y,z)=vector([F12(x,y,z).derivative(y)-F11(x,y,z).derivative(z) , -(F12(x,y,z).derivative(x)-F10(x,y,z).derivative(z)) , F11(x,y,z).derivative(x)-F10(x,y,z).derivative(y) ])
         curlF2flat(s,t)=curlF2( r(s,t)[0] , r(s,t)[1] , r(s,t)[2])
         
         #curlF20(x,y,z) = curlF2(x,y,z)[0]
@@ -203,7 +203,7 @@ class Generator(BaseGenerator):
             "k": k,
             "surface1eqn": surface1eqn,
             #
-            "F2": F2(x,y,z),
+            "F2": F1(x,y,z),
             "curlF2": curlF2(x,y,z),
             "curlF2flat": curlF2flat(s, t),
             "normvec": normvec(s,t),

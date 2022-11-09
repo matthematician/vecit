@@ -19,8 +19,8 @@
                 description="The transformed region of integration."/>
         </p>
         <p>
-            Since <me>\frac{\partial(x,y)}{\partial(u,v)}=\left|\begin{bmatrix}{{xu}} &amp; {{xv}} \\ {{yu}} &amp; {{yv}} \end{bmatrix}\right|={{Jacob}}</me>
-            We have <me>\displaystyle \iint_D {{fxy}}\ \ dx \ dy = \int_0^{ {{c}} } \int_0^{ {{m}}u } {{Jacob}}\cdot {{fuv}}\ dv\ du={{integ}}.
+            Since <me>\frac{\partial(x,y)}{\partial(u,v)}=\text{det}\,\begin{bmatrix}{{xu}} &amp; {{xv}} \\ {{yu}} &amp; {{yv}} \end{bmatrix}={{Jacob}}</me>
+            We have <me>\displaystyle \iint_D {{fxy}}\ \ dx \ dy = \int_0^{ {{c}} } \int_0^{ {{m}}u } \left|{{Jacob}}\right|\cdot \left({{fuv}}\right)\ dv\ du={{integ}}.
             </me>
         </p>
     </outtro>

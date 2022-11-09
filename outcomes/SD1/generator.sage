@@ -64,7 +64,7 @@ class Generator(BaseGenerator):
             
             
         
-        integ = definite_integral( definite_integral( f(u,v)*Jacob, v, 0, m*u ), u, 0, c )
+        integ = definite_integral( definite_integral( f(u,v)*abs(Jacob), v, 0, m*u ), u, 0, c )
 
         return {
             "y1": y1(x),
