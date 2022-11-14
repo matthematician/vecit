@@ -4465,4 +4465,35 @@ Changes not staged for commit:
 	[31mmodified:   outcomes/SA/template.xml[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "update SDA"[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "update SDA"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SD1"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -A[Kgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SD1"[1P"A"
+[main 305d4f25] update SDA
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 73 insertions(+), 20 deletions(-)
+ rewrite assets/SA/generated/preview.json (100%)
+ rewrite docs/assets/SA/generated/preview.json (100%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "update SDA"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K[Kgit push origin HEAD:main
+Username for 'https://github.com': TienCHih   hih
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 31, done.
+Counting objects:   3% (1/31)Counting objects:   6% (2/31)Counting objects:   9% (3/31)Counting objects:  12% (4/31)Counting objects:  16% (5/31)Counting objects:  19% (6/31)Counting objects:  22% (7/31)Counting objects:  25% (8/31)Counting objects:  29% (9/31)Counting objects:  32% (10/31)Counting objects:  35% (11/31)Counting objects:  38% (12/31)Counting objects:  41% (13/31)Counting objects:  45% (14/31)Counting objects:  48% (15/31)Counting objects:  51% (16/31)Counting objects:  54% (17/31)Counting objects:  58% (18/31)Counting objects:  61% (19/31)Counting objects:  64% (20/31)Counting objects:  67% (21/31)Counting objects:  70% (22/31)Counting objects:  74% (23/31)Counting objects:  77% (24/31)Counting objects:  80% (25/31)Counting objects:  83% (26/31)Counting objects:  87% (27/31)Counting objects:  90% (28/31)Counting objects:  93% (29/31)Counting objects:  96% (30/31)Counting objects: 100% (31/31)Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects:   6% (1/15)Compressing objects:  13% (2/15)Compressing objects:  20% (3/15)Compressing objects:  26% (4/15)Compressing objects:  33% (5/15)Compressing objects:  40% (6/15)Compressing objects:  46% (7/15)Compressing objects:  53% (8/15)Compressing objects:  60% (9/15)Compressing objects:  66% (10/15)Compressing objects:  73% (11/15)Compressing objects:  80% (12/15)Compressing objects:  86% (13/15)Compressing objects:  93% (14/15)Compressing objects: 100% (15/15)Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/16)Writing objects:  12% (2/16)Writing objects:  18% (3/16)Writing objects:  25% (4/16)Writing objects:  37% (6/16)Writing objects:  43% (7/16)Writing objects:  50% (8/16)Writing objects:  56% (9/16)Writing objects:  62% (10/16)Writing objects:  68% (11/16)Writing objects:  75% (12/16)Writing objects:  81% (13/16)Writing objects:  87% (14/16)Writing objects:  93% (15/16)Writing objects: 100% (16/16)Writing objects: 100% (16/16), 5.45 KiB | 328.00 KiB/s, done.
+Total 16 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 16, done.[K
+To https://github.com/matthematician/vecit
+   058cefb4..305d4f25  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ 
