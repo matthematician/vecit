@@ -8,7 +8,10 @@ class Generator(BaseGenerator):
         py=randint(1,3)
         c=randint(1,3)*choice([-1,1])
         
-        Fchoices=([c*e^(x^px+y^py)+poly, c*x*e^(y^py)+poly, c*y*e^(x^px)+poly])
+        trigchoice = [sin(x), cos(x)]
+        shuffle(trigchoice)
+        
+        Fchoices= [poly, c*x*e^(y^py)+poly, c*y*e^(x^px)+poly]
         shuffle(Fchoices)
         
         F(x,y)=Fchoices[0]
@@ -23,8 +26,20 @@ class Generator(BaseGenerator):
         f0=Fi[0]
         f1=Fi[1]
         
-        P=(0,0)
-        Q=(0,0)
+        a=0
+        b=randint(1,3)
+        
+        trig=[sin(2*pi*t), cos(2*pi*t)]
+        quad = [t^2+randint(-5,5), randint(-3,3)*t+randint(-5,5)]
+        
+        shuffle(trig)
+        shuffle(quad)
+        
+        xt(t)=trig[0]*quad[0]
+        yt(t)=trig[1]*quad[1]
+        
+        P=(xt(a),yt(a))
+        Q=(xt(b), yt(b))
         
         while P==Q:
             P=(randint(-5,5), randint(-5,5))
@@ -41,6 +56,10 @@ class Generator(BaseGenerator):
             "f0y": f0[1],
             "f1x": f1[0],
             "f1y": f1[1],
+            "xt": xt(t),
+            "yt": yt(t),
+            "a": a,
+            "b": b,
             "P": P,
             "Q": Q,
             "FP": F(P[0],P[1]),
