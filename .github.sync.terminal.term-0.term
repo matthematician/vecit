@@ -4530,3 +4530,44 @@ To https://github.com/matthematician/vecit
    305d4f25..425fec92  HEAD -> main
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SD2"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -A
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SD2"[1P"B"
+[main 76beaf33] update SDB
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 69 insertions(+), 17 deletions(-)
+ rewrite assets/VB/generated/preview.json (100%)
+ rewrite assets/VB/generated/seeds.json (92%)
+ rewrite docs/assets/VB/generated/preview.json (100%)
+ rewrite docs/assets/VB/generated/seeds.json (92%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+Username for 'https://github.com': TienChih
+Password for 'https://TienChih@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/matthematician/vecit/'
+]0;~/tien-chih[01;34m~/tien-chih[00m$ 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
+bash: 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: command not found
+]0;~/tien-chih[01;34m~/tien-chih[00m$ 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[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppush origin HEAD:main
+Username for 'https://github.com': TienCHih   hih
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 33, done.
+Counting objects:   3% (1/33)Counting objects:   6% (2/33)Counting objects:   9% (3/33)Counting objects:  12% (4/33)Counting objects:  15% (5/33)Counting objects:  18% (6/33)Counting objects:  21% (7/33)Counting objects:  24% (8/33)Counting objects:  27% (9/33)Counting objects:  30% (10/33)Counting objects:  33% (11/33)Counting objects:  36% (12/33)Counting objects:  39% (13/33)Counting objects:  42% (14/33)Counting objects:  45% (15/33)Counting objects:  48% (16/33)Counting objects:  51% (17/33)Counting objects:  54% (18/33)Counting objects:  57% (19/33)Counting objects:  60% (20/33)Counting objects:  63% (21/33)Counting objects:  66% (22/33)Counting objects:  69% (23/33)Counting objects:  72% (24/33)Counting objects:  75% (25/33)Counting objects:  78% (26/33)Counting objects:  81% (27/33)Counting objects:  84% (28/33)Counting objects:  87% (29/33)Counting objects:  90% (30/33)Counting objects:  93% (31/33)Counting objects:  96% (32/33)Counting objects: 100% (33/33)Counting objects: 100% (33/33), done.
+Delta compression using up to 4 threads
+Compressing objects:   6% (1/16)Compressing objects:  12% (2/16)Compressing objects:  18% (3/16)Compressing objects:  25% (4/16)Compressing objects:  31% (5/16)Compressing objects:  37% (6/16)Compressing objects:  43% (7/16)Compressing objects:  50% (8/16)Compressing objects:  56% (9/16)Compressing objects:  62% (10/16)Compressing objects:  68% (11/16)Compressing objects:  75% (12/16)Compressing objects:  81% (13/16)Compressing objects:  87% (14/16)Compressing objects:  93% (15/16)Compressing objects: 100% (16/16)Compressing objects: 100% (16/16), done.
+Writing objects:   5% (1/17)Writing objects:  11% (2/17)Writing objects:  17% (3/17)Writing objects:  23% (4/17)Writing objects:  35% (6/17)Writing objects:  41% (7/17)Writing objects:  47% (8/17)Writing objects:  52% (9/17)Writing objects:  58% (10/17)Writing objects:  64% (11/17)Writing objects:  70% (12/17)Writing objects:  76% (13/17)Writing objects:  82% (14/17)Writing objects:  88% (15/17)Writing objects:  94% (16/17)Writing objects: 100% (17/17)Writing objects: 100% (17/17), 138.59 KiB | 267.00 KiB/s, done.
+Total 17 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 17, done.[K
+To https://github.com/matthematician/vecit
+   425fec92..76beaf33  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -A

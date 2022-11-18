@@ -27,14 +27,13 @@ class Generator(BaseGenerator):
         f1=Fi[1]
         
         a=0
-        b=randint(1,3)
+        b=randint(1,5)
         
         trig=[sin(2*pi*t), cos(2*pi*t)]
         quad = [t^2+randint(-5,5), randint(-3,3)*t+randint(-5,5)]
         
         shuffle(trig)
-        shuffle(quad)
-        
+        shuffle(quad)        
         xt(t)=trig[0]*quad[0]
         yt(t)=trig[1]*quad[1]
         
@@ -42,8 +41,15 @@ class Generator(BaseGenerator):
         Q=(xt(b), yt(b))
         
         while P==Q:
-            P=(randint(-5,5), randint(-5,5))
-            Q=(randint(-5,5), randint(-5,5))
+            b=randint(1,5)
+            shuffle(trig)
+            shuffle(quad)        
+            xt(t)=trig[0]*quad[0]
+            yt(t)=trig[1]*quad[1]
+            
+            P=(xt(a),yt(a))
+            Q=(xt(b), yt(b))
+            
         
         
         integ=F(Q[0], Q[1])-F(P[0], P[1])

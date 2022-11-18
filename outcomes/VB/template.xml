@@ -20,7 +20,7 @@
     <knowl>
         <content>
            <p>
-               Consider the function and vector field <m>f, \mathbf{F}=\nabla f</m> you found above.  Let <m>C</m> be an oriented curve parameterized by <m>\mathbf{r}(t) = \left\langle{{xt}}, {{yt}}\right\rangle, {{a}}\leq t \leq {{b}}</m>.
+               Consider the function and vector field <m>f, \mathbf{F}=\nabla f</m> you found above.  Let <m>C</m> be an oriented curve parameterized by <m>\mathbf{r}(t) = \left\langle\ {{xt}}, {{yt}}\ \right\rangle, {{a}}\leq t \leq {{b}}</m>.
                
             </p>
             
