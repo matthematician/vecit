@@ -172,7 +172,7 @@ class Generator(BaseGenerator):
         
         #F2(x,y,z)=F1(x,y,z)#=vector([F20(x,y,z), F21(x,y,z), F22(x,y,z)])
         
-        curlF2(x,y,z)=vector([F12(x,y,z).derivative(y)-F11(x,y,z).derivative(z) , -(F12(x,y,z).derivative(x)-F10(x,y,z).derivative(z)) , F11(x,y,z).derivative(x)-F10(x,y,z).derivative(y) ])
+        curlF2(x,y,z)=vector([F12(x=x,y=x,z=z).derivative(y)-F11(x=x,y=y,z=z).derivative(z) , -(F12(x=x,y=y,z=z).derivative(x)-F10(x=x,y=y,z=z).derivative(z)) , F11(x=x,y=y,z=z).derivative(x)-F10(x=x,y=y,z=z).derivative(y) ])
         curlF2flat(s,t)=curlF2( r(s,t)[0] , r(s,t)[1] , r(s,t)[2])
         
         #curlF20(x,y,z) = curlF2(x,y,z)[0]

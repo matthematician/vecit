@@ -4571,3 +4571,108 @@ To https://github.com/matthematician/vecit
    425fec92..76beaf33  HEAD -> main
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -A
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[Chp_sqlWDl77clNJrlLgkKzF95b3eJJrBi3blLlv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"
+[main c85459bd] update SDB
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 33 files changed, 66 insertions(+), 19 deletions(-)
+ rewrite assets/V2/generated/preview.json (100%)
+ rewrite assets/VB/generated/preview.json (100%)
+ rewrite assets/VB/generated/seeds.json (86%)
+ rewrite docs/assets/V2/generated/preview.json (100%)
+ rewrite docs/assets/VB/generated/preview.json (100%)
+ rewrite docs/assets/VB/generated/seeds.json (86%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+Username for 'https://github.com': TienChih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                                        
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 1Enumerating objects: 78, done.
+Counting objects:   1% (1/78)Counting objects:   2% (2/78)Counting objects:   3% (3/78)Counting objects:   5% (4/78)Counting objects:   6% (5/78)Counting objects:   7% (6/78)Counting objects:   8% (7/78)Counting objects:  10% (8/78)Counting objects:  11% (9/78)Counting objects:  12% (10/78)Counting objects:  14% (11/78)Counting objects:  15% (12/78)Counting objects:  16% (13/78)Counting objects:  17% (14/78)Counting objects:  19% (15/78)Counting objects:  20% (16/78)Counting objects:  21% (17/78)Counting objects:  23% (18/78)Counting objects:  24% (19/78)Counting objects:  25% (20/78)Counting objects:  26% (21/78)Counting objects:  28% (22/78)Counting objects:  29% (23/78)Counting objects:  30% (24/78)Counting objects:  32% (25/78)Counting objects:  33% (26/78)Counting objects:  34% (27/78)Counting objects:  35% (28/78)Counting objects:  37% (29/78)Counting objects:  38% (30/78)Counting objects:  39% (31/78)Counting objects:  41% (32/78)Counting objects:  42% (33/78)Counting objects:  43% (34/78)Counting objects:  44% (35/78)Counting objects:  46% (36/78)Counting objects:  47% (37/78)Counting objects:  48% (38/78)Counting objects:  50% (39/78)Counting objects:  51% (40/78)Counting objects:  52% (41/78)Counting objects:  53% (42/78)Counting objects:  55% (43/78)Counting objects:  56% (44/78)Counting objects:  57% (45/78)Counting objects:  58% (46/78)Counting objects:  60% (47/78)Counting objects:  61% (48/78)Counting objects:  62% (49/78)Counting objects:  64% (50/78)Counting objects:  65% (51/78)Counting objects:  66% (52/78)Counting objects:  67% (53/78)Counting objects:  69% (54/78)Counting objects:  70% (55/78)Counting objects:  71% (56/78)Counting objects:  73% (57/78)Counting objects:  74% (58/78)Counting objects:  75% (59/78)Counting objects:  76% (60/78)Counting objects:  78% (61/78)Counting objects:  79% (62/78)Counting objects:  80% (63/78)Counting objects:  82% (64/78)Counting objects:  83% (65/78)Counting objects:  84% (66/78)Counting objects:  85% (67/78)Counting objects:  87% (68/78)Counting objects:  88% (69/78)Counting objects:  89% (70/78)Counting objects:  91% (71/78)Counting objects:  92% (72/78)Counting objects:  93% (73/78)Counting objects:  94% (74/78)Counting objects:  96% (75/78)Counting objects:  97% (76/78)Counting objects:  98% (77/78)Counting objects: 100% (78/78)Counting objects: 100% (78/78), done.
+Delta compression using up to 4 threads
+Compressing objects:   3% (1/28)Compressing objects:   7% (2/28)Compressing objects:  10% (3/28)Compressing objects:  14% (4/28)Compressing objects:  17% (5/28)Compressing objects:  21% (6/28)Compressing objects:  25% (7/28)Compressing objects:  28% (8/28)Compressing objects:  32% (9/28)Compressing objects:  35% (10/28)Compressing objects:  39% (11/28)Compressing objects:  42% (12/28)Compressing objects:  46% (13/28)Compressing objects:  50% (14/28)Compressing objects:  53% (15/28)Compressing objects:  57% (16/28)Compressing objects:  60% (17/28)Compressing objects:  64% (18/28)Compressing objects:  67% (19/28)Compressing objects:  71% (20/28)Compressing objects:  75% (21/28)Compressing objects:  78% (22/28)Compressing objects:  82% (23/28)Compressing objects:  85% (24/28)Compressing objects:  89% (25/28)Compressing objects:  92% (26/28)Compressing objects:  96% (27/28)Compressing objects: 100% (28/28)Compressing objects: 100% (28/28), done.
+Writing objects:   2% (1/40)Writing objects:   5% (2/40)Writing objects:   7% (3/40)Writing objects:  10% (4/40)Writing objects:  15% (6/40)Writing objects:  17% (7/40)Writing objects:  20% (8/40)Writing objects:  22% (9/40)Writing objects:  25% (10/40)Writing objects:  27% (11/40)Writing objects:  30% (12/40)Writing objects:  32% (13/40)Writing objects:  35% (14/40)Writing objects:  37% (15/40)Writing objects:  40% (16/40)Writing objects:  42% (17/40)Writing objects:  45% (18/40)Writing objects:  47% (19/40)Writing objects:  50% (20/40)Writing objects:  52% (21/40)Writing objects:  55% (22/40)Writing objects:  57% (23/40)Writing objects:  60% (24/40)Writing objects:  62% (25/40)Writing objects:  65% (26/40)Writing objects:  67% (27/40)Writing objects:  70% (28/40)Writing objects:  72% (29/40)Writing objects:  75% (30/40)Writing objects:  77% (31/40)Writing objects:  80% (32/40)Writing objects:  82% (33/40)Writing objects:  85% (34/40), 24.00 KiB | 29.00 KiB/sWriting objects:  87% (35/40), 24.00 KiB | 29.00 KiB/sWriting objects:  90% (36/40), 24.00 KiB | 29.00 KiB/sWriting objects:  92% (37/40), 24.00 KiB | 29.00 KiB/sWriting objects:  95% (38/40), 24.00 KiB | 29.00 KiB/sWriting objects:  97% (39/40), 24.00 KiB | 29.00 KiB/sWriting objects: 100% (40/40), 24.00 KiB | 29.00 KiB/sWriting objects: 100% (40/40), 60.95 KiB | 104.00 KiB/s, done.
+Total 40 (delta 24), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/24)[Kremote: Resolving deltas:   4% (1/24)[Kremote: Resolving deltas:   8% (2/24)[Kremote: Resolving deltas:  12% (3/24)[Kremote: Resolving deltas:  16% (4/24)[Kremote: Resolving deltas:  20% (5/24)[Kremote: Resolving deltas:  25% (6/24)[Kremote: Resolving deltas:  29% (7/24)[Kremote: Resolving deltas:  33% (8/24)[Kremote: Resolving deltas:  37% (9/24)[Kremote: Resolving deltas:  41% (10/24)[Kremote: Resolving deltas:  45% (11/24)[Kremote: Resolving deltas:  50% (12/24)[Kremote: Resolving deltas:  54% (13/24)[Kremote: Resolving deltas:  58% (14/24)[Kremote: Resolving deltas:  62% (15/24)[Kremote: Resolving deltas:  66% (16/24)[Kremote: Resolving deltas:  70% (17/24)[Kremote: Resolving deltas:  75% (18/24)[Kremote: Resolving deltas:  79% (19/24)[Kremote: Resolving deltas:  83% (20/24)[Kremote: Resolving deltas:  87% (21/24)[Kremote: Resolving deltas:  91% (22/24)[Kremote: Resolving deltas:  95% (23/24)[Kremote: Resolving deltas: 100% (24/24)[Kremote: Resolving deltas: 100% (24/24), completed with 23 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 40, done.[K
+To https://github.com/matthematician/vecit
+   76beaf33..c85459bd  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: checkit-dashboard in /usr/local/lib/python3.8/dist-packages (0.2.3)
+Collecting checkit-dashboard
+  Downloading checkit_dashboard-0.2.5-py3-none-any.whl (1.1 MB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/1.1 MB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;5;204m━━━━━━━━━━━━━[0m[38;5;204m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.4/1.1 MB[0m [31m11.5 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;204m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;204m╸[0m[38;5;237m━━[0m [32m1.0/1.1 MB[0m [31m21.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;204m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;5;204m╸[0m[38;5;237m━━[0m [32m1.0/1.1 MB[0m [31m21.9 MB/s[0m eta [36m0:00:01[0m[2K     [38;5;107m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.1/1.1 MB[0m [31m10.2 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: ipywidgets in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (7.7.2)
+Requirement already satisfied: latex2mathml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (3.0.0)
+Requirement already satisfied: pystache in /usr/lib/python3/dist-packages (from checkit-dashboard) (0.5.4)
+Requirement already satisfied: lxml in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (4.9.1)
+Requirement already satisfied: click in /usr/local/lib/python3.8/dist-packages (from checkit-dashboard) (8.1.3)
+Requirement already satisfied: ipykernel>=4.5.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (6.17.1)
+Requirement already satisfied: ipython>=4.0.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (7.34.0)
+Requirement already satisfied: widgetsnbextension~=3.6.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (3.6.1)
+Requirement already satisfied: ipython-genutils~=0.2.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (0.2.0)
+Requirement already satisfied: jupyterlab-widgets<3,>=1.0.0 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (1.1.1)
+Requirement already satisfied: traitlets>=4.3.1 in /usr/local/lib/python3.8/dist-packages (from ipywidgets->checkit-dashboard) (5.1.1)
+Requirement already satisfied: debugpy>=1.0 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.3.0)
+Requirement already satisfied: tornado>=6.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (6.1)
+Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.5.5)
+Requirement already satisfied: pyzmq>=17 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (23.1.0)
+Requirement already satisfied: matplotlib-inline>=0.1 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.1.2)
+Requirement already satisfied: packaging in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (21.3)
+Requirement already satisfied: jupyter-client>=6.1.12 in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (7.3.4)
+Requirement already satisfied: psutil in /usr/local/lib/python3.8/dist-packages (from ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (5.8.0)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (3.0.5)
+Requirement already satisfied: pexpect>4.3 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (4.8.0)
+Requirement already satisfied: backcall in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.2.0)
+Requirement already satisfied: setuptools>=18.5 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (65.6.3)
+Requirement already satisfied: decorator in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (4.4.2)
+Requirement already satisfied: jedi>=0.16 in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.17.2)
+Requirement already satisfied: pygments in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (2.12.0)
+Requirement already satisfied: pickleshare in /usr/local/lib/python3.8/dist-packages (from ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.7.5)
+Requirement already satisfied: notebook>=4.4.1 in /usr/local/lib/python3.8/dist-packages (from widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (6.4.12)
+Requirement already satisfied: parso<0.8.0,>=0.7.0 in /usr/local/lib/python3.8/dist-packages (from jedi>=0.16->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.7.1)
+Requirement already satisfied: entrypoints in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (0.3)
+Requirement already satisfied: jupyter-core>=4.9.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (4.10.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /usr/local/lib/python3.8/dist-packages (from jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.8.2)
+Requirement already satisfied: nbconvert>=5 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (7.2.5)
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.1.2)
+Requirement already satisfied: prometheus-client in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.8.0)
+Requirement already satisfied: terminado>=0.8.3 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.8.3)
+Requirement already satisfied: nbformat in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (5.7.0)
+Requirement already satisfied: argon2-cffi in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (20.1.0)
+Requirement already satisfied: Send2Trash>=1.8.0 in /usr/local/lib/python3.8/dist-packages (from notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.8.0)
+Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.8/dist-packages (from pexpect>4.3->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.6.0)
+Requirement already satisfied: wcwidth in /usr/local/lib/python3.8/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=4.0.0->ipywidgets->checkit-dashboard) (0.2.5)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.8/dist-packages (from packaging->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (2.4.7)
+Requirement already satisfied: bleach in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.1.5)
+Requirement already satisfied: pandocfilters>=1.4.1 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.4.2)
+Requirement already satisfied: jupyterlab-pygments in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.1.1)
+Requirement already satisfied: beautifulsoup4 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (4.8.0)
+Requirement already satisfied: markupsafe>=2.0 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.1.1)
+Requirement already satisfied: mistune<3,>=2.0.3 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.0.4)
+Requirement already satisfied: defusedxml in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.6.0)
+Requirement already satisfied: tinycss2 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.0.2)
+Requirement already satisfied: importlib-metadata>=3.6 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (4.11.3)
+Requirement already satisfied: nbclient>=0.5.0 in /usr/local/lib/python3.8/dist-packages (from nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.6.3)
+Requirement already satisfied: fastjsonschema in /usr/local/lib/python3.8/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.14.4)
+Requirement already satisfied: jsonschema>=2.6 in /usr/local/lib/python3.8/dist-packages (from nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.2.0)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.8/dist-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel>=4.5.1->ipywidgets->checkit-dashboard) (1.15.0)
+Requirement already satisfied: cffi>=1.0.0 in /usr/local/lib/python3.8/dist-packages (from argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.14.0)
+Requirement already satisfied: pycparser in /usr/local/lib/python3.8/dist-packages (from cffi>=1.0.0->argon2-cffi->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (2.20)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.8/dist-packages (from importlib-metadata>=3.6->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (3.6.0)
+Requirement already satisfied: pyrsistent>=0.14.0 in /usr/local/lib/python3.8/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.16.0)
+Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.8/dist-packages (from jsonschema>=2.6->nbformat->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (21.4.0)
+Requirement already satisfied: soupsieve>=1.2 in /usr/lib/python3/dist-packages (from beautifulsoup4->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (1.9.5)
+Requirement already satisfied: webencodings in /usr/local/lib/python3.8/dist-packages (from bleach->nbconvert>=5->notebook>=4.4.1->widgetsnbextension~=3.6.0->ipywidgets->checkit-dashboard) (0.5.1)
+Installing collected packages: checkit-dashboard
+Successfully installed checkit-dashboard-0.2.5
+]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Python -m checkit my-great-bankpip install --upgrade checkit-dashboardpip[K[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kcommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
