@@ -14,7 +14,7 @@
             
             <p>A contour plot of <m>f</m> is shown below.</p>
             <p><image
-                source="assets/D4/generated/{{__seed__}}/contour.png"
+                source="assets/D4a/generated/{{__seed__}}/contour.png"
                 description="Contour plot of f(x,y)."/></p>
         </outtro>
         
