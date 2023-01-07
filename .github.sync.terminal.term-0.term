@@ -4676,3 +4676,47 @@ Requirement already satisfied: webencodings in /usr/local/lib/python3.8/dist-pac
 Installing collected packages: checkit-dashboard
 Successfully installed checkit-dashboard-0.2.5
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Python -m checkit my-great-bankpip install --upgrade checkit-dashboardpip[K[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kcommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Python -m checkit my-great-bankpip install --upgrade checkit-dashboardpip[K[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pgit push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update SDB"[1P"[1P"[1P"[1P"d" "c"h"e"c"k"i"t" "v"e"r"s"i"o"n"
+[main 4bb000c7] updated checkit version
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 311 insertions(+), 51 deletions(-)
+ rewrite assets/VF/generated/preview.json (99%)
+ rewrite assets/VF/generated/seeds.json (79%)
+ rewrite docs/assets/VF/generated/preview.json (99%)
+ rewrite docs/assets/VF/generated/seeds.json (79%)
+ rename docs/assets/{index.12c421f5.js => index.539f6768.js} (53%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "updated checkit version"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpip install --upgrade checkit-dashboard[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Python -m checkit my-great-bankpip install --upgrade checkit-dashboardpip[K[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pgit push origin HEAD:main
+Username for 'https://github.com': tienchih
+Password for 'https://tienchih@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/matthematician/vecit/'
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m "updated checkit version"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Ppush origin HEAD:main
+Username for 'https://github.com': TienChih
+Password for 'https://TienChih@github.com': 
+remote: Permission to matthematician/vecit.git denied to TienChih.
+fatal: unable to access 'https://github.com/matthematician/vecit/': The requested URL returned error: 403
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main
+Username for 'https://github.com': TienChih
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 34, done.
+Counting objects:   2% (1/34)Counting objects:   5% (2/34)Counting objects:   8% (3/34)Counting objects:  11% (4/34)Counting objects:  14% (5/34)Counting objects:  17% (6/34)Counting objects:  20% (7/34)Counting objects:  23% (8/34)Counting objects:  26% (9/34)Counting objects:  29% (10/34)Counting objects:  32% (11/34)Counting objects:  35% (12/34)Counting objects:  38% (13/34)Counting objects:  41% (14/34)Counting objects:  44% (15/34)Counting objects:  47% (16/34)Counting objects:  50% (17/34)Counting objects:  52% (18/34)Counting objects:  55% (19/34)Counting objects:  58% (20/34)Counting objects:  61% (21/34)Counting objects:  64% (22/34)Counting objects:  67% (23/34)Counting objects:  70% (24/34)Counting objects:  73% (25/34)Counting objects:  76% (26/34)Counting objects:  79% (27/34)Counting objects:  82% (28/34)Counting objects:  85% (29/34)Counting objects:  88% (30/34)Counting objects:  91% (31/34)Counting objects:  94% (32/34)Counting objects:  97% (33/34)Counting objects: 100% (34/34)Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/17)Compressing objects:  11% (2/17)Compressing objects:  17% (3/17)Compressing objects:  23% (4/17)Compressing objects:  29% (5/17)Compressing objects:  35% (6/17)Compressing objects:  41% (7/17)Compressing objects:  47% (8/17)Compressing objects:  52% (9/17)Compressing objects:  58% (10/17)Compressing objects:  64% (11/17)Compressing objects:  70% (12/17)Compressing objects:  76% (13/17)Compressing objects:  82% (14/17)Compressing objects:  88% (15/17)Compressing objects:  94% (16/17)Compressing objects: 100% (17/17)Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18), 64.00 KiB | 98.00 KiB/sWriting objects:  66% (12/18), 64.00 KiB | 98.00 KiB/sWriting objects:  72% (13/18), 64.00 KiB | 98.00 KiB/sWriting objects:  77% (14/18), 64.00 KiB | 98.00 KiB/sWriting objects:  83% (15/18), 64.00 KiB | 98.00 KiB/sWriting objects:  88% (16/18), 64.00 KiB | 98.00 KiB/sWriting objects:  94% (17/18), 64.00 KiB | 98.00 KiB/sWriting objects: 100% (18/18), 64.00 KiB | 98.00 KiB/sWriting objects: 100% (18/18), 308.44 KiB | 491.00 KiB/s, done.
+Total 18 (delta 13), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/13)[Kremote: Resolving deltas:   7% (1/13)[Kremote: Resolving deltas:  15% (2/13)[Kremote: Resolving deltas:  23% (3/13)[Kremote: Resolving deltas:  30% (4/13)[Kremote: Resolving deltas:  38% (5/13)[Kremote: Resolving deltas:  46% (6/13)[Kremote: Resolving deltas:  53% (7/13)[Kremote: Resolving deltas:  61% (8/13)[Kremote: Resolving deltas:  69% (9/13)[Kremote: Resolving deltas:  76% (10/13)[Kremote: Resolving deltas:  84% (11/13)[Kremote: Resolving deltas:  92% (12/13)[Kremote: Resolving deltas: 100% (13/13)[Kremote: Resolving deltas: 100% (13/13), completed with 12 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 18, done.[K
+To https://github.com/matthematician/vecit
+   c85459bd..4bb000c7  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ pip install --upgrade checkit-dashboard

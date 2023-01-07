@@ -117,6 +117,13 @@
             <path>outcomes/D4</path>
             <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
         </outcome>
+        
+        <outcome>
+            <title>Critical Points of Multivariable Functions pt 2</title>
+            <slug>D4a</slug>
+            <path>outcomes/D4a</path>
+            <description>Use its gradient vector to locate critical points of a multivariable function, and its second-order partial derivatives to classify critical points as local maximum, local minimum, saddle points, or degenerate.</description>
+        </outcome>
 
         
         <outcome>
