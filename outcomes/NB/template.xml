@@ -32,7 +32,7 @@
             </content>
             <outtro>
                 <p>
-                   Since <m>r'(t)=\langle{{f1}}, {{g1}}, {{h1}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{vx}}, {{vy}}, {{vz}})</m> with magnitude <m>{{vmag}}</m>.
+                   Since <m>r'(t)=\langle {{f1}}, {{g1}}, {{h1}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{vx}}, {{vy}}, {{vz}})</m> with magnitude <m>{{vmag}}</m>.
                 </p>
              </outtro>
          </knowl>
@@ -62,7 +62,7 @@
             </content>
             <outtro>
                 <p>
-                   Since <m>r''(t)=\langle{{f2}}, {{g2}}, {{h2}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{ax}}, {{ay}}, {{az}})</m> with magnitude <m>{{amag}}</m>.
+                   Since <m>r''(t)=\langle {{f2}}, {{g2}}, {{h2}}\rangle</m>, the velocity vector at <m>t={{t0}}</m> is <m>({{ax}}, {{ay}}, {{az}})</m> with magnitude <m>{{amag}}</m>.
                 </p>
              </outtro>
          </knowl>
