@@ -124,7 +124,7 @@ class Generator(BaseGenerator):
             "d1": Delta(0,0),
             "fxx2": fxx(c2[0],c2[1]),
             "d2": Delta(c2[0],c2[1]),
-            "fxx3": fxx(c2[0],0),
+            "fxx3": fxx(c3[0],c3[1]),
             "d3": Delta(c3[0],c3[1]),
             #"fxx4": fxx(0,c2[1]),
             #"d4": Delta(0,c2[1])
