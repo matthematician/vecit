@@ -93,7 +93,7 @@
             </content>
             <outtro>
                 <p>
-                   When <m>t={{t0}}</m> we have <m>x={{x0}}, y={{y0}}</m> and <m>\frac{\partial}{\partial t} f(x,y)|_{t={{t_0}}}={{DFt0}}</m>.
+                   When <m>t={{t0}}</m> we have <m>x={{x0}}, y={{y0}}</m> and <m>\frac{\partial}{\partial t} f(x,y)|_{t={{t0}}}={{DFt0}}</m>.
                 </p>
              </outtro>
          </knowl>

@@ -6846,4 +6846,37 @@ remote: Resolving deltas:   0% (0/13)[Kremote: Resolving deltas:   7% (1/13)[
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 20, done.[K
 To https://github.com/matthematician/vecit
    b74592e2..7097eeb4  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kcommit -m "Bank Fix"
+[main 76b512d3] Bank Fix
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 42 insertions(+), 9 deletions(-)
+ rewrite assets/D4a/generated/preview.json (100%)
+ rewrite assets/D4a/generated/seeds.json (79%)
+ rewrite docs/assets/D4a/generated/preview.json (100%)
+ rewrite docs/assets/D4a/generated/seeds.json (79%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+Username for 'https://github.com': TienChih
+Password for 'https://TienChih@github.com': 
+Enumerating objects: 29, done.
+Counting objects:   3% (1/29)Counting objects:   6% (2/29)Counting objects:  10% (3/29)Counting objects:  13% (4/29)Counting objects:  17% (5/29)Counting objects:  20% (6/29)Counting objects:  24% (7/29)Counting objects:  27% (8/29)Counting objects:  31% (9/29)Counting objects:  34% (10/29)Counting objects:  37% (11/29)Counting objects:  41% (12/29)Counting objects:  44% (13/29)Counting objects:  48% (14/29)Counting objects:  51% (15/29)Counting objects:  55% (16/29)Counting objects:  58% (17/29)Counting objects:  62% (18/29)Counting objects:  65% (19/29)Counting objects:  68% (20/29)Counting objects:  72% (21/29)Counting objects:  75% (22/29)Counting objects:  79% (23/29)Counting objects:  82% (24/29)Counting objects:  86% (25/29)Counting objects:  89% (26/29)Counting objects:  93% (27/29)Counting objects:  96% (28/29)Counting objects: 100% (29/29)Counting objects: 100% (29/29), done.
+Delta compression using up to 4 threads
+Compressing objects:   7% (1/14)Compressing objects:  14% (2/14)Compressing objects:  21% (3/14)Compressing objects:  28% (4/14)Compressing objects:  35% (5/14)Compressing objects:  42% (6/14)Compressing objects:  50% (7/14)Compressing objects:  57% (8/14)Compressing objects:  64% (9/14)Compressing objects:  71% (10/14)Compressing objects:  78% (11/14)Compressing objects:  85% (12/14)Compressing objects:  92% (13/14)Compressing objects: 100% (14/14)Compressing objects: 100% (14/14), done.
+Writing objects:   6% (1/15)Writing objects:  13% (2/15)Writing objects:  20% (3/15)Writing objects:  26% (4/15)Writing objects:  40% (6/15)Writing objects:  46% (7/15)Writing objects:  53% (8/15)Writing objects:  60% (9/15)Writing objects:  66% (10/15)Writing objects:  73% (11/15)Writing objects:  80% (12/15)Writing objects:  86% (13/15)Writing objects:  93% (14/15)Writing objects: 100% (15/15)Writing objects: 100% (15/15), 26.65 KiB | 59.00 KiB/s, done.
+Total 15 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 11 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 15, done.[K
+To https://github.com/matthematician/vecit
+   7097eeb4..76b512d3  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ 
