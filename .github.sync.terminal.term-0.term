@@ -6879,4 +6879,22 @@ remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 15, done.[K
 To https://github.com/matthematician/vecit
    7097eeb4..76b512d3  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ 
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"
+[main 373c1f82] Bank Fix
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 48 insertions(+), 15 deletions(-)
+ rewrite assets/DC/generated/preview.json (100%)
+ rewrite assets/DG/generated/preview.json (100%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
