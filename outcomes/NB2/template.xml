@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    
+    <knowl>
+        <intro>
+            <p>Consider a particle whose position is parameterized by <m>r(t)=\langle {{r}} \rangle</m>.</p>
+        </intro>
+        
+        
+        <knowl>
+            <content>
+                <p>
+                    Write an integral that computes the arc-length of  <m>r(t)</m> from <m>t={{t1}}</m> to <m>t = {{t2}}</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\displaystyle \int_{ {{t1}} }^{ {{t2}} } {{sp}} dt.</m>
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <content>
+                <p>
+                    Find the unit tangent to <m>r(t)</m> as a function of <m>t</m>.
+                    
+                    
+                </p>
+            </content>
+            <outtro>
+                <p>
+                   <m>\mathbf{T} = {{Tan}}</m>.
+                </p>
+             </outtro>
+         </knowl>
+        
+        <knowl>
+            <intro>
+                <p>
+                    For these, consider <m>t = {{t0}}</m>.
+                    
+                    
+                </p>
+            </intro>
+            
+            <knowl>
+                <content>
+                    <p>
+                        Find the unit tangent vector to <m>r(t)</m> when <m>t={{t0}}</m>
+                    </p>
+                </content>
+                <outtro>
+                    <p>
+                        <m>\mathbf{T} = {{Tan0}}</m>.
+                    </p>
+                </outtro>
+            </knowl>
+            
+            <knowl>
+                <content>
+                    <p>
+                        Find the principal normal vector to <m>r(t)</m> when <m>t={{t0}}</m>.
+                    </p>
+                </content>
+                <outtro>
+                    <p>
+                        <m>\mathbf{N} = {{Norm0}}</m>.
+                    </p>
+                </outtro>
+            </knowl>
+            
+            <knowl>
+                <content>
+                    <p>
+                        Find the curvature <m>\kappa</m> of <m>r(t)</m> when <m>t={{t0}}</m>.
+                    </p>
+                </content>
+                <outtro>
+                    <p>
+                        <m>\kappa = {{curve0}}</m>.
+                    </p>
+                </outtro>
+            </knowl>
+            
+            
+            <knowl>
+                <content>
+                    <p>
+                        Find coefficient  <m>c_1 , c_2</m> so that <m>a({{t0}}) = c_1\mathbf{T}+c_2\mathbf{N}</m>, (<m>\mathbf{T}, \mathbf{N}</m> found above).
+                    </p>
+                </content>
+                <outtro>
+                    <p>
+                        <m>{{a0}} = {{cT0}}\mathbf{T}+{{cN0}}\mathbf{N}</m>.
+                    </p>
+                </outtro>
+            </knowl>
+        
+        </knowl>  
+    
+    
+    
+        
+                    
+                    
+             
+    </knowl>
+</knowl>    
+            <!--
+            <list>
+                <item><p><m>z={{choice0}}.</m></p></item>
+                <item><p><m>z={{choice1}}.</m></p></item>
+                <item><p><m>z={{choice2}}.</m></p></item>
+                <item><p><m>z={{choice3}}.</m></p></item>
+                <item><p><m>z={{choice4}}.</m></p></item>
+            </list>
+        </p>
+    </content>
+    <outtro>
+        <p><m>y={{surface}}</m></p>
+    </outtro>
+</knowl>-->

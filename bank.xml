@@ -65,6 +65,15 @@
         </outcome>
         
         <outcome>
+            <title>Derivatives and Curvature</title>
+            <slug>NB2</slug>
+            <path>outcomes/NB2</path>
+            <description>
+                Use derivatives to determine, and distinguish among, a parameterized curve’s tangent, speed, velocity, and acceleration.
+            </description>
+        </outcome>
+        
+        <outcome>
             <title>Equilibrium</title>
             <slug>NC</slug>
             <path>outcomes/NC</path>

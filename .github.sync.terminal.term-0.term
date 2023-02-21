@@ -6898,3 +6898,34 @@ After doing this, you may fix the identity used for this commit with:
  rewrite assets/DC/generated/preview.json (100%)
  rewrite assets/DG/generated/preview.json (100%)
 ]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Acommit -m "Bank Fix"
+[main a9747aa6] Bank Fix
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 28 insertions(+), 10 deletions(-)
+ rewrite docs/assets/DC/generated/preview.json (100%)
+ rewrite docs/assets/DG/generated/preview.json (100%)
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+Username for 'https://github.com': tienchih
+Password for 'https://tienchih@github.com': 
+Enumerating objects: 50, done.
+Counting objects:   2% (1/50)Counting objects:   4% (2/50)Counting objects:   6% (3/50)Counting objects:   8% (4/50)Counting objects:  10% (5/50)Counting objects:  12% (6/50)Counting objects:  14% (7/50)Counting objects:  16% (8/50)Counting objects:  18% (9/50)Counting objects:  20% (10/50)Counting objects:  22% (11/50)Counting objects:  24% (12/50)Counting objects:  26% (13/50)Counting objects:  28% (14/50)Counting objects:  30% (15/50)Counting objects:  32% (16/50)Counting objects:  34% (17/50)Counting objects:  36% (18/50)Counting objects:  38% (19/50)Counting objects:  40% (20/50)Counting objects:  42% (21/50)Counting objects:  44% (22/50)Counting objects:  46% (23/50)Counting objects:  48% (24/50)Counting objects:  50% (25/50)Counting objects:  52% (26/50)Counting objects:  54% (27/50)Counting objects:  56% (28/50)Counting objects:  58% (29/50)Counting objects:  60% (30/50)Counting objects:  62% (31/50)Counting objects:  64% (32/50)Counting objects:  66% (33/50)Counting objects:  68% (34/50)Counting objects:  70% (35/50)Counting objects:  72% (36/50)Counting objects:  74% (37/50)Counting objects:  76% (38/50)Counting objects:  78% (39/50)Counting objects:  80% (40/50)Counting objects:  82% (41/50)Counting objects:  84% (42/50)Counting objects:  86% (43/50)Counting objects:  88% (44/50)Counting objects:  90% (45/50)Counting objects:  92% (46/50)Counting objects:  94% (47/50)Counting objects:  96% (48/50)Counting objects:  98% (49/50)Counting objects: 100% (50/50)Counting objects: 100% (50/50), done.
+Delta compression using up to 4 threads
+Compressing objects:   3% (1/27)Compressing objects:   7% (2/27)Compressing objects:  11% (3/27)Compressing objects:  14% (4/27)Compressing objects:  18% (5/27)Compressing objects:  22% (6/27)Compressing objects:  25% (7/27)Compressing objects:  29% (8/27)Compressing objects:  33% (9/27)Compressing objects:  37% (10/27)Compressing objects:  40% (11/27)Compressing objects:  44% (12/27)Compressing objects:  48% (13/27)Compressing objects:  51% (14/27)Compressing objects:  55% (15/27)Compressing objects:  59% (16/27)Compressing objects:  62% (17/27)Compressing objects:  66% (18/27)Compressing objects:  70% (19/27)Compressing objects:  74% (20/27)Compressing objects:  77% (21/27)Compressing objects:  81% (22/27)Compressing objects:  85% (23/27)Compressing objects:  88% (24/27)Compressing objects:  92% (25/27)Compressing objects:  96% (26/27)Compressing objects: 100% (27/27)Compressing objects: 100% (27/27), done.
+Writing objects:   3% (1/31)Writing objects:   6% (2/31)Writing objects:   9% (3/31)Writing objects:  12% (4/31)Writing objects:  16% (5/31)Writing objects:  19% (6/31)Writing objects:  22% (7/31)Writing objects:  25% (8/31)Writing objects:  29% (9/31)Writing objects:  32% (10/31)Writing objects:  35% (11/31)Writing objects:  38% (12/31)Writing objects:  41% (13/31)Writing objects:  45% (14/31)Writing objects:  48% (15/31)Writing objects:  51% (16/31)Writing objects:  54% (17/31)Writing objects:  58% (18/31)Writing objects:  61% (19/31)Writing objects:  64% (20/31)Writing objects:  67% (21/31)Writing objects:  70% (22/31)Writing objects:  74% (23/31)Writing objects:  77% (24/31)Writing objects:  80% (25/31)Writing objects:  83% (26/31)Writing objects:  87% (27/31)Writing objects:  90% (28/31)Writing objects:  93% (29/31)Writing objects:  96% (30/31)Writing objects: 100% (31/31)Writing objects: 100% (31/31), 41.34 KiB | 2.43 MiB/s, done.
+Total 31 (delta 16), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/16)[Kremote: Resolving deltas:   6% (1/16)[Kremote: Resolving deltas:  12% (2/16)[Kremote: Resolving deltas:  18% (3/16)[Kremote: Resolving deltas:  25% (4/16)[Kremote: Resolving deltas:  31% (5/16)[Kremote: Resolving deltas:  37% (6/16)[Kremote: Resolving deltas:  43% (7/16)[Kremote: Resolving deltas:  50% (8/16)[Kremote: Resolving deltas:  56% (9/16)[Kremote: Resolving deltas:  62% (10/16)[Kremote: Resolving deltas:  68% (11/16)[Kremote: Resolving deltas:  75% (12/16)[Kremote: Resolving deltas:  81% (13/16)[Kremote: Resolving deltas:  87% (14/16)[Kremote: Resolving deltas:  93% (15/16)[Kremote: Resolving deltas: 100% (16/16)[Kremote: Resolving deltas: 100% (16/16), completed with 12 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 31, done.[K
+To https://github.com/matthematician/vecit
+   76b512d3..a9747aa6  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ 
