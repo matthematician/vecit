@@ -6928,4 +6928,39 @@ remote: Resolving deltas:   0% (0/16)[Kremote: Resolving deltas:   6% (1/16)[
 remote: Checking connectivity: 2[Kremote: Checking connectivity: 31, done.[K
 To https://github.com/matthematician/vecit
    76b512d3..a9747aa6  HEAD -> main
-]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ 
+]0;~/tien-chih[01;34m~/tien-chih[00m$ [K]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ git push origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git add -Apush origin HEAD:main[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcommit -m "Bank Fix"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"N"e"w" "S"t"a"n"d"a"r"d"
+[main 4f05b733] New Standard
+ Committer: TienChih <user@fa57a33d76fc>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 284 insertions(+), 28 deletions(-)
+ create mode 100644 assets/NB2/generated/preview.json
+ create mode 100644 assets/NB2/generated/seeds.json
+ create mode 100644 docs/assets/NB2/generated/preview.json
+ create mode 100644 docs/assets/NB2/generated/seeds.json
+ create mode 100644 outcomes/NB2/generator.sage
+ create mode 100644 outcomes/NB2/template.xml
+]0;~/tien-chih[01;34m~/tien-chih[00m$ git commit -m "New Standard"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[Kpush origin HEAD:main
+Username for 'https://github.com': tienchih
+Password for 'https://tienchih@github.com': 
+Enumerating objects: 1Enumerating objects: 28, done.
+Counting objects:   3% (1/28)Counting objects:   7% (2/28)Counting objects:  10% (3/28)Counting objects:  14% (4/28)Counting objects:  17% (5/28)Counting objects:  21% (6/28)Counting objects:  25% (7/28)Counting objects:  28% (8/28)Counting objects:  32% (9/28)Counting objects:  35% (10/28)Counting objects:  39% (11/28)Counting objects:  42% (12/28)Counting objects:  46% (13/28)Counting objects:  50% (14/28)Counting objects:  53% (15/28)Counting objects:  57% (16/28)Counting objects:  60% (17/28)Counting objects:  64% (18/28)Counting objects:  67% (19/28)Counting objects:  71% (20/28)Counting objects:  75% (21/28)Counting objects:  78% (22/28)Counting objects:  82% (23/28)Counting objects:  85% (24/28)Counting objects:  89% (25/28)Counting objects:  92% (26/28)Counting objects:  96% (27/28)Counting objects: 100% (28/28)Counting objects: 100% (28/28), done.
+Delta compression using up to 4 threads
+Compressing objects:   5% (1/17)Compressing objects:  11% (2/17)Compressing objects:  17% (3/17)Compressing objects:  23% (4/17)Compressing objects:  29% (5/17)Compressing objects:  35% (6/17)Compressing objects:  41% (7/17)Compressing objects:  47% (8/17)Compressing objects:  52% (9/17)Compressing objects:  58% (10/17)Compressing objects:  64% (11/17)Compressing objects:  70% (12/17)Compressing objects:  76% (13/17)Compressing objects:  82% (14/17)Compressing objects:  88% (15/17)Compressing objects:  94% (16/17)Compressing objects: 100% (17/17)Compressing objects: 100% (17/17), done.
+Writing objects:   5% (1/18)Writing objects:  11% (2/18)Writing objects:  16% (3/18)Writing objects:  22% (4/18)Writing objects:  33% (6/18)Writing objects:  38% (7/18)Writing objects:  44% (8/18)Writing objects:  50% (9/18)Writing objects:  55% (10/18)Writing objects:  61% (11/18), 56.00 KiB | 92.00 KiB/sWriting objects:  66% (12/18), 56.00 KiB | 92.00 KiB/sWriting objects:  72% (13/18), 56.00 KiB | 92.00 KiB/sWriting objects:  77% (14/18), 56.00 KiB | 92.00 KiB/sWriting objects:  83% (15/18), 56.00 KiB | 92.00 KiB/sWriting objects:  88% (16/18), 56.00 KiB | 92.00 KiB/sWriting objects:  94% (17/18), 56.00 KiB | 92.00 KiB/sWriting objects: 100% (18/18), 56.00 KiB | 92.00 KiB/sWriting objects: 100% (18/18), 95.59 KiB | 173.00 KiB/s, done.
+Total 18 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/9)[Kremote: Resolving deltas:  11% (1/9)[Kremote: Resolving deltas:  22% (2/9)[Kremote: Resolving deltas:  33% (3/9)[Kremote: Resolving deltas:  44% (4/9)[Kremote: Resolving deltas:  55% (5/9)[Kremote: Resolving deltas:  66% (6/9)[Kremote: Resolving deltas:  77% (7/9)[Kremote: Resolving deltas:  88% (8/9)[Kremote: Resolving deltas: 100% (9/9)[Kremote: Resolving deltas: 100% (9/9), completed with 8 local objects.[K
+remote: Checking connectivity: 2[Kremote: Checking connectivity: 18, done.[K
+To https://github.com/matthematician/vecit
+   a9747aa6..4f05b733  HEAD -> main
+]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ ]0;~/tien-chih[01;34m~/tien-chih[00m$ 

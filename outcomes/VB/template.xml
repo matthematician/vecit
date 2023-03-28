@@ -25,12 +25,12 @@
             </p>
             
             <p>
-            Use the Fundamental Theorem of Line Integrals to compute <m>\displaystyle \int_{C } \mathbf{F} \ d\mathbf{s}</m>.
+            Use the Fundamental Theorem of Line Integrals to compute <m>\displaystyle \int_{C } \mathbf{F} \cdot d\mathbf{s}</m>.
             </p>
         </content>
         <outtro>
             <p>
-                <m>\displaystyle \int_{C } \mathbf{F} \ d\mathbf{s} = f( {{Q}} )-f( {{P}} )=({{FQ}})-({{FP}})={{integ}}</m>.
+                <m>\displaystyle \int_{C } \mathbf{F} \cdot d\mathbf{s} = f( {{Q}} )-f( {{P}} )=({{FQ}})-({{FP}})={{integ}}</m>.
             </p>
         </outtro>
     </knowl>
