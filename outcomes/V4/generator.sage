@@ -6,7 +6,7 @@ class Generator(BaseGenerator):
             exp(n^2),
             randint(2,5)*choice([-1,1])*n^randint(2,6),
             sqrt(1+n^(2*randint(1,4))),
-            n/(n+randint(1,6)*choice([-1,1]))
+            n/(n^(randint(1,4)*2)+randint(1,6))
         ]
         shuffle(chaff)
         

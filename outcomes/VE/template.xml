@@ -17,7 +17,7 @@
                     <m>\mathbf{r}_s(s,t)={{Rs}}, \mathbf{r}_t(s,t)={{Rt}}</m> and <m>\mathbf{F}(\mathbf{r}(s,t))={{Fst}}</m>.
                 </p>
                 <p>
-                    So the flux may be compued by <me>\displaystyle \iint_S \mathbf{F}(\mathbf{r}(s,t)) \cdot (\mathbf{r}_s(s,t) \times \mathbf{r}_t(s,t))
+                    So the flux may be compued by <me>\displaystyle \iint_S \mathbf{F}\cdot d\mathbf{S} = \iint_S  \mathbf{F}(\mathbf{r}(s,t)) \cdot (\mathbf{r}_s(s,t) \times \mathbf{r}_t(s,t)) dsdt
                     =\int_{s= {{smin}} }^{s= {{smax}} } \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand}}\ dt\ ds={{integ}}.</me>
                 </p>
             </outtro>

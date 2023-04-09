@@ -29,7 +29,7 @@
             </content>
             <outtro>
                 <p>
-                    Note that <m>\mathbf{F}(t)={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
+                    Note that <m>\mathbf{F}(\mathbf{r}(t))={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
                 </p>
                 <p>
                     <m> \displaystyle \iint\limits_{D} (\nabla\times \mathbf{F})\cdot

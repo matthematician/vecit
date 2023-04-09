@@ -14,7 +14,7 @@
             </content>
             <outtro>
                 <p>
-                    <m>\partial S=C</m>, where <m>C</m> is parameterized by <m>\mathbf{r}(t)={{R1}}</m>.
+                    <m>\partial S=C</m>, where <m>C</m> is parameterized by <m>\mathbf{r}(t)={{R1}}, {{tmin1}} \leq t \leq {{tmax1}}</m>.
                 </p>
                 
             </outtro>
@@ -29,11 +29,11 @@
             </content>
             <outtro>
                 <p>
-                    Note that <m>\mathbf{F}(t)={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
+                    Note that <m>\mathbf{F}(\mathbf{r}(t))={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
                 </p>
                 <p>
-                    <m> \displaystyle \iint\limits_{S} (\nabla\times \mathbf{F})\cdot
-dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}} } {{integrand1}}\ dt={{integ1}}</m>.
+                    <m> \displaystyle \iint_{S} (\nabla\times \mathbf{F})\cdot
+d\mathbf{S}  =\oint_C \mathbf{F}\cdot d\mathbf{s} = \oint_C \mathbf{F}(\mathbf{r}(t))\cdot \mathbf{r}'(t)dt =  \int_{t= {{tmin1}} }^{t= {{tmax1}} } {{integrand1}}\ dt={{integ1}}</m>.
                 </p>
                 
             </outtro>
@@ -59,7 +59,7 @@ dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}
             </content>
             <outtro>
                 <p>
-                    <m>S</m> is a {{surface2}} parameterized by <m>\mathbf{r}={{rst}}, {{smin}}\leq s \leq {{smax}}, {{tmin}}\leq t\leq {{tmax}}</m>.
+                    <m>S</m> is a {{surface2}} parameterized by <m>\mathbf{X}(s,t)={{rst}}, {{smin}}\leq s \leq {{smax}}, {{tmin}}\leq t\leq {{tmax}}</m>.
                 </p>
                 
             </outtro>
@@ -74,11 +74,11 @@ dS =\oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \int_{t= {{tmin}} }^{t= {{tmax}
             </content>
             <outtro>
                 <p>
-                    Note that the normal vector is given by <m>\mathbf{r}_s\times\mathbf{r}_t = {{normvec}}dsdt</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}(\mathbf{r}(s, t))={{curlF2flat}}</m>.  
+                    Note that the normal vector is given by <m>\mathbf{T}_s\times\mathbf{T}_t = {{normvec}}</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}(\mathbf{X}(s, t))={{curlF2flat}}</m>.  
                 </p>
                 <p>
-                    <m> \displaystyle \oint\limits_C \mathbf{F}\cdot d\mathbf{r} = \iint\limits_{D} (\nabla\times \mathbf{F}(\mathbf{r}(s, t)))\cdot
-(\mathbf{r}_s\times\mathbf{r}_t) = \int_{ s = {{smin}} }^{ s = {{smax}} } \int_{ t = {{tmin}} }^{ t = {{tmax}} } {{integrand2}}\ dt\ ds={{integ2}}</m>.
+                    <m> \displaystyle \oint_C \mathbf{F}\cdot d\mathbf{s} = \iint_{S} \nabla\times \mathbf{F}\cdot d\mathbf{S} = \iint_{S} (\nabla\times \mathbf{F}(\mathbf{X}(s, t)))\cdot
+(\mathbf{T}_s\times\mathbf{T}_t) dsdt = \int_{ s = {{smin}} }^{ s = {{smax}} } \int_{ t = {{tmin}} }^{ t = {{tmax}} } {{integrand2}}\ dt\ ds={{integ2}}</m>.
                 </p>
                 
             </outtro>

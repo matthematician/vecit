@@ -382,7 +382,7 @@ positive, negative, or zero.
             <title>Stokes and Divergence Theorems</title>
             <slug>VF</slug>
             <path>outcomes/VF</path>
-            <description>dentify when a flux integral calculation
+            <description>Identify when a flux integral calculation
 may be made simpler through the application of Stokes’ Theorem (resp. Divergence Theorem), and use the appropriate Theorem to carry out this
 computation using a line integral (resp. triple integral).
 .

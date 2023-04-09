@@ -9,8 +9,9 @@ class Generator(BaseGenerator):
         w1=W[1]
         
         f(u,v)=choice([
-                w0*exp(w1),
-                w0+exp(w1),
+                cos(w0)*exp(w1),
+                sin(w0)*exp(w1),
+                cos(w0)*sin(w1),
             ])
         
         m=randrange(1,6)^choice([-1,1])
@@ -64,6 +65,8 @@ class Generator(BaseGenerator):
             
             
         
+        
+        assume(u>0)
         integ = definite_integral( definite_integral( f(u,v)*abs(Jacob), v, 0, m*u ), u, 0, c )
 
         return {

@@ -49,20 +49,36 @@ class Generator(BaseGenerator):
         if cutv==z:
             R1(t)=vector([f1(t),f2(t), f3(t)])
             
-        tmin=0
-        tmax=2*pi
+        tmin1=0
+        tmax1=2*pi
         
         F1t(t)=F1(R1(t)[0], R1(t)[1], R1(t)[2])
         R1t(t)=vector([R1(t)[0].derivative(t), R1(t)[1].derivative(t), R1(t)[2].derivative(t)])
         
         integrand1=F1t(t).dot_product(R1t(t))
         
-        integ1=definite_integral(integrand1, t, tmin, tmax)
+        integ1=definite_integral(integrand1, t, tmin1, tmax1)
         
         
         
         
+        #PART TWO
         
+        
+        functions=[x,y,z,  x*y, x*z, y*z,x+z, y+z, x+y, x-y, x-z, y-z, x^2, y^2, z^2 ]
+        
+        badx = [(cos(x))^(2*randint(2,5)), (sin(x))^(2*randint(2,5)), 
+                exp(x^(randint(2,5))+randint(2,3)), sqrt(x^(2*randint(1,5)) +randint(1,7) ), log(x^(2*randint(2,5))+randint(1,7)) ]
+        bady = [(cos(y))^(2*randint(2,5)), (sin(y))^(2*randint(2,5)), 
+                exp(y^(randint(2,5))+randint(2,3)), sqrt(y^(2*randint(1,5)) +randint(1,7) ), log(y^(2*randint(2,5))+randint(1,7)) ]
+        badz = [(cos(z))^(2*randint(2,5)), (sin(z))^(2*randint(2,5)), 
+                exp(z^(randint(2,5))+randint(2,3)), sqrt(z^(2*randint(1,5)) +randint(1,7) ), log(z^(2*randint(2,5))+randint(1,7)) ]
+        
+        F10=randint(1,4)*choice([-1,1])*choice(functions)+choice(badx)
+        F11=randint(1,4)*choice([-1,1])*choice(functions)+choice(bady)
+        F12=randint(1,4)*choice([-1,1])*choice(functions)+choice(badz)
+        
+        F2(x,y,z)=vector([F10, F11, F12])
         
         
         a=randrange(1,11)
@@ -193,8 +209,8 @@ class Generator(BaseGenerator):
             "F1t": F1t(t),
             "R1": R1(t),
             "R1t": R1t(t),
-            "tmin": tmin,
-            "tmax": tmax,
+            "tmin1": tmin1,
+            "tmax1": tmax1,
             "integrand1": integrand1,
             "integ1": integ1,
             "surface1": surface1,
@@ -203,7 +219,7 @@ class Generator(BaseGenerator):
             "k": k,
             "surface1eqn": surface1eqn,
             #
-            "F2": F1(x,y,z),
+            "F2": F2(x,y,z),
             "curlF2": curlF2(x,y,z),
             "curlF2flat": curlF2flat(s, t),
             "normvec": normvec(s,t),

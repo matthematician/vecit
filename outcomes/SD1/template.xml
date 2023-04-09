@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
-        <p>Consider the integral <m>\displaystyle\iint_D {{fxy}}\ \ dx \ dy</m> where <m>D</m> is the region bound by lines <m>y={{y1}}, y={{y2}}, y={{y3}}</m>.</p>
+        <p>Consider the integral <m>\displaystyle\iint_D {{fxy}}\ \ dA</m> where <m>D</m> is the region bound by lines <m>y={{y1}}, y={{y2}}, y={{y3}}</m>.</p>
         <p>Use the substitutions <me>x={{xuv}}, y={{yuv}}</me> to rewrite this integral in terms of <m>u, v</m>. </p>
         <p>
             <image
@@ -20,7 +20,7 @@
         </p>
         <p>
             Since <me>\frac{\partial(x,y)}{\partial(u,v)}=\text{det}\,\begin{bmatrix}{{xu}} &amp; {{xv}} \\ {{yu}} &amp; {{yv}} \end{bmatrix}={{Jacob}}</me>
-            We have <me>\displaystyle \iint_D {{fxy}}\ \ dx \ dy = \int_0^{ {{c}} } \int_0^{ {{m}}u } \left|{{Jacob}}\right|\cdot \left({{fuv}}\right)\ dv\ du={{integ}}.
+            We have <me>\displaystyle \iint_D {{fxy}}\ \ dA = \int_0^{ {{c}} } \int_0^{ {{m}}u } \left|{{Jacob}}\right|\cdot \left({{fuv}}\right)\ dv\ du={{integ}}.
             </me>
         </p>
     </outtro>
