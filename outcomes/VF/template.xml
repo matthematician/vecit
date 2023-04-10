@@ -32,8 +32,9 @@
                     Note that <m>\mathbf{F}(\mathbf{r}(t))={{F1t}}</m> and <m>d\mathbf{r}(t)={{R1t}}</m>.
                 </p>
                 <p>
-                    <m> \displaystyle \iint_{S} (\nabla\times \mathbf{F})\cdot
-d\mathbf{S}  =\oint_C \mathbf{F}\cdot d\mathbf{s} = \oint_C \mathbf{F}(\mathbf{r}(t))\cdot \mathbf{r}'(t)dt =  \int_{t= {{tmin1}} }^{t= {{tmax1}} } {{integrand1}}\ dt={{integ1}}</m>.
+                    <me> \displaystyle \iint_{S} (\nabla\times \mathbf{F})\cdot
+                        d\mathbf{S}  =\oint_C \mathbf{F}\cdot d\mathbf{s} = \oint_C \mathbf{F}(\mathbf{r}(t))\cdot \mathbf{r}'(t)dt</me>
+                    <me>\displaystyle =  \int_{t= {{tmin1}} }^{t= {{tmax1}} } {{integrand1}}\ dt={{integ1}}</me>.
                 </p>
                 
             </outtro>
@@ -77,8 +78,9 @@ d\mathbf{S}  =\oint_C \mathbf{F}\cdot d\mathbf{s} = \oint_C \mathbf{F}(\mathbf{r
                     Note that the normal vector is given by <m>\mathbf{T}_s\times\mathbf{T}_t = {{normvec}}</m>.  We see that the curl of <m>\mathbf{F}</m> is <m>\nabla\times \mathbf{F}(x,y,z)={{curlF2}}</m>, and when restricted to <m>S</m> may be parameterized as <m>\nabla\times \mathbf{F}(\mathbf{X}(s, t))={{curlF2flat}}</m>.  
                 </p>
                 <p>
-                    <m> \displaystyle \oint_C \mathbf{F}\cdot d\mathbf{s} = \iint_{S} \nabla\times \mathbf{F}\cdot d\mathbf{S} = \iint_{S} (\nabla\times \mathbf{F}(\mathbf{X}(s, t)))\cdot
-(\mathbf{T}_s\times\mathbf{T}_t) dsdt = \int_{ s = {{smin}} }^{ s = {{smax}} } \int_{ t = {{tmin}} }^{ t = {{tmax}} } {{integrand2}}\ dt\ ds={{integ2}}</m>.
+                    <me> \displaystyle \oint_C \mathbf{F}\cdot d\mathbf{s} = \iint_{S} \nabla\times \mathbf{F}\cdot d\mathbf{S} = \iint_{S} (\nabla\times \mathbf{F}(\mathbf{X}(s, t)))\cdot
+                        (\mathbf{T}_s\times\mathbf{T}_t) dsdt</me> 
+                    <me>\displaystyle = \int_{ s = {{smin}} }^{ s = {{smax}} } \int_{ t = {{tmin}} }^{ t = {{tmax}} } {{integrand2}}\ dt\ ds={{integ2}}</me>.
                 </p>
                 
             </outtro>
